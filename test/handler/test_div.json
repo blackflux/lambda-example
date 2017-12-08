@@ -1,0 +1,19 @@
+{
+  "handler": "div",
+  "success": true,
+  "timeout": 30000,
+  "response": [
+    {
+      "to.deep.equal": "3"
+    }
+  ],
+  "logs": [
+    {
+      "to.deep.equal": []
+    }
+  ],
+  "event": {
+    "a": 21,
+    "b": 7
+  }
+}

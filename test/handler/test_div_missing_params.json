@@ -1,0 +1,18 @@
+{
+  "handler": "div",
+  "success": false,
+  "timeout": 30000,
+  "error": [
+    {
+      "to.deep.equal": "\"Parameter a and b are required.\""
+    }
+  ],
+  "logs": [
+    {
+      "to.deep.equal": []
+    }
+  ],
+  "event": {
+    "a": 21
+  }
+}
