@@ -10,4 +10,4 @@
 
 # Sample Project for Lambda + Serverless + Testing
 
-This is an example project for starting AWS Lambda Development.
+This is an example project for starting AWS Lambda Development. You can use it to set up Lambda with API Gateway or to work with other (internal) AWS Components.
