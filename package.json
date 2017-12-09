@@ -1,5 +1,5 @@
 {
-  "name": "lambda-tdd-example",
+  "name": "lambda-example",
   "version": "0.0.0-development",
   "description": "Example project for lambda-tdd.",
   "main": "lib/handler.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simlu/lambda-tdd-example.git"
+    "url": "https://github.com/simlu/lambda-example.git"
   },
   "author": "Lukas Siemon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simlu/lambda-tdd-example/issues"
+    "url": "https://github.com/simlu/lambda-example/issues"
   },
-  "homepage": "https://github.com/simlu/lambda-tdd-example#readme",
+  "homepage": "https://github.com/simlu/lambda-example#readme",
   "devDependencies": {
     "coveralls": "3.0.0",
     "js-gardener": "1.10.1",
@@ -27,7 +27,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/simlu/lambda-tdd-example/blob/master/LICENSE"
+      "url": "https://github.com/simlu/lambda-example/blob/master/LICENSE"
     }
   ],
   "engines": {
