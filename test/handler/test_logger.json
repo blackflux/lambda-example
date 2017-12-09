@@ -1,0 +1,13 @@
+{
+  "handler": "logger",
+  "success": true,
+  "timeout": 30000,
+  "logs": [
+    {
+      "to.deep.equal": [
+        "Some Log Message"
+      ]
+    }
+  ],
+  "event": {}
+}
