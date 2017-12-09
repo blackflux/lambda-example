@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.5.0",
-    "node-datetime": "2.0.3",
+    "moment-timezone": "0.5.14",
     "request": "2.83.0"
   }
 }
