@@ -36,5 +36,7 @@
   "files": [
     "lib"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "request": "2.83.0"
+  }
 }
