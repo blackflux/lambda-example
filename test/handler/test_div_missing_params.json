@@ -4,7 +4,7 @@
   "timeout": 30000,
   "error": [
     {
-      "to.deep.equal": "\"Parameter a and b are required.\""
+      "to.deep.equal": "Parameter a and b are required."
     }
   ],
   "logs": [
