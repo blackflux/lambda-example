@@ -37,6 +37,7 @@
     "lib"
   ],
   "dependencies": {
+    "node-datetime": "2.0.3",
     "request": "2.83.0"
   }
 }

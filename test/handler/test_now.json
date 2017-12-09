@@ -1,0 +1,17 @@
+{
+  "handler": "now",
+  "success": true,
+  "timeout": 30000,
+  "timestamp": 1512791627,
+  "response": [
+    {
+      "to.deep.equal": "2017-12-08 19:53:47"
+    }
+  ],
+  "logs": [
+    {
+      "to.deep.equal": []
+    }
+  ],
+  "event": {}
+}
