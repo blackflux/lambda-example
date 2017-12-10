@@ -10,7 +10,12 @@
 
 # Example Project for Lambda + Tests + Serverless
 
-This is a generic example project for AWS Lambda Development independent of  [trigger type](https://aws.amazon.com/lambda/#Data_processing). 
+This is a generic example project for AWS Lambda Development showcasing how to use:
+- [js-gardener](https://github.com/simlu/js-gardener)
+- [lambda-tdd](https://github.com/simlu/lambda-tdd)
+- [lambda-rollbar](https://github.com/simlu/lambda-rollbar)
+
+The project is independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
 
 **Important:** The specific use case of building an API using API Gateway and AWS Lambda will be integrated into this project in the future.
 
@@ -43,3 +48,9 @@ Run
 ```shell
 $ sls remove
 ```
+
+# Other Considerations
+
+## Monitoring
+
+Consider using [lambda-monitor](https://github.com/simlu/lambda-monitor) for monitoring your lambda function.
