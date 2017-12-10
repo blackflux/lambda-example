@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "scope": "https://api.rollbar.com:443",
+        "method": "POST",
+        "path": "/api/1/item/",
+        "body": {},
+        "status": 200,
+        "response": {
+            "err": 0,
+            "result": {
+                "id": null,
+                "uuid": "e4007689-9613-4ebd-8ae1-243027a5d94f"
+            }
+        }
+    }
+]
