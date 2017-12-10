@@ -3,7 +3,7 @@
   "success": true,
   "response": [
     {
-      "to.deep.equal": "local"
+      "to.deep.equal": "This is the local stage on your Computer."
     }
   ],
   "logs": [

@@ -8,6 +8,38 @@
 [![Gardener](https://github.com/simlu/js-gardener/blob/master/assets/badge.svg)](https://github.com/simlu/js-gardener)
 [![Gitter](https://github.com/simlu/js-gardener/blob/master/assets/icons/gitter.svg)](https://gitter.im/simlu/lambda-example)
 
-# Sample Project for Lambda + Serverless + Testing
+# Example Project for Lambda + Tests + Serverless
 
-This is an example project for starting AWS Lambda Development. You can use it to set up Lambda with API Gateway or to work with other (internal) AWS Components.
+This is a generic example project for AWS Lambda Development independent of  [trigger type](https://aws.amazon.com/lambda/#Data_processing). 
+
+**Important:** The specific use case of building an API using API Gateway and AWS Lambda will be integrated into this project in the future.
+
+## Getting Started
+
+Install serverless with 
+```shell
+$ npm install -g serverless
+```
+
+Then verify tests with 
+```shell
+$ npm test
+```
+
+## Deploy Project to AWS
+
+To deploy run
+```shell
+$ sls deploy
+```
+
+## Execute a Lambda Function on AWS
+
+Log into AWS and trigger the function with an event that you manually create.
+
+## Remove Project from AWS
+
+Run
+```shell
+$ sls remove
+```

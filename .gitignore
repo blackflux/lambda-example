@@ -13,3 +13,10 @@ npm-debug.log
 # Test Specific
 coverage/
 .coveralls.yml
+
+# Config Files
+config/*.yml
+!config/example.yml
+
+# Serverless
+.serverless
