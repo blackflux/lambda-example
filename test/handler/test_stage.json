@@ -1,0 +1,15 @@
+{
+  "handler": "stage",
+  "success": true,
+  "response": [
+    {
+      "to.deep.equal": "local"
+    }
+  ],
+  "logs": [
+    {
+      "to.deep.equal": []
+    }
+  ],
+  "event": {}
+}
