@@ -20,7 +20,7 @@ The project is independent of the [Lambda trigger type](https://aws.amazon.com/l
 **Important:** The specific use case of building an API using API Gateway and AWS Lambda will be integrated into this project in the future.
 
 ## What's in it
-A list of all the example functions with description can be found [here](lib/handler.js). Each function has [tests files](test/handler).
+A list of all the example handlers with description can be found [here](lib/handler.js). Each handler has [tests files](test/handler) associated.
 
 ## Getting Started
 
