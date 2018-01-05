@@ -38,7 +38,7 @@
     "lib"
   ],
   "dependencies": {
-    "lambda-rollbar": "1.7.5",
+    "lambda-rollbar": "1.7.6",
     "moment-timezone": "0.5.14",
     "request": "2.83.0"
   }
