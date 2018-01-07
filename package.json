@@ -20,7 +20,7 @@
   "homepage": "https://github.com/simlu/lambda-example#readme",
   "devDependencies": {
     "coveralls": "3.0.0",
-    "js-gardener": "1.10.12",
+    "js-gardener": "1.10.13",
     "lambda-tdd": "1.10.5",
     "mocha": "4.1.0",
     "semantic-release": "11.0.2"
