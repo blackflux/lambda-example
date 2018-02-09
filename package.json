@@ -20,8 +20,8 @@
   "homepage": "https://github.com/simlu/lambda-example#readme",
   "devDependencies": {
     "coveralls": "3.0.0",
-    "js-gardener": "1.11.1",
-    "lambda-tdd": "1.10.7",
+    "js-gardener": "1.11.4",
+    "lambda-tdd": "1.11.1",
     "mocha": "5.0.0",
     "semantic-release": "12.4.1"
   },
@@ -38,8 +38,9 @@
     "lib"
   ],
   "dependencies": {
-    "lambda-rollbar": "1.7.9",
+    "lambda-rollbar": "1.8.1",
     "moment-timezone": "0.5.14",
     "request": "2.83.0"
-  }
+  },
+  "peerDependencies": {}
 }
