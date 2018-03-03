@@ -63,6 +63,8 @@ Test div function
 
     $ sls invoke -f div -d '{ "a": 32, "b": 5 }'
 
+Mode detail on the `invoke` option can be found [here](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke/).
+
 ### Https Endpoint
 
 The deploy message will give you a public url to use of the form `https://##########.execute-api.us-east-1.amazonaws.com/example/sum`. Experiment with different input, e.g.
