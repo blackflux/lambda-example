@@ -19,22 +19,30 @@ provider:
 
 functions:
   div:
-    handler: lib/handler.div
+    handler: lib/lambda.div
     description: Return a div b for parameters a and b.
     private: false
   geoip:
-    handler: lib/handler.geoip
+    handler: lib/lambda.geoip
     description: Return geo information for ip
     private: false
   now:
-    handler: lib/handler.now
+    handler: lib/lambda.now
     description: Return current time in UTC
     private: false
   logger:
-    handler: lib/handler.logger
+    handler: lib/lambda.logger
     description: Log an Error to rollbar
     private: false
   stage:
-    handler: lib/handler.stage
+    handler: lib/lambda.stage
     description: Return current Stage
     private: false
+  sum:
+    handler: lib/https.sum
+    description: Return sum of input array
+    private: false
+    events:
+      - http:
+          path: sum
+          method: GET

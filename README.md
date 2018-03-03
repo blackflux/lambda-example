@@ -30,7 +30,7 @@ This is an example for AWS Lambda Development showcasing how to use:
 
 A list of all the example handlers with description can be found [here](lib/https.js). Each handler has [tests files](test/https) associated.
 
-Note: Not independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing).
+Note: Not necessarily independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing).
 
 ## Getting Started
 
@@ -51,7 +51,11 @@ To deploy run
 $ sls deploy
 ```
 
-## Execute a Lambda Function on AWS
+## Things to try after deploy
+
+Test a simple function
+
+    $ sls invoke -f geoip
 
 Log into AWS and trigger the function with an event that you manually create. Alternatively you can use `sls invoke`.
 
