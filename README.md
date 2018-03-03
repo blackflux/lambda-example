@@ -19,7 +19,7 @@ This is an example for AWS Lambda Development showcasing how to use:
 
 A list of all the example handlers with description can be found [here](lib/lambda.js). Each handler has [tests files](test/lambda) associated.
 
-Note: Independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
+*Note*: Independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
 
 ## HTTPS Endpoint: Lambda + Tests + Serverless + Api Gateway
 
@@ -30,7 +30,7 @@ This is an example for AWS Lambda Development showcasing how to use:
 
 A list of all the example handlers with description can be found [here](lib/https.js). Each handler has [tests files](test/https) associated.
 
-Note: Lambda functions defined this way are expected to be used with API Gateway.
+*Note*: Lambda functions defined this way are expected to be used with API Gateway.
 
 ## Getting Started
 
@@ -65,6 +65,8 @@ Test div function
 
 Mode detail on the `invoke` option can be found [here](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke/).
 
+You can also log into AWS and trigger the function with an event that you manually create.
+
 ### Https Endpoint
 
 The deploy message will give you a public url to use of the form `https://##########.execute-api.us-east-1.amazonaws.com/example/sum`. Experiment with different input, e.g.
@@ -81,9 +83,6 @@ If you hit the endpoint many times quickly you will trigger the rate limit.
 
 Set up your rollbar account and fill the details into the [example.yml](config/example.yml). Then deploy again
 and check that information is logged to rollbar as you hit warning / error conditions!
-
-
-Log into AWS and trigger the function with an event that you manually create. Alternatively you can use `sls invoke`.
 
 ## Remove Project from AWS
 
