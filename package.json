@@ -20,7 +20,7 @@
   "homepage": "https://github.com/simlu/lambda-example#readme",
   "devDependencies": {
     "coveralls": "3.0.0",
-    "js-gardener": "1.11.16",
+    "js-gardener": "1.11.17",
     "lambda-tdd": "1.11.10",
     "mocha": "5.0.1",
     "semantic-release": "12.4.1"
@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.8.2",
-    "lambda-serverless-api": "1.0.1",
+    "lambda-serverless-api": "1.0.2",
     "lodash.get": "4.4.2",
     "moment-timezone": "0.5.14",
     "request": "2.83.0"
