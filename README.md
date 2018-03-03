@@ -53,9 +53,33 @@ $ sls deploy
 
 ## Things to try after deploy
 
-Test a simple function
+### Simple Functions
+
+Test a geoip function
 
     $ sls invoke -f geoip
+    
+Test div function
+
+    $ sls invoke -f div -d '{ "a": 32, "b": 5 }'
+
+### Https Endpoint
+
+The deploy message will give you a public url to use of the form `https://##########.execute-api.us-east-1.amazonaws.com/example/sum`. Experiment with different input, e.g.
+
+    $ URL
+    $ URL?input=[1,4,2,45,6]
+    $ URL?input=[1,4,2,45,]
+
+#### Rate Limit
+
+If you hit the endpoint many times quickly you will trigger the rate limit.
+
+#### Rollbar Monitoring
+
+Set up your rollbar account and fill the details into the [example.yml](config/example.yml). Then deploy again
+and check that information is logged to rollbar as you hit warning / error conditions!
+
 
 Log into AWS and trigger the function with an event that you manually create. Alternatively you can use `sls invoke`.
 
