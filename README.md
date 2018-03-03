@@ -8,19 +8,29 @@
 [![Gardener](https://github.com/simlu/js-gardener/blob/master/assets/badge.svg)](https://github.com/simlu/js-gardener)
 [![Gitter](https://github.com/simlu/js-gardener/blob/master/assets/icons/gitter.svg)](https://gitter.im/simlu/lambda-example)
 
-# Example Project for Lambda + Tests + Serverless
+# Example Project
+ 
+## Pure Lambda: Lambda + Tests + Serverless
 
-This is a generic example project for AWS Lambda Development showcasing how to use:
+This is an example for AWS Lambda Development showcasing how to use:
 - [js-gardener](https://github.com/simlu/js-gardener)
 - [lambda-tdd](https://github.com/simlu/lambda-tdd)
 - [lambda-rollbar](https://github.com/simlu/lambda-rollbar)
 
-The project is independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
+A list of all the example handlers with description can be found [here](lib/lambda.js). Each handler has [tests files](test/lambda) associated.
 
-**Important:** The specific use case of building an API using API Gateway and AWS Lambda will be integrated into this project in the future.
+Note: Independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
 
-## What's in it
-A list of all the example handlers with description can be found [here](lib/handler.js). Each handler has [tests files](test/handler) associated.
+## HTTPS Endpoint: Lambda + Tests + Serverless + Api Gateway
+
+This is an example for AWS Lambda Development showcasing how to use:
+- [js-gardener](https://github.com/simlu/js-gardener)
+- [lambda-tdd](https://github.com/simlu/lambda-tdd)
+- [lambda-serverless-api](https://github.com/simlu/lambda-rollbar)
+
+A list of all the example handlers with description can be found [here](lib/https.js). Each handler has [tests files](test/https) associated.
+
+Note: Not independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing).
 
 ## Getting Started
 
@@ -43,7 +53,7 @@ $ sls deploy
 
 ## Execute a Lambda Function on AWS
 
-Log into AWS and trigger the function with an event that you manually create.
+Log into AWS and trigger the function with an event that you manually create. Alternatively you can use `sls invoke`.
 
 ## Remove Project from AWS
 

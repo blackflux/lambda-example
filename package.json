@@ -42,5 +42,6 @@
     "moment-timezone": "0.5.14",
     "request": "2.83.0"
   },
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "keywords": []
 }
