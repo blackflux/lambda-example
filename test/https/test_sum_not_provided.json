@@ -1,0 +1,17 @@
+{
+  "handler": "sum",
+  "success": true,
+  "response": [
+    {
+      "to.deep.equal": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Please provide input query parameter list of numbers!\\\"}\"}"
+    }
+  ],
+  "logs": [
+    {
+      "to.deep.equal": []
+    }
+  ],
+  "event": {
+    "queryStringParameters": {}
+  }
+}

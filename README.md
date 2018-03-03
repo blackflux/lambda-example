@@ -8,19 +8,29 @@
 [![Gardener](https://github.com/simlu/js-gardener/blob/master/assets/badge.svg)](https://github.com/simlu/js-gardener)
 [![Gitter](https://github.com/simlu/js-gardener/blob/master/assets/icons/gitter.svg)](https://gitter.im/simlu/lambda-example)
 
-# Example Project for Lambda + Tests + Serverless
+# Example Project
+ 
+## Pure Lambda: Lambda + Tests + Serverless
 
-This is a generic example project for AWS Lambda Development showcasing how to use:
+This is an example for AWS Lambda Development showcasing how to use:
 - [js-gardener](https://github.com/simlu/js-gardener)
 - [lambda-tdd](https://github.com/simlu/lambda-tdd)
 - [lambda-rollbar](https://github.com/simlu/lambda-rollbar)
 
-The project is independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
+A list of all the example handlers with description can be found [here](lib/lambda.js). Each handler has [tests files](test/lambda) associated.
 
-**Important:** The specific use case of building an API using API Gateway and AWS Lambda will be integrated into this project in the future.
+*Note*: Independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
 
-## What's in it
-A list of all the example handlers with description can be found [here](lib/handler.js). Each handler has [tests files](test/handler) associated.
+## HTTPS Endpoint: Lambda + Tests + Serverless + Api Gateway
+
+This is an example for AWS Lambda Development showcasing how to use:
+- [js-gardener](https://github.com/simlu/js-gardener)
+- [lambda-tdd](https://github.com/simlu/lambda-tdd)
+- [lambda-serverless-api](https://github.com/simlu/lambda-rollbar)
+
+A list of all the example handlers with description can be found [here](lib/https.js). Each handler has [tests files](test/https) associated.
+
+*Note*: Lambda functions defined this way are expected to be used with API Gateway.
 
 ## Getting Started
 
@@ -41,9 +51,38 @@ To deploy run
 $ sls deploy
 ```
 
-## Execute a Lambda Function on AWS
+## Things to try after deploy
 
-Log into AWS and trigger the function with an event that you manually create.
+### Simple Functions
+
+Test a geoip function
+
+    $ sls invoke -f geoip
+    
+Test div function
+
+    $ sls invoke -f div -d '{ "a": 32, "b": 5 }'
+
+Mode detail on the `invoke` option can be found [here](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke/).
+
+You can also log into AWS and trigger the function with an event that you manually create.
+
+### Https Endpoint
+
+The deploy message will give you a public url to use of the form `https://##########.execute-api.us-east-1.amazonaws.com/example/sum`. Experiment with different input, e.g.
+
+    $ URL
+    $ URL?input=[1,4,2,45,6]
+    $ URL?input=[1,4,2,45,]
+
+#### Rate Limit
+
+If you hit the endpoint many times quickly you will trigger the rate limit.
+
+#### Rollbar Monitoring
+
+Set up your rollbar account and fill the details into the [example.yml](config/example.yml). Then deploy again
+and check that information is logged to rollbar as you hit warning / error conditions!
 
 ## Remove Project from AWS
 
