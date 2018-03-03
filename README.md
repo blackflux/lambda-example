@@ -30,7 +30,7 @@ This is an example for AWS Lambda Development showcasing how to use:
 
 A list of all the example handlers with description can be found [here](lib/https.js). Each handler has [tests files](test/https) associated.
 
-Note: Not necessarily independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing).
+Note: Lambda functions defined this way are expected to be used with API Gateway.
 
 ## Getting Started
 
