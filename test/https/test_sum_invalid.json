@@ -3,7 +3,7 @@
   "success": true,
   "response": [
     {
-      "to.deep.equal": "{\"statusCode\":200,\"body\":\"{\\\"result\\\":15}\"}"
+      "to.deep.equal": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Please provide input query parameter list of numbers!\\\"}\"}"
     }
   ],
   "logs": [
@@ -13,7 +13,7 @@
   ],
   "event": {
     "queryStringParameters": {
-      "input": "[1, 2, 3, 4, 5]"
+      "input": "{}"
     },
     "httpMethod": "GET"
   }

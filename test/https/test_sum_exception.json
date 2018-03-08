@@ -14,6 +14,7 @@
   "event": {
     "queryStringParameters": {
       "input": "[1, 2, 3, 4, ]"
-    }
+    },
+    "httpMethod": "GET"
   }
 }
