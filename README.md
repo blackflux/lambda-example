@@ -75,6 +75,10 @@ The deploy message will give you a public url to use of the form `https://######
     $ URL?input=[1,4,2,45,6]
     $ URL?input=[1,4,2,45,]
 
+#### Swagger Documentation
+
+Swagger documentation is automatically synchronized using the API definition, but also manually enriched. For an example on how this is accomplished see [test_https.js](test/test_https.js). The generated swagger file can be found [here](swagger.json).
+
 #### Rate Limit
 
 If you hit the endpoint many times quickly you will trigger the rate limit.
