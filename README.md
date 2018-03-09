@@ -79,6 +79,8 @@ The deploy message will give you a public url to use of the form `https://######
 
 Swagger documentation is automatically synchronized using the API definition, but also manually enriched. For an example on how this is accomplished see [test_https.js](test/test_https.js). The generated swagger file can be found [here](swagger.json).
 
+The file also contains a test example that ensures that the swagger documentation is synchronized with the `serverless.yml` file.
+
 #### Rate Limit
 
 If you hit the endpoint many times quickly you will trigger the rate limit.

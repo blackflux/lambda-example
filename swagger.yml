@@ -1,0 +1,21 @@
+swagger: '2.0'
+produces:
+  - application/json
+info:
+  title: Api Name
+  version: 0.0.1
+paths:
+  /sum:
+    get:
+      consumes:
+        - application/json
+      description: ''
+      parameters:
+        - name: input
+          required: true
+          type: string
+          format: Str
+          in: query
+      responses:
+        default:
+          description: Unexpected Error
