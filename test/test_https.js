@@ -1,5 +1,7 @@
 const fs = require("fs");
-const path = require("path");
+const path = require('path');
+const expect = require('chai').expect;
+const yaml = require('js-yaml');
 const appRoot = require('app-root-path');
 const api = require("./../lib/https").internalApi;
 const lambdaTester = require("lambda-tdd")({
@@ -16,12 +18,19 @@ lambdaTester.execute((process.argv.slice(2).find(e => e.startsWith("--filter="))
 
 describe("Testing Swagger", () => {
   it("Updating Swagger File with API definitions.", (done) => {
-    const file = path.join(appRoot.path, "swagger.json");
+    const file = path.join(appRoot.path, "swagger.yml");
     Promise.resolve(fs.readFileSync(file))
-      .then(JSON.parse)
+      .then(yaml.safeLoad)
       .then(api.generateSwagger)
-      .then(swagger => JSON.stringify(swagger, null, 2))
+      .then(yaml.dump)
       .then(swagger => fs.writeFileSync(file, swagger))
       .then(done);
+  });
+
+  it("Testing serverless.yml", () => {
+    expect(api.generateDifference(
+      path.join(appRoot.path, `swagger.yml`),
+      path.join(appRoot.path, `serverless.yml`)
+    )).to.deep.equal([]);
   });
 });
