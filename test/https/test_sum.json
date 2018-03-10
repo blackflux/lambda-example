@@ -3,7 +3,7 @@
   "success": true,
   "response": [
     {
-      "to.deep.equal": "{\"statusCode\":200,\"body\":\"{\\\"result\\\":15}\"}"
+      "to.deep.equal": "{\"statusCode\":200,\"body\":\"{\\\"result\\\":15}\",\"headers\":{}}"
     }
   ],
   "logs": [
