@@ -44,7 +44,7 @@
     "lambda-rollbar": "1.8.2",
     "lambda-serverless-api": "1.9.2",
     "moment-timezone": "0.5.14",
-    "request": "2.83.0"
+    "request": "2.84.0"
   },
   "peerDependencies": {},
   "keywords": []
