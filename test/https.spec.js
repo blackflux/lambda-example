@@ -3,11 +3,11 @@ const path = require('path');
 const expect = require('chai').expect;
 const yaml = require('js-yaml');
 const appRoot = require('app-root-path');
-const api = require("./../lib/https").internalApi;
+const api = require("./../src/https").internalApi;
 const lambdaTester = require("lambda-tdd")({
   cwd: path.join(__dirname, ".."),
   verbose: process.argv.slice(2).indexOf("--debug") !== -1,
-  handlerFile: path.join(__dirname, "..", "lib", "https.js"),
+  handlerFile: path.join(__dirname, "..", "src", "https.js"),
   cassetteFolder: path.join(__dirname, "https", "__cassettes"),
   envVarYml: path.join(__dirname, "env_https.yml"),
   testFolder: path.join(__dirname, "https")

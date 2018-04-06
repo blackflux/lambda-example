@@ -20,3 +20,4 @@ config/*.yml
 
 # Serverless
 .serverless
+lib/
