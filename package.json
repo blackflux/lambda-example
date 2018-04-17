@@ -50,7 +50,7 @@
   "dependencies": {
     "lambda-rollbar": "1.9.5",
     "lambda-serverless-api": "1.13.1",
-    "moment-timezone": "0.5.14",
+    "moment-timezone": "0.5.15",
     "request": "2.85.0"
   },
   "peerDependencies": {},
