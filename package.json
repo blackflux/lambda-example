@@ -30,7 +30,7 @@
     "js-gardener": "1.22.5",
     "js-yaml": "3.11.0",
     "lambda-tdd": "1.12.2",
-    "mocha": "5.1.0",
+    "mocha": "5.1.1",
     "semantic-release": "15.1.7",
     "nyc": "11.6.0",
     "babel-cli": "7.0.0-beta.3"
