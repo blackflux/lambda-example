@@ -29,7 +29,7 @@
     "coveralls": "3.0.1",
     "js-gardener": "1.22.11",
     "js-yaml": "3.11.0",
-    "lambda-tdd": "1.12.2",
+    "lambda-tdd": "1.12.3",
     "mocha": "5.1.1",
     "semantic-release": "15.1.11",
     "nyc": "11.7.1",
