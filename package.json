@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/simlu/lambda-example#readme",
   "devDependencies": {
-    "app-root-path": "2.0.1",
+    "app-root-path": "2.1.0",
     "chai": "4.1.2",
     "coveralls": "3.0.1",
     "js-gardener": "1.22.11",
