@@ -1,16 +1,12 @@
 {
   "handler": "sum",
   "success": true,
-  "response": [
-    {
-      "to.deep.equal": "{\"statusCode\":200,\"body\":\"{\\\"result\\\":15}\",\"headers\":{}}"
-    }
-  ],
-  "logs": [
-    {
-      "to.deep.equal": []
-    }
-  ],
+  "response": {
+    "to.deep.equal": "{\"statusCode\":200,\"body\":\"{\\\"result\\\":15}\"}"
+  },
+  "logs": {
+    "to.deep.equal": []
+  },
   "event": {
     "queryStringParameters": {
       "input": "[1, 2, 3, 4, 5]"

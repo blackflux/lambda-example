@@ -3,7 +3,6 @@ const path = require('path');
 const expect = require('chai').expect;
 const yaml = require('js-yaml');
 const appRoot = require('app-root-path');
-const api = require("./../src/https").internalApi;
 const lambdaTester = require("lambda-tdd")({
   cwd: path.join(__dirname, ".."),
   verbose: process.argv.slice(2).indexOf("--debug") !== -1,
@@ -12,6 +11,7 @@ const lambdaTester = require("lambda-tdd")({
   envVarYml: path.join(__dirname, "env_https.yml"),
   testFolder: path.join(__dirname, "https")
 });
+const api = require("./../src/https").internalApi;
 
 lambdaTester.execute((process.argv.slice(2).find(e => e.startsWith("--filter=")) || "").substring(9));
 
@@ -24,7 +24,8 @@ describe("Testing Swagger", () => {
       .then(api.generateSwagger)
       .then(yaml.dump)
       .then(swagger => fs.writeFileSync(file, swagger))
-      .then(done);
+      .then(done)
+      .catch(done.fail);
   });
 
   it("Testing serverless.yml", () => {

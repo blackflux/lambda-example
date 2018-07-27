@@ -1,17 +1,12 @@
-
 {
   "handler": "sum",
   "success": true,
-  "response": [
-    {
-      "to.deep.equal": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Required query-Parameter \\\\\\\"input\\\\\\\" missing.\\\",\\\"messageId\\\":99002}\"}"
-    }
-  ],
-  "logs": [
-    {
-      "to.deep.equal": []
-    }
-  ],
+  "response": {
+    "to.deep.equal": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Required query-Parameter \\\\\\\"input\\\\\\\" missing.\\\",\\\"messageId\\\":99002}\"}"
+  },
+  "logs": {
+    "to.deep.equal": []
+  },
   "event": {
     "queryStringParameters": {},
     "httpMethod": "GET"

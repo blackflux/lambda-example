@@ -2,10 +2,8 @@
   "handler": "logger",
   "success": true,
   "timeout": 30000,
-  "logs": [
-    {
-      "to.deep.contain": "Some Log Message"
-    }
-  ],
+  "logs": {
+    "to.deep.contain": "Some Log Message"
+  },
   "event": {}
 }

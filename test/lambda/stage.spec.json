@@ -1,15 +1,11 @@
 {
   "handler": "stage",
   "success": true,
-  "response": [
-    {
-      "to.deep.equal": "local-dev"
-    }
-  ],
-  "logs": [
-    {
-      "to.deep.equal": []
-    }
-  ],
+  "response": {
+    "to.deep.equal": "local-dev"
+  },
+  "logs": {
+    "to.deep.equal": []
+  },
   "event": {}
 }

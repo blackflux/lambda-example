@@ -1,6 +1,5 @@
 [![Build Status](https://img.shields.io/travis/simlu/lambda-example/master.svg)](https://travis-ci.org/simlu/lambda-example)
 [![Test Coverage](https://img.shields.io/coveralls/simlu/lambda-example/master.svg)](https://coveralls.io/github/simlu/lambda-example?branch=master)
-[![Greenkeeper Badge](https://badges.greenkeeper.io/simlu/lambda-example.svg)](https://greenkeeper.io/)
 [![Dependencies](https://david-dm.org/simlu/lambda-example/status.svg)](https://david-dm.org/simlu/lambda-example)
 [![NPM](https://img.shields.io/npm/v/lambda-example.svg)](https://www.npmjs.com/package/lambda-example)
 [![Downloads](https://img.shields.io/npm/dt/lambda-example.svg)](https://www.npmjs.com/package/lambda-example)

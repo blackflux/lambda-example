@@ -4,16 +4,12 @@
   },
   "handler": "sum",
   "success": true,
-  "response": [
-    {
-      "to.deep.equal": "{\"statusCode\":429,\"body\":\"{\\\"message\\\":\\\"Rate limit exceeded.\\\"}\"}"
-    }
-  ],
-  "logs": [
-    {
-      "to.deep.equal": []
-    }
-  ],
+  "response": {
+    "to.deep.equal": "{\"statusCode\":429,\"body\":\"{\\\"message\\\":\\\"Rate limit exceeded.\\\"}\"}"
+  },
+  "logs": {
+    "to.deep.equal": []
+  },
   "event": {
     "queryStringParameters": {
       "input": "[1, 2, 3, 4, 5]"

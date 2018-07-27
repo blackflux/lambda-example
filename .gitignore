@@ -21,3 +21,5 @@ config/*.yml
 # Serverless
 .serverless
 lib/
+yarn-error.log
+release.tar.gz
