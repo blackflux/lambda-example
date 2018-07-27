@@ -1,16 +1,12 @@
 {
   "handler": "sum",
   "success": false,
-  "error": [
-    {
-      "to.deep.equal": "Unexpected token ] in JSON at position 13"
-    }
-  ],
-  "logs": [
-    {
-      "to.deep.equal": []
-    }
-  ],
+  "error": {
+    "to.deep.equal": "Unexpected token ] in JSON at position 13"
+  },
+  "logs": {
+    "to.deep.equal": []
+  },
   "event": {
     "queryStringParameters": {
       "input": "[1, 2, 3, 4, ]"

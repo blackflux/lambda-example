@@ -3,15 +3,11 @@
   "success": true,
   "timeout": 30000,
   "timestamp": 1512791627,
-  "response": [
-    {
-      "to.deep.equal": "2017-12-09T03:53:47Z"
-    }
-  ],
-  "logs": [
-    {
-      "to.deep.equal": []
-    }
-  ],
+  "response": {
+    "to.deep.equal": "2017-12-09T03:53:47Z"
+  },
+  "logs": {
+    "to.deep.equal": []
+  },
   "event": {}
 }
