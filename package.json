@@ -35,7 +35,7 @@
     "coveralls": "3.0.2",
     "js-gardener": "1.30.3",
     "js-yaml": "3.12.0",
-    "lambda-tdd": "1.21.1",
+    "lambda-tdd": "1.21.2",
     "mocha": "5.2.0",
     "nock": "9.4.3",
     "nyc": "12.0.2",
