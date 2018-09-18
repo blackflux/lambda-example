@@ -37,7 +37,7 @@
     "js-yaml": "3.12.0",
     "lambda-tdd": "1.21.1",
     "mocha": "5.2.0",
-    "nock": "9.4.3",
+    "nock": "10.0.0",
     "nyc": "12.0.2",
     "semantic-release": "15.8.1"
   },
