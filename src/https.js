@@ -1,4 +1,4 @@
-const api = require('lambda-serverless-api')({});
+const api = require('lambda-serverless-api').Api({});
 
 
 module.exports.sum = api.wrap('GET sum', [
