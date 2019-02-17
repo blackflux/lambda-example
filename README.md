@@ -1,20 +1,20 @@
-[![Build Status](https://img.shields.io/travis/simlu/lambda-example/master.svg)](https://travis-ci.org/simlu/lambda-example)
-[![Test Coverage](https://img.shields.io/coveralls/simlu/lambda-example/master.svg)](https://coveralls.io/github/simlu/lambda-example?branch=master)
-[![Dependencies](https://david-dm.org/simlu/lambda-example/status.svg)](https://david-dm.org/simlu/lambda-example)
+# AWS Lambda Example Project
+
+[![Build Status](https://circleci.com/gh/blackflux/lambda-example.png?style=shield)](https://circleci.com/gh/blackflux/lambda-example)
+[![Test Coverage](https://img.shields.io/coveralls/blackflux/lambda-example/master.svg)](https://coveralls.io/github/blackflux/lambda-example?branch=master)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=blackflux/lambda-example)](https://dependabot.com)
+[![Dependencies](https://david-dm.org/blackflux/lambda-example/status.svg)](https://david-dm.org/blackflux/lambda-example)
 [![NPM](https://img.shields.io/npm/v/lambda-example.svg)](https://www.npmjs.com/package/lambda-example)
 [![Downloads](https://img.shields.io/npm/dt/lambda-example.svg)](https://www.npmjs.com/package/lambda-example)
-[![Semantic-Release](https://github.com/simlu/js-gardener/blob/master/assets/icons/semver.svg)](https://github.com/semantic-release/semantic-release)
-[![Gardener](https://github.com/simlu/js-gardener/blob/master/assets/badge.svg)](https://github.com/simlu/js-gardener)
-[![Gitter](https://github.com/simlu/js-gardener/blob/master/assets/icons/gitter.svg)](https://gitter.im/simlu/lambda-example)
-
-# Example Project
+[![Semantic-Release](https://github.com/blackflux/js-gardener/blob/master/assets/icons/semver.svg)](https://github.com/semantic-release/semantic-release)
+[![Gardener](https://github.com/blackflux/js-gardener/blob/master/assets/badge.svg)](https://github.com/blackflux/js-gardener)
  
 ## Pure Lambda: Lambda + Tests + Serverless
 
 This is an example for AWS Lambda Development showcasing how to use:
-- [js-gardener](https://github.com/simlu/js-gardener)
-- [lambda-tdd](https://github.com/simlu/lambda-tdd)
-- [lambda-rollbar](https://github.com/simlu/lambda-rollbar)
+- [js-gardener](https://github.com/blackflux/js-gardener)
+- [lambda-tdd](https://github.com/blackflux/lambda-tdd)
+- [lambda-rollbar](https://github.com/blackflux/lambda-rollbar)
 
 A list of all the example handlers with description can be found [here](lib/lambda.js). Each handler has [tests files](test/lambda) associated.
 
@@ -23,9 +23,9 @@ A list of all the example handlers with description can be found [here](lib/lamb
 ## HTTPS Endpoint: Lambda + Tests + Serverless + Api Gateway
 
 This is an example for AWS Lambda Development showcasing how to use:
-- [js-gardener](https://github.com/simlu/js-gardener)
-- [lambda-tdd](https://github.com/simlu/lambda-tdd)
-- [lambda-serverless-api](https://github.com/simlu/lambda-rollbar)
+- [js-gardener](https://github.com/blackflux/js-gardener)
+- [lambda-tdd](https://github.com/blackflux/lambda-tdd)
+- [lambda-serverless-api](https://github.com/blackflux/lambda-rollbar)
 
 A list of all the example handlers with description can be found [here](lib/https.js). Each handler has [tests files](test/https) associated.
 
@@ -100,4 +100,4 @@ $ sls remove
 
 ## Monitoring
 
-Consider using [lambda-monitor](https://github.com/simlu/lambda-monitor) for monitoring your lambda function.
+Consider using [lambda-monitor](https://github.com/blackflux/lambda-monitor) for monitoring your lambda function.
