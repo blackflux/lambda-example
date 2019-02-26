@@ -32,15 +32,15 @@
     "js-gardener": "1.37.3",
     "js-yaml": "3.12.1",
     "lambda-tdd": "2.1.2",
-    "mocha": "6.0.1",
+    "mocha": "6.0.2",
     "nock": "10.0.6",
     "nyc": "13.3.0",
     "semantic-release": "15.13.3",
     "@babel/register": "7.0.0",
-    "@babel/core": "7.3.3",
+    "@babel/core": "7.3.4",
     "@babel/cli": "7.2.3",
     "@babel/plugin-transform-flow-comments": "7.2.0",
-    "@babel/plugin-proposal-object-rest-spread": "7.3.2",
+    "@babel/plugin-proposal-object-rest-spread": "7.3.4",
     "@babel/preset-flow": "7.0.0"
   },
   "licenses": [
@@ -57,7 +57,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.10.3",
-    "lambda-serverless-api": "1.36.0",
+    "lambda-serverless-api": "1.36.1",
     "moment-timezone": "0.5.23",
     "request": "2.88.0"
   },
