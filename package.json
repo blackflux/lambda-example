@@ -29,7 +29,7 @@
     "babel-eslint": "10.0.1",
     "chai": "4.2.0",
     "coveralls": "3.0.3",
-    "js-gardener": "1.37.5",
+    "js-gardener": "1.37.6",
     "js-yaml": "3.12.2",
     "lambda-tdd": "2.1.2",
     "mocha": "6.0.2",
@@ -57,7 +57,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.10.3",
-    "lambda-serverless-api": "1.36.3",
+    "lambda-serverless-api": "1.36.4",
     "moment-timezone": "0.5.23",
     "request": "2.88.0"
   },
