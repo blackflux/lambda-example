@@ -1,5 +1,6 @@
 {
   "handler": "logger",
+  "allowedUnmatchedRecordings": ["POST https://api.rollbar.com:443/api/1/item/"],
   "success": true,
   "timeout": 30000,
   "logs": {
