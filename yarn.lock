@@ -3577,10 +3577,10 @@ joi@14.3.1:
     isemail "3.x.x"
     topo "3.x.x"
 
-js-gardener@1.38.0:
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-1.38.0.tgz#a911d5526cf9cd81036fe866a59efd5d8ce7c90e"
-  integrity sha512-weHbmCabhtD6QqDCn6XM8EJmDKOPLn2VuzR1utTUypKLLofJduLKmWdHI0FytvzQL7kkX9PDLZNtKgf4K1yoeg==
+js-gardener@1.38.1:
+  version "1.38.1"
+  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-1.38.1.tgz#db9c5f44dfe25312ab1784703bc112bdb648db9e"
+  integrity sha512-lbjoM4aRrj26E4DWpCQCnvkw7K6HLU6r8fnlTz/GKxE/MwD7PWH6Yam5mKwvwXb35jT8nT4eqBaLZhVQMjrIXw==
   dependencies:
     chalk "2.4.2"
     eslint "5.15.1"
@@ -3605,7 +3605,7 @@ js-gardener@1.38.0:
     lodash.omit "4.5.0"
     mocha "6.0.2"
     npm-check "5.9.0"
-    object-scan "5.0.2"
+    object-scan "5.0.3"
     parse-github-url "1.0.2"
     tmp "0.0.33"
     xml2js "0.4.19"
@@ -3765,10 +3765,10 @@ lambda-rollbar@1.10.4:
     lodash.omit "4.5.0"
     rollbar "2.5.2"
 
-lambda-serverless-api@1.36.8:
-  version "1.36.8"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-1.36.8.tgz#78b3935cf2472016794298a41f730063878ec01d"
-  integrity sha512-/kWwX1C9pq+4EAaIDy1ohETsMILbP7jzyYf/0yNVmHbue7nawWQ+f17v0H9Q4guQhyl2yC5Cqf5vQefwQifXRg==
+lambda-serverless-api@1.36.9:
+  version "1.36.9"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-1.36.9.tgz#eeb84d224af22957098735d5f11b72b05c185904"
+  integrity sha512-I/kpFw10QeGhxYvaOu3/O2Dw2X2Vo7JAiXJ44sNLS1JSVum6L6OGf6ABLdcJN2DG7P313+J6Za+HXd0iLeRl6A==
   dependencies:
     joi "14.3.1"
     js-yaml "3.12.2"
@@ -3781,7 +3781,7 @@ lambda-serverless-api@1.36.8:
     lodash.xor "4.5.0"
     moment "2.24.0"
     obj-paths "1.2.3"
-    object-scan "5.0.2"
+    object-scan "5.0.3"
     route-recognizer "0.3.4"
     swagger-parser "6.0.5"
     yaml-boost "1.8.4"
@@ -5077,10 +5077,10 @@ object-keys@^1.0.11, object-keys@^1.0.12:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.0.tgz#11bd22348dd2e096a045ab06f6c85bcc340fa032"
   integrity sha512-6OO5X1+2tYkNyNEx6TsCxEqFfRWaqx6EtMiSbGrw8Ob8v9Ne+Hl8rBAgLBZn5wjEz3s/s6U1WXFUFOcxxAwUpg==
 
-object-scan@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-5.0.2.tgz#27cac2d8c9daab711bcf03470f01749e0cb8c094"
-  integrity sha512-jryGFYHRFK1Z2Z3/bV83c1TA0RPyGFjVB1rVt1quEcMoBGu5JVENqZGpn2tTTPR5bHA419QAQn67Aza1P9UXOg==
+object-scan@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-5.0.3.tgz#041c9a3d930cc0938752b71e3a126b8e137205ca"
+  integrity sha512-xc1d6G+kN5WRdHgx/izJLi/GXIJ/A6HPZL8fKPn0ivsZztETRxKGgYxQWAqZwlCksh86mhD7WAMt/oECOLk/qA==
 
 object-visit@^1.0.0:
   version "1.0.1"
