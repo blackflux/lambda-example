@@ -2,7 +2,7 @@ const api = require('lambda-serverless-api').Api({});
 
 
 module.exports.sum = api.wrap('GET sum', [
-  api.Str('input')
+  api.Str('input', 'query')
 ], process.env.RATE_LIMIT, ({ input }) => {
   const inputParsed = JSON.parse(input);
   if (!(inputParsed instanceof Array) || inputParsed.some(Number.isNaN)) {
