@@ -3707,10 +3707,10 @@ lambda-rollbar@1.10.5:
     lodash.omit "4.5.0"
     rollbar "2.5.5"
 
-lambda-serverless-api@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-2.1.2.tgz#601397d4b1365bceaccbc8c9be000d043a93f7d6"
-  integrity sha512-o/t9U5T6k+EqcrcYD3TL9X2fUZSP6I7jHhnmKR8HnD+gDJKn4NILJFjD2CLtQznrpEzzXVENRN4ynfat1bowFQ==
+lambda-serverless-api@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.0.tgz#57f145f0898f3b9da84e65931d3fecca763f714a"
+  integrity sha512-O8cncbYcMEC6XjUbuoyQHegNr5mVEiCplQHF8mf5EBqE4UpF8fW4ck9kjbCg3JgZhSQ7hZvMJIEGiCCJzQG8vA==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
