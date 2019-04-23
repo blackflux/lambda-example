@@ -3704,10 +3704,10 @@ lambda-rollbar@1.10.7:
     lodash.omit "4.5.0"
     rollbar "2.5.5"
 
-lambda-serverless-api@3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.7.tgz#b3d28dc925716569a11508ea8d12bf293f9991b8"
-  integrity sha512-U23k8JTD4+bryPueTqP7olrNp1aOYUY5zQ0xs85rep/d+gtNFMPrWEszqg1KACOjz28U5Qmhiu2v7i1KJNaXwA==
+lambda-serverless-api@3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.9.tgz#aa9d6069aa80854befd4672aa116f42cd5fd3a97"
+  integrity sha512-gBDyL5BA5SXeSannCJLz6dn7HJk5ji535rpUNHb3368Ia5+BwiIDP84WW85Jts5cV5Tab6HVXw0J/BYNLBhw+g==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
@@ -3719,8 +3719,8 @@ lambda-serverless-api@3.0.7:
     lodash.set "4.3.2"
     lodash.xor "4.5.0"
     moment "2.24.0"
-    obj-paths "1.2.6"
-    object-rewrite "2.1.22"
+    obj-paths "1.2.7"
+    object-rewrite "2.1.23"
     object-scan "7.0.1"
     route-recognizer "0.3.4"
     swagger-parser "6.0.5"
@@ -4999,10 +4999,10 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-obj-paths@1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/obj-paths/-/obj-paths-1.2.6.tgz#20765ccb53b43623ebe757861a8954fbaa6ffd9c"
-  integrity sha512-ffYoJnEzxsAOgVQzOZ8xv/azJJEyyRN2ZHTrpR/gyY6lNyJ0T0JZrh/nUEAJIDskj8/JGAQxOSgERRGgv/8Itw==
+obj-paths@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/obj-paths/-/obj-paths-1.2.7.tgz#8ca4bcd95ac5618a932ede12a596a453518eeb8a"
+  integrity sha512-CTBr4JwNAltfzD4uS3/eF1R/KGk8s7/kcchRWXXefzO3dOA5LUjm1s1xNqbr8DS3F+HGXsk/svmgcaiahQx1/Q==
 
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
@@ -5028,17 +5028,22 @@ object-keys@^1.0.11, object-keys@^1.0.12:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-object-rewrite@2.1.22:
-  version "2.1.22"
-  resolved "https://registry.yarnpkg.com/object-rewrite/-/object-rewrite-2.1.22.tgz#19fe671c206cd6a6513e54921eb9fda1de599c14"
-  integrity sha512-76M3izWXsHyVUlxqJZilWUfExgVNeG2lVLaeqBE2C+tKIL1N25BLjMEFZKvDSLdp2GN7KJLmFiZaPkj+EkuxCg==
+object-rewrite@2.1.23:
+  version "2.1.23"
+  resolved "https://registry.yarnpkg.com/object-rewrite/-/object-rewrite-2.1.23.tgz#c15ce4fba04e07c4aa9b21854bd9c36e614a2f32"
+  integrity sha512-BnNa9IRqO18Ydvns8aqmyCoWUTIkuZmmcE2/HhR0p7e9qBt8ZZ5u3KFb0nSI2zQSkhyv8/lMMBmponBufxRekw==
   dependencies:
-    object-scan "7.0.1"
+    object-scan "7.0.2"
 
 object-scan@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-7.0.1.tgz#13549951db44076b80c743ba7ad309250c24229c"
   integrity sha512-AICaN/gBEcXRLKbEEp0Tyf0WN2elFhcBoHIe+KUp/NXle3nWOsIUeHgvxM7Cl53CNVZXfxDGu5XD6y3bEwXZdg==
+
+object-scan@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-7.0.2.tgz#eceeaaf92652933db8d25c0ad1d3e4132f3504f4"
+  integrity sha512-l3tk6X3bIwwrR3Dr24udRs1EjkmSYoFtOc6fAqX6YXhRL/GAgoFPNVvATuF+O7HVY4fKRjrDMVV774aqc1JwmA==
 
 object-treeify@1.1.8:
   version "1.1.8"
