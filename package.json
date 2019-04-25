@@ -57,7 +57,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.10.9",
-    "lambda-serverless-api": "3.0.12",
+    "lambda-serverless-api": "3.0.13",
     "moment-timezone": "0.5.25",
     "request": "2.88.0"
   },
