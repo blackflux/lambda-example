@@ -3704,6 +3704,16 @@ lambda-rollbar@1.10.8:
     lodash.omit "4.5.0"
     rollbar "2.6.0"
 
+lambda-rollbar@1.10.9:
+  version "1.10.9"
+  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.9.tgz#417610a1a1ac9b7965cbe2ae7c892afa94c1c56d"
+  integrity sha512-W5NOhj4n+JhsCuU+LBkV3Jb1pgpsv452fAP8HhFnDZHBWqlpkBnw8JT1q0Vmlbubrsr293AhFxtEJ4wnACbz4Q==
+  dependencies:
+    fast-safe-stringify "2.0.6"
+    lodash.get "4.4.2"
+    lodash.omit "4.5.0"
+    rollbar "2.6.1"
+
 lambda-serverless-api@3.0.11:
   version "3.0.11"
   resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.11.tgz#fa8593ae44a116846bb1956cef51b9a8d5db3b34"
@@ -6155,6 +6165,22 @@ rollbar@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.6.0.tgz#f6bacd7897bc778a25422a51fcdf6846a1661213"
   integrity sha512-f7zSaucNBwWslV75Wr9SBI4am+sWV0Vg5ou459EAu9KZMvdum0I9i1RO8Opjk95yVEyBdO8kwiNEACz5QnqwiA==
+  dependencies:
+    async "~1.2.1"
+    console-polyfill "0.3.0"
+    debug "2.6.9"
+    error-stack-parser "1.3.3"
+    json-stringify-safe "~5.0.0"
+    lru-cache "~2.2.1"
+    request-ip "~2.0.1"
+    uuid "3.0.x"
+  optionalDependencies:
+    decache "^3.0.5"
+
+rollbar@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.6.1.tgz#0a41e10bab82af81e852fd35ed8c9dd45ff0b2e1"
+  integrity sha512-tFO12aLXqGhIxjSCJmgruZT/TfJCLs1Ewb/QqSlmUDrKAhp0d3STRKSkIZWlcy5ogUXekJ1jciFBbo7PTMSMqA==
   dependencies:
     async "~1.2.1"
     console-polyfill "0.3.0"
