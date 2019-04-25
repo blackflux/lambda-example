@@ -3704,10 +3704,10 @@ lambda-rollbar@1.10.8:
     lodash.omit "4.5.0"
     rollbar "2.6.0"
 
-lambda-serverless-api@3.0.10:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.10.tgz#0655d69533fa43d543404f232b7852f4022f8baa"
-  integrity sha512-D9z+CHd5FgjpuLA7+joC2jAXlitdDzYXTDWBbwpwHPjOU90HUVchAmij6iboob9ghhjUUoDCM8/hNdV2HRxVsw==
+lambda-serverless-api@3.0.11:
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.11.tgz#fa8593ae44a116846bb1956cef51b9a8d5db3b34"
+  integrity sha512-1pja9EceHAFDhK7pVthJJhcLJcplPfzN4+6bhV3ZLiiu9/Tan8Utin14vyxYVv91c6VeyH6Le8t7pkPJY+BqgA==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
@@ -3720,7 +3720,7 @@ lambda-serverless-api@3.0.10:
     lodash.xor "4.5.0"
     moment "2.24.0"
     obj-paths "1.2.7"
-    object-rewrite "2.1.23"
+    object-rewrite "2.1.24"
     object-scan "8.0.0"
     route-recognizer "0.3.4"
     swagger-parser "6.0.5"
@@ -5028,12 +5028,12 @@ object-keys@^1.0.11, object-keys@^1.0.12:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-object-rewrite@2.1.23:
-  version "2.1.23"
-  resolved "https://registry.yarnpkg.com/object-rewrite/-/object-rewrite-2.1.23.tgz#c15ce4fba04e07c4aa9b21854bd9c36e614a2f32"
-  integrity sha512-BnNa9IRqO18Ydvns8aqmyCoWUTIkuZmmcE2/HhR0p7e9qBt8ZZ5u3KFb0nSI2zQSkhyv8/lMMBmponBufxRekw==
+object-rewrite@2.1.24:
+  version "2.1.24"
+  resolved "https://registry.yarnpkg.com/object-rewrite/-/object-rewrite-2.1.24.tgz#8c4a8c6a6bfbbaa3c41b4a7e9d35a7686e03b443"
+  integrity sha512-nm52I9FVyDa+86S0njpgFHK/MvkfgDaMZxLwd7oAlfC9HORHaOhXRjYaJugN6bXlhl9Acd4PKj9BiLL6eMgEFA==
   dependencies:
-    object-scan "7.0.2"
+    object-scan "8.0.0"
 
 object-scan@7.0.2:
   version "7.0.2"
