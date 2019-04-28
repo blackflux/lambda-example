@@ -3704,10 +3704,10 @@ lambda-rollbar@1.10.10:
     lodash.omit "4.5.0"
     rollbar "2.6.1"
 
-lambda-serverless-api@3.0.20:
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.20.tgz#8c0db39796d0f617e0d3ed14f4983a8b301bf479"
-  integrity sha512-FdQ6dcWbUhQWAQY0uYxNLJpZt25SMUfmaj/m4HVH2rbuZpA+I0If8lUo4Lz/ew+CjLf6hRPkoPbZbPOp5NpdcQ==
+lambda-serverless-api@3.0.21:
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.21.tgz#5569269a290d8b2789d47fe052acca378cc2e947"
+  integrity sha512-YtpFPu7rYU6iDupHFcEt51vElC/jNlRQDkDdCXFPdi37dur+EzoKDO3dmfE8oErMLdAnDpfDblhTmElQ1W+CFA==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
@@ -3721,7 +3721,7 @@ lambda-serverless-api@3.0.20:
     moment "2.24.0"
     obj-paths "1.2.8"
     object-rewrite "2.1.28"
-    object-scan "9.0.1"
+    object-scan "9.0.2"
     route-recognizer "0.3.4"
     swagger-parser "6.0.5"
     yaml-boost "1.9.4"
