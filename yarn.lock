@@ -3687,10 +3687,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-lambda-rate-limiter@2.4.12:
-  version "2.4.12"
-  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.12.tgz#f525e1f1a2ad373faad7d964215b8488fb3272c2"
-  integrity sha512-mukh2QdCzczx6XOfQ3qJq3hpydUYgSMCJkUk7ad2zyWmY+16yDYIeSngFaOpJObhcgCmr8W6RyBPRSdFdQskHg==
+lambda-rate-limiter@2.4.13:
+  version "2.4.13"
+  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.13.tgz#7a5dd2f223fc8d835aaf0fb4e20d4d6038ec44b4"
+  integrity sha512-+nJ/v5/bDa6tfqbwcbpp6VaY+EfIAAqMJ8Ox6Oec749guM6wcAF3YJdpvHG90i932uAPMR9wfEnwcVbCiD0rPQ==
   dependencies:
     lru-cache "5.1.1"
 
@@ -3704,37 +3704,27 @@ lambda-rollbar@1.10.10:
     lodash.omit "4.5.0"
     rollbar "2.6.1"
 
-lambda-rollbar@1.10.9:
-  version "1.10.9"
-  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.9.tgz#417610a1a1ac9b7965cbe2ae7c892afa94c1c56d"
-  integrity sha512-W5NOhj4n+JhsCuU+LBkV3Jb1pgpsv452fAP8HhFnDZHBWqlpkBnw8JT1q0Vmlbubrsr293AhFxtEJ4wnACbz4Q==
-  dependencies:
-    fast-safe-stringify "2.0.6"
-    lodash.get "4.4.2"
-    lodash.omit "4.5.0"
-    rollbar "2.6.1"
-
-lambda-serverless-api@3.0.19:
-  version "3.0.19"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.19.tgz#dd5fb555c2e7368cbf7bd89ad6addb9b7fdc46cc"
-  integrity sha512-kNUp9huqkO3LGqSqb6NCPMTvAyqJq2bn8z4C7squTFjJhp20nim6GhR+hWKJClzXOHqf6mz/YzCUsu4M6AReUg==
+lambda-serverless-api@3.0.20:
+  version "3.0.20"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.20.tgz#8c0db39796d0f617e0d3ed14f4983a8b301bf479"
+  integrity sha512-FdQ6dcWbUhQWAQY0uYxNLJpZt25SMUfmaj/m4HVH2rbuZpA+I0If8lUo4Lz/ew+CjLf6hRPkoPbZbPOp5NpdcQ==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
-    lambda-rate-limiter "2.4.12"
-    lambda-rollbar "1.10.9"
+    lambda-rate-limiter "2.4.13"
+    lambda-rollbar "1.10.10"
     lodash.defaultsdeep "4.6.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     lodash.xor "4.5.0"
     moment "2.24.0"
-    obj-paths "1.2.7"
+    obj-paths "1.2.8"
     object-rewrite "2.1.28"
     object-scan "9.0.1"
     route-recognizer "0.3.4"
     swagger-parser "6.0.5"
-    yaml-boost "1.9.3"
+    yaml-boost "1.9.4"
 
 lambda-tdd@2.7.5:
   version "2.7.5"
@@ -5009,10 +4999,10 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-obj-paths@1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/obj-paths/-/obj-paths-1.2.7.tgz#8ca4bcd95ac5618a932ede12a596a453518eeb8a"
-  integrity sha512-CTBr4JwNAltfzD4uS3/eF1R/KGk8s7/kcchRWXXefzO3dOA5LUjm1s1xNqbr8DS3F+HGXsk/svmgcaiahQx1/Q==
+obj-paths@1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/obj-paths/-/obj-paths-1.2.8.tgz#800e236840c1cb986b91d890e7cf7df3ea7b96f7"
+  integrity sha512-Tmw+ArXxtQXHNwbI4oJeGE8M4SyCCntfP1NjqAcbw/s/7W9kQbdshGAbLS+a8HhiG23GTRa01o/CzVZCLTjjvQ==
 
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
