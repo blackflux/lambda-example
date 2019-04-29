@@ -3687,10 +3687,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-lambda-rate-limiter@2.4.13:
-  version "2.4.13"
-  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.13.tgz#7a5dd2f223fc8d835aaf0fb4e20d4d6038ec44b4"
-  integrity sha512-+nJ/v5/bDa6tfqbwcbpp6VaY+EfIAAqMJ8Ox6Oec749guM6wcAF3YJdpvHG90i932uAPMR9wfEnwcVbCiD0rPQ==
+lambda-rate-limiter@2.4.14:
+  version "2.4.14"
+  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.14.tgz#59de10065dec474aaa2920de461385d70c80a18c"
+  integrity sha512-XjSQDzEuUqqpTKNbpEXD5yDmFAVw6RsgBX11l8F7vHS9LWRHaj+qI5uHPde6UvWOgMK1+CwyInnOzv3UzwsP7w==
   dependencies:
     lru-cache "5.1.1"
 
@@ -3704,15 +3704,25 @@ lambda-rollbar@1.10.10:
     lodash.omit "4.5.0"
     rollbar "2.6.1"
 
-lambda-serverless-api@3.0.23:
-  version "3.0.23"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.23.tgz#11c96e6d3f293cc6a2c2ad418dd0554a3a2ff15f"
-  integrity sha512-7S8rHaab8bhDocJxdTJvBJ2ft7r8vO2+wVmlH3Oi4zvzVm8ayG1cMeRDJffG903oJaJ9mHsBcOBygOYgMW5y9Q==
+lambda-rollbar@1.10.11:
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.11.tgz#67fe6ad1a4af76b42093f54f4bb77b9da2c4390e"
+  integrity sha512-RoxOghVUkWNW+wqtq02+4AS7GxT66tE0cPD0As1ne1SNPIPkHdJlK6gYHPAw9CNpdJV0ctY92m3NX1MPN25IgA==
+  dependencies:
+    fast-safe-stringify "2.0.6"
+    lodash.get "4.4.2"
+    lodash.omit "4.5.0"
+    rollbar "2.6.1"
+
+lambda-serverless-api@3.0.26:
+  version "3.0.26"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.26.tgz#a7ffc9c7f55fb92558f0eaf9575c0fa643b9fd5a"
+  integrity sha512-LaxzqP/ayGfAEo/cIisnJvdHIBp2oAZx/REbtpqkG2mxtqdznGXzfDBAj4r2gVPAUf3Vg8v4iE8ecB+WN/dqDA==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
-    lambda-rate-limiter "2.4.13"
-    lambda-rollbar "1.10.10"
+    lambda-rate-limiter "2.4.14"
+    lambda-rollbar "1.10.11"
     lodash.defaultsdeep "4.6.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
@@ -3720,11 +3730,11 @@ lambda-serverless-api@3.0.23:
     lodash.xor "4.5.0"
     moment "2.24.0"
     obj-paths "1.2.8"
-    object-rewrite "2.1.29"
+    object-rewrite "2.1.30"
     object-scan "9.0.2"
     route-recognizer "0.3.4"
     swagger-parser "6.0.5"
-    yaml-boost "1.9.4"
+    yaml-boost "1.9.5"
 
 lambda-tdd@2.7.5:
   version "2.7.5"
@@ -5028,10 +5038,10 @@ object-keys@^1.0.11, object-keys@^1.0.12:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-object-rewrite@2.1.29:
-  version "2.1.29"
-  resolved "https://registry.yarnpkg.com/object-rewrite/-/object-rewrite-2.1.29.tgz#082cd909bddf7ade23da745e685d405d4f2e7c77"
-  integrity sha512-oRNOxaJs5KdJUKtUyfgU84eBlwDrDLYL14Lvfm0aK+uopO2fTiHxfUoCULi7Lb3W5w+dY1KaxD9Nqyg8YfiILQ==
+object-rewrite@2.1.30:
+  version "2.1.30"
+  resolved "https://registry.yarnpkg.com/object-rewrite/-/object-rewrite-2.1.30.tgz#f7aa318d52b857d74395cdd54f65cdbb603f7fac"
+  integrity sha512-X9IgpIH9TMrfmuW+c51+pRcP7BpFHl/LQb0hnl2r/62gxjnymgvyYAegKU5AV68razGIKcjb4hvl8g2rNSl4Wg==
   dependencies:
     object-scan "9.0.2"
 
@@ -7499,16 +7509,6 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
   integrity sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
-
-yaml-boost@1.9.4:
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/yaml-boost/-/yaml-boost-1.9.4.tgz#827563d1c9c315dc6ad3fc139ccf43d8edc8d176"
-  integrity sha512-vL7RwkUdp06LqBFfszqlnraCnJhLHNKWp8QN2j2v9aLo8hoVouwZYL9wgW7AHBylzMtdnH9fZpjv0gCz32fyEA==
-  dependencies:
-    js-yaml "3.13.1"
-    lodash.get "4.4.2"
-    lodash.mergewith "4.6.1"
-    lodash.set "4.3.2"
 
 yaml-boost@1.9.5:
   version "1.9.5"
