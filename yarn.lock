@@ -3736,10 +3736,10 @@ lambda-serverless-api@3.0.26:
     swagger-parser "6.0.5"
     yaml-boost "1.9.5"
 
-lambda-tdd@2.7.5:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.7.5.tgz#62c51da5dc90d52354dabacfe6d885a6cfc7fbff"
-  integrity sha512-pkE8JXDnLBS9S33F3xlB+ryP1yDe8YfkRzAtMuN1OHfsKQlXdGYE6soPw7dSm3LeoXeLRMyfKIpWaKDQZtYv5A==
+lambda-tdd@2.7.6:
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.7.6.tgz#0fbad51fb98988c952ed2b40952db5182fc0be57"
+  integrity sha512-AYUglWtx6p9FF+jGRAvgTNofvQ9B23SZrsR8opLqle+olZG1g5gmXZl6tXQ1RemVtTQifdgeISglsHXdLyNs3w==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.3"
