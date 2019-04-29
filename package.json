@@ -35,7 +35,7 @@
     "chai": "4.2.0",
     "coveralls": "3.0.3",
     "eslint": "5.16.0",
-    "js-gardener": "2.0.23",
+    "js-gardener": "2.0.25",
     "js-yaml": "3.13.1",
     "lambda-tdd": "2.7.5",
     "mocha": "6.1.4",
