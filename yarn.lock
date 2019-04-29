@@ -168,12 +168,12 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@blackflux/eslint-plugin-rules@1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@blackflux/eslint-plugin-rules/-/eslint-plugin-rules-1.0.11.tgz#8ae393478075c8bc173de9bb6764558d2fa9f257"
-  integrity sha512-NTQC2+Ap4aPRFhaFI3TbJ5CzmdOjhIdOfGPIDySaztCyX/tMBdUvtfUbufATzBs7//Nr3txXks6QWWgo9x79xg==
+"@blackflux/eslint-plugin-rules@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@blackflux/eslint-plugin-rules/-/eslint-plugin-rules-1.0.14.tgz#971500a096c110774a46efb763de2a28a8ea5b06"
+  integrity sha512-6/ShMJohPzVyQtw2YGRTZOKDS61uo48xk2t+CxgWIuIMrq5jbu2aIbXzT6Hn3Qeax/EN6nNboV2ZWtBMnx6aig==
   dependencies:
-    smart-fs "1.7.4"
+    smart-fs "1.7.6"
 
 "@blackflux/robo-config-plugin@1.8.2":
   version "1.8.2"
@@ -6391,6 +6391,18 @@ smart-fs@1.7.4:
     xml-js "1.6.11"
     yaml-boost "1.9.4"
 
+smart-fs@1.7.6:
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/smart-fs/-/smart-fs-1.7.6.tgz#44ec5bdd761e82a8018af3bc74d8c90c10ef2ef2"
+  integrity sha512-xomXsiBJt8ASGxJN+aiVwP1IKlVnD8xrP9Wvm9ZiyMXqOCzTozo54FKTHFBCL+Xlvlm4Ucp6HgjEarK0J/c/5A==
+  dependencies:
+    fs-extra "7.0.1"
+    json-stringify-pretty-compact "2.0.0"
+    lodash.clonedeep "4.5.0"
+    lodash.isequal "4.5.0"
+    xml-js "1.6.11"
+    yaml-boost "1.9.5"
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/snapdragon-node/-/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -7504,6 +7516,16 @@ yaml-boost@1.9.4:
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/yaml-boost/-/yaml-boost-1.9.4.tgz#827563d1c9c315dc6ad3fc139ccf43d8edc8d176"
   integrity sha512-vL7RwkUdp06LqBFfszqlnraCnJhLHNKWp8QN2j2v9aLo8hoVouwZYL9wgW7AHBylzMtdnH9fZpjv0gCz32fyEA==
+  dependencies:
+    js-yaml "3.13.1"
+    lodash.get "4.4.2"
+    lodash.mergewith "4.6.1"
+    lodash.set "4.3.2"
+
+yaml-boost@1.9.5:
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/yaml-boost/-/yaml-boost-1.9.5.tgz#fb708271836d3229f743e4b044b6475b8f1d31c4"
+  integrity sha512-nOPaQ1a+9keefqVHLO5dMDcHh4ei5cSghnQScJEZ65zVvc6Rl83cD566hVdMfOGnHLTqjr90wC7pnYMAvEqs4w==
   dependencies:
     js-yaml "3.13.1"
     lodash.get "4.4.2"
