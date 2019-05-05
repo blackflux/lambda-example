@@ -3704,10 +3704,10 @@ lambda-rollbar@1.10.11:
     lodash.omit "4.5.0"
     rollbar "2.6.1"
 
-lambda-serverless-api@3.0.31:
-  version "3.0.31"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.31.tgz#686a58616f23e7ec93af3ff5a1ae469f5e9cd081"
-  integrity sha512-9QwILkz3jyXDi2iTlv3I8yipXoJjHi/rclVhuAHr4MrKWxJfnhS5ueU953NxXfbP42CIi9SPjak27CeE/q8/XQ==
+lambda-serverless-api@3.0.32:
+  version "3.0.32"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-3.0.32.tgz#40dcc495d7fb21ba44a623ea8b4d7bc341f7c0cd"
+  integrity sha512-GX7qj7PMDEDZaphnGsUEVLjVMUbr+flgAB1thg+nevz74niJBFoDQkGma7xoJLjs01zXUr225xuS64EsRKJdNQ==
   dependencies:
     joi "14.3.1"
     js-yaml "3.13.1"
@@ -3719,7 +3719,7 @@ lambda-serverless-api@3.0.31:
     lodash.set "4.3.2"
     lodash.xor "4.5.0"
     moment "2.24.0"
-    obj-paths "1.3.0"
+    obj-paths "1.3.1"
     object-rewrite "2.1.31"
     object-scan "10.0.0"
     route-recognizer "0.3.4"
@@ -5000,12 +5000,12 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-obj-paths@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/obj-paths/-/obj-paths-1.3.0.tgz#3fe09628557bc777f5db890198901e92aa5b7ef1"
-  integrity sha512-2wHsayXtK7MpG766W9Evh+GbBAOoDl7u6tRHx5QA/VeDbT+K1kHbPhBTJV7FgyGeKshPnN9k0CIULpcGFmPODQ==
+obj-paths@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/obj-paths/-/obj-paths-1.3.1.tgz#c271f365ed66059eacfcb87e73cab3715ba15fd3"
+  integrity sha512-ySvLVIDI+KpHVMgpEmUtVt/cXXKwWJhrJMlKOfYr9xJQw9Xl7P8J+C0+DmuaGiQizmQ6JnmzU/0Yws1DcUwjkw==
   dependencies:
-    object-scan "9.0.3"
+    object-scan "10.0.0"
 
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
