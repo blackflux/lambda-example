@@ -3591,10 +3591,10 @@ jmespath@0.15.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
   integrity sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
 
-joi-strict@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.1.tgz#18892226dc3c1735c1e6d8128653fba726403287"
-  integrity sha512-6xcN01OWwaICx6sojA7jflh+EqAUIbGPlNFo7C7OG5NWbrljSq+aww8+Z7Ho85ikBhDitVLZelZObnI4mlpBXQ==
+joi-strict@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.2.tgz#cb0bd00cfc3260d6a259324367acef76fcc433ae"
+  integrity sha512-IHOFYARRhGFk8iAbTI0rvYVsXBYW39dSKNLAxrdPC4SYYYE4hrEVNluXwy+8td/p+K8COyhQLm42osBlBpz4GQ==
 
 joi@14.3.1:
   version "14.3.1"
@@ -3781,13 +3781,13 @@ lambda-rollbar@1.10.13:
     lodash.omit "4.5.0"
     rollbar "2.7.1"
 
-lambda-serverless-api@4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-4.0.8.tgz#2f79583091631458785a8743ed13858e77c07c8d"
-  integrity sha512-Zns8Vu34+zDKwibEMRyt3IPOe0QVoDS3mutDBdcDHv4YgKpnSd2JSVfrLEm7mWXR1u8f1myWBkhffE92R7hSqQ==
+lambda-serverless-api@4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-4.0.9.tgz#3dbbb4dd97cdbdaecd45c84ab6afbe4a7d8f8242"
+  integrity sha512-vXUQvF8ZXc+hAmEtZ4zvNpwVo0tVsU6q0dOaNIm+LpITVESCQwHTP9Nlh+EGWSeVD3QFT8WE/5ejMxWwIkIE2Q==
   dependencies:
     "@hapi/joi" "15.0.3"
-    joi-strict "1.0.1"
+    joi-strict "1.0.2"
     js-yaml "3.13.1"
     lambda-rate-limiter "2.4.16"
     lambda-rollbar "1.10.13"
