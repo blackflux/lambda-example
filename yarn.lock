@@ -3781,10 +3781,10 @@ lambda-rollbar@1.10.13:
     lodash.omit "4.5.0"
     rollbar "2.7.1"
 
-lambda-serverless-api@4.0.10:
-  version "4.0.10"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-4.0.10.tgz#3087c849b37df08eb47d4652009356857130dd57"
-  integrity sha512-H7I5j8mTDV0f7Dk3oVl4i/uJj+7T7zTdMeUprHrEU59cr/jd6YMix3Uu8ToFi+ZZFpk+QP+p5W7K3kuSZr1jag==
+lambda-serverless-api@4.0.11:
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-4.0.11.tgz#645a8bebabc7aca779abd96baa0b370bcc2b6d65"
+  integrity sha512-1TdFU1cpnS3qhAtORIhK2fUIGxswY0+OdRtEwBfVX6befgE9kfDa7L+a+TIJTDmaklGUmRbGl56or1viCzwM0Q==
   dependencies:
     "@hapi/joi" "15.0.3"
     joi-strict "1.0.2"
