@@ -39,7 +39,7 @@
     "chai": "4.2.0",
     "coveralls": "3.0.5",
     "eslint": "6.1.0",
-    "js-gardener": "2.0.54",
+    "js-gardener": "2.0.55",
     "js-yaml": "3.13.1",
     "lambda-tdd": "2.7.17",
     "mocha": "6.2.0",
@@ -57,7 +57,7 @@
   "files": ["lib"],
   "dependencies": {
     "lambda-rollbar": "1.10.15",
-    "lambda-serverless-api": "5.0.3",
+    "lambda-serverless-api": "5.0.5",
     "moment-timezone": "0.5.26",
     "request": "2.88.0"
   },
