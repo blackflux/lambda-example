@@ -43,7 +43,7 @@
     "eslint": "6.1.0",
     "js-gardener": "2.0.56",
     "js-yaml": "3.13.1",
-    "lambda-tdd": "2.8.0",
+    "lambda-tdd": "2.8.1",
     "mocha": "6.2.0",
     "nock": "10.0.6",
     "nyc": "14.1.1",
@@ -63,7 +63,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.10.16",
-    "lambda-serverless-api": "5.1.1",
+    "lambda-serverless-api": "5.2.1",
     "moment-timezone": "0.5.26",
     "request": "2.88.0"
   },
