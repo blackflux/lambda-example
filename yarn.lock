@@ -3821,16 +3821,6 @@ lambda-rate-limiter@2.4.19:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-rollbar@1.10.17:
-  version "1.10.17"
-  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.17.tgz#7b9a47d2e37690b0cfc3db482a0debe52b76f543"
-  integrity sha512-Y9qA56qboIurOTNS9WQPcjiFSlrGGtMaMEhg8HMkO23BKpg1huk8KB7iTKgZL2zEhg9RDjRpy8tb6zm2wJig8g==
-  dependencies:
-    fast-safe-stringify "2.0.6"
-    lodash.get "4.4.2"
-    lodash.omit "4.5.0"
-    rollbar "2.10.0"
-
 lambda-rollbar@1.10.18:
   version "1.10.18"
   resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.18.tgz#5c7e340d995e587f3837a3801b6bc823b781cd42"
@@ -3841,23 +3831,23 @@ lambda-rollbar@1.10.18:
     lodash.omit "4.5.0"
     rollbar "2.11.0"
 
-lambda-serverless-api@5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.2.1.tgz#8c42577d0b1396fa07ca7a80a7f7822011c65f48"
-  integrity sha512-YN/Q7pAAOSXRG6GWi8RBfCLUjtyvzMUaI+Jb3EF1SghIoVCVUKGVHzePDlRSNVHC84ppDhcSPmXfMDR6tFkTbw==
+lambda-serverless-api@5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.2.3.tgz#c4aff61f093820b45c9b2f14e68d206b91c0583c"
+  integrity sha512-dJBxP5LTWruqFVBoKeZDZk9Z+TBoi4SMLmeOEMjNou21A3MtzohoFubtXbhYnYlsOu58rOuQ4KH+G3/IkhhyCg==
   dependencies:
     "@hapi/joi" "15.1.0"
     joi-strict "1.0.4"
     js-yaml "3.13.1"
     lambda-rate-limiter "2.4.19"
-    lambda-rollbar "1.10.17"
+    lambda-rollbar "1.10.18"
     lodash.defaultsdeep "4.6.1"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     lodash.xor "4.5.0"
     moment "2.24.0"
-    object-fields "1.3.12"
+    object-fields "1.3.13"
     object-scan "10.0.6"
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
@@ -5235,22 +5225,17 @@ object-deep-contain@1.0.13:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.13.tgz#2d7b94ad5a2e2da535701d1f0d67ce4c2135f8cf"
   integrity sha512-GYKKbftOzyjAfF6m5gL3YLs2MoE2Z3RtyTvJCljfoUleRIHtObSbCgQzUL2W5lZA9bHOjOh9Qy8Jzo8pZth5eA==
 
-object-fields@1.3.12:
-  version "1.3.12"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.12.tgz#7edba9455a1f431b676c37a0c980404fb1559d2f"
-  integrity sha512-EoLCpsnVKshwolD0132b+WOIStPoSWZ1+peN2G5zNN4m39cSuA3pYko1AuRSPurh8bahcPnK4YzdbdfANWr+zA==
+object-fields@1.3.13:
+  version "1.3.13"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.13.tgz#58b51d253ede6a600c0b4f59c7f07d67828ea792"
+  integrity sha512-KeSw/RJ16hauPlRcDNAfdlD8QlhKFRS7e2SEg++5BlVQyVAOpVQahjVUDzriAhY5htpqX4XwydFzSlG3DvZROA==
   dependencies:
-    object-scan "10.0.5"
+    object-scan "10.0.6"
 
 object-keys@^1.0.11, object-keys@^1.0.12:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
-
-object-scan@10.0.5:
-  version "10.0.5"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.5.tgz#b08b8e2e7e0b7ee16402f6df7140d553bfd28c9d"
-  integrity sha512-d8h5hYgH5RrAa4LZ6A/PopWlnmUL4hoeA283FVTl3+qnN22+KDbFXUfij4AyAQ5sui4C9R4hE8EEpvj7QQ6SEQ==
 
 object-scan@10.0.6:
   version "10.0.6"
@@ -6442,24 +6427,6 @@ robo-config@3.0.33:
     object-scan "10.0.6"
     object-treeify "1.1.14"
     smart-fs "1.9.2"
-
-rollbar@2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.10.0.tgz#a18c333eb45ebd21be128afdf9bf3a0093be7218"
-  integrity sha512-Ifr+KB8cXsaE9Lae3o2X7jx+WAAHMxul44Bj+P+0uGxbTO4TcHFRloUWgPVtmHxuFjpDchHbhwMwMicTseEb1Q==
-  dependencies:
-    async "~1.2.1"
-    buffer-from ">=1.1"
-    console-polyfill "0.3.0"
-    debug "2.6.9"
-    error-stack-parser "1.3.3"
-    json-stringify-safe "~5.0.0"
-    lru-cache "~2.2.1"
-    request-ip "~2.0.1"
-    source-map ">=0.5.0"
-    uuid "3.0.x"
-  optionalDependencies:
-    decache "^3.0.5"
 
 rollbar@2.11.0:
   version "2.11.0"
