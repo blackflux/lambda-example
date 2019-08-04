@@ -25,15 +25,17 @@
   },
   "author": "Lukas Siemon",
   "license": "MIT",
-  "bugs": {"url": "https://github.com/blackflux/lambda-example/issues"},
+  "bugs": {
+    "url": "https://github.com/blackflux/lambda-example/issues"
+  },
   "homepage": "https://github.com/blackflux/lambda-example#readme",
   "devDependencies": {
     "@babel/cli": "7.5.5",
     "@babel/core": "7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "7.5.5",
     "@babel/register": "7.5.5",
-    "@blackflux/eslint-plugin-rules": "1.0.26",
-    "@blackflux/robo-config-plugin": "2.2.3",
+    "@blackflux/eslint-plugin-rules": "1.1.0",
+    "@blackflux/robo-config-plugin": "2.3.0",
     "app-root-path": "2.2.1",
     "babel-eslint": "10.0.2",
     "chai": "4.2.0",
@@ -53,8 +55,12 @@
       "url": "https://github.com/blackflux/lambda-example/blob/master/LICENSE"
     }
   ],
-  "engines": {"node": ">= 6.10.3"},
-  "files": ["lib"],
+  "engines": {
+    "node": ">= 6.10.3"
+  },
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "lambda-rollbar": "1.10.16",
     "lambda-serverless-api": "5.1.1",
@@ -72,10 +78,22 @@
     "statements": 100,
     "functions": 100,
     "branches": 100,
-    "include": ["**/*.js"],
-    "exclude": ["gardener.js", "node_modules/*", "coverage/*", "lib/*"],
-    "reporter": ["lcov", "text-summary"],
-    "require": ["@babel/register"],
+    "include": [
+      "**/*.js"
+    ],
+    "exclude": [
+      "gardener.js",
+      "node_modules/*",
+      "coverage/*",
+      "lib/*"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "require": [
+      "@babel/register"
+    ],
     "extension": [],
     "cache": true,
     "all": true,
