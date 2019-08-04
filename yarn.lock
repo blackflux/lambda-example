@@ -3831,16 +3831,26 @@ lambda-rollbar@1.10.16:
     lodash.omit "4.5.0"
     rollbar "2.9.0"
 
-lambda-serverless-api@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.1.1.tgz#627e116395559a6362fff8da65120c23f02f1a75"
-  integrity sha512-mnw/3FvqehLYJs7Kd5X/enO1q0gaxScLeDtptgQxD+4GcOWjUUwDg8cMc8n8A/6y7qDBwaqEzgZ9/33DqUnr/g==
+lambda-rollbar@1.10.17:
+  version "1.10.17"
+  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.17.tgz#7b9a47d2e37690b0cfc3db482a0debe52b76f543"
+  integrity sha512-Y9qA56qboIurOTNS9WQPcjiFSlrGGtMaMEhg8HMkO23BKpg1huk8KB7iTKgZL2zEhg9RDjRpy8tb6zm2wJig8g==
+  dependencies:
+    fast-safe-stringify "2.0.6"
+    lodash.get "4.4.2"
+    lodash.omit "4.5.0"
+    rollbar "2.10.0"
+
+lambda-serverless-api@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.2.1.tgz#8c42577d0b1396fa07ca7a80a7f7822011c65f48"
+  integrity sha512-YN/Q7pAAOSXRG6GWi8RBfCLUjtyvzMUaI+Jb3EF1SghIoVCVUKGVHzePDlRSNVHC84ppDhcSPmXfMDR6tFkTbw==
   dependencies:
     "@hapi/joi" "15.1.0"
     joi-strict "1.0.4"
     js-yaml "3.13.1"
     lambda-rate-limiter "2.4.19"
-    lambda-rollbar "1.10.16"
+    lambda-rollbar "1.10.17"
     lodash.defaultsdeep "4.6.1"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
@@ -3848,7 +3858,7 @@ lambda-serverless-api@5.1.1:
     lodash.xor "4.5.0"
     moment "2.24.0"
     object-fields "1.3.12"
-    object-scan "10.0.5"
+    object-scan "10.0.6"
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
     yaml-boost "1.9.10"
@@ -5242,6 +5252,11 @@ object-scan@10.0.5:
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.5.tgz#b08b8e2e7e0b7ee16402f6df7140d553bfd28c9d"
   integrity sha512-d8h5hYgH5RrAa4LZ6A/PopWlnmUL4hoeA283FVTl3+qnN22+KDbFXUfij4AyAQ5sui4C9R4hE8EEpvj7QQ6SEQ==
 
+object-scan@10.0.6:
+  version "10.0.6"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.6.tgz#dc3846b3774ae7a6b5889aa9a6f73134fbd333a6"
+  integrity sha512-0SnIzQ+JsR7v0GFnedNZ/nnhv1OU3iVLParKeU4r3yBz/+NOuloAyygCwSQOJmlngW14XB+KHlHYhLrdZq5XNQ==
+
 object-treeify@1.1.14:
   version "1.1.14"
   resolved "https://registry.yarnpkg.com/object-treeify/-/object-treeify-1.1.14.tgz#6b1b6ec691710c43e1b36f117a2a51f215999132"
@@ -6427,6 +6442,24 @@ robo-config@3.0.32:
     object-scan "10.0.5"
     object-treeify "1.1.14"
     smart-fs "1.9.2"
+
+rollbar@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.10.0.tgz#a18c333eb45ebd21be128afdf9bf3a0093be7218"
+  integrity sha512-Ifr+KB8cXsaE9Lae3o2X7jx+WAAHMxul44Bj+P+0uGxbTO4TcHFRloUWgPVtmHxuFjpDchHbhwMwMicTseEb1Q==
+  dependencies:
+    async "~1.2.1"
+    buffer-from ">=1.1"
+    console-polyfill "0.3.0"
+    debug "2.6.9"
+    error-stack-parser "1.3.3"
+    json-stringify-safe "~5.0.0"
+    lru-cache "~2.2.1"
+    request-ip "~2.0.1"
+    source-map ">=0.5.0"
+    uuid "3.0.x"
+  optionalDependencies:
+    decache "^3.0.5"
 
 rollbar@2.9.0:
   version "2.9.0"
