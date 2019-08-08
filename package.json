@@ -35,19 +35,18 @@
     "@babel/plugin-proposal-object-rest-spread": "7.5.5",
     "@babel/register": "7.5.5",
     "@blackflux/eslint-plugin-rules": "1.1.0",
-    "@blackflux/robo-config-plugin": "2.4.2",
-    "app-root-path": "2.2.1",
+    "@blackflux/robo-config-plugin": "2.4.3",
     "babel-eslint": "10.0.2",
     "chai": "4.2.0",
     "coveralls": "3.0.6",
     "eslint": "6.1.0",
     "js-gardener": "2.0.58",
-    "js-yaml": "3.13.1",
     "lambda-tdd": "2.8.1",
     "mocha": "6.2.0",
     "nock": "10.0.6",
     "nyc": "14.1.1",
-    "semantic-release": "15.13.19"
+    "semantic-release": "15.13.19",
+    "smart-fs": "1.9.2"
   },
   "licenses": [
     {
@@ -63,7 +62,7 @@
   ],
   "dependencies": {
     "lambda-rollbar": "1.10.18",
-    "lambda-serverless-api": "5.2.3",
+    "lambda-serverless-api": "5.2.4",
     "moment-timezone": "0.5.26",
     "request": "2.88.0"
   },
