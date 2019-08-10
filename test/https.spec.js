@@ -11,7 +11,7 @@ const lambdaTester = require('lambda-tdd')({
 });
 const api = require('./../src/https').internalApi;
 
-lambdaTester.execute((process.argv.slice(2).find(e => e.startsWith('--filter=')) || '').substring(9));
+lambdaTester.execute((process.argv.slice(2).find((e) => e.startsWith('--filter=')) || '').substring(9));
 
 
 it('Synchronizing swagger file...', async () => {
