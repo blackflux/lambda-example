@@ -8,4 +8,4 @@ const lambdaTester = require('lambda-tdd')({
   testFolder: path.join(__dirname, 'lambda')
 });
 
-lambdaTester.execute((process.argv.slice(2).find(e => e.startsWith('--filter=')) || '').substring(9));
+lambdaTester.execute((process.argv.slice(2).find((e) => e.startsWith('--filter=')) || '').substring(9));
