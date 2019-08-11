@@ -3649,11 +3649,6 @@ jmespath@0.15.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
   integrity sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
 
-joi-strict@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.4.tgz#8bf55f7b4d6accd5b530ac98276131b59e982254"
-  integrity sha512-ChSFFa+Z3iD9x9QsBFMEHwXrwt2Gq2OD1fg+Mgje1Tx+Pqt7ma+LXgMdzVoC7GHCxhO3ySDVBtDumES/yycMXg==
-
 joi-strict@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.5.tgz#f4abad8bfd39281eb987f8ceb36c76d5d8de30c2"
@@ -3809,22 +3804,12 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-lambda-rate-limiter@2.4.19:
-  version "2.4.19"
-  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.19.tgz#19357b98e8bcf4db17205cc144afc5aa68406559"
-  integrity sha512-/QFv68VbxIbt24ZFbjuG2irz2UYqfr9LVwnGDhbE/1hGZoqb+BbVJAPiVx5sQj9eXKsjvFNXauUuZ332MeHcig==
+lambda-rate-limiter@2.4.20:
+  version "2.4.20"
+  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.20.tgz#86e303b9e663f5c7674d1aafb8be1a06f63e5c11"
+  integrity sha512-7A5NgOm7BcecJAAiiJ1p3yIJeXfkJK4ZE5tq6sEDgGASas0o+E3g7TonEgAm0nBUQ2ZkXD/ZZ96lYSyZxsm1tw==
   dependencies:
     lru-cache "5.1.1"
-
-lambda-rollbar@1.10.18:
-  version "1.10.18"
-  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.18.tgz#5c7e340d995e587f3837a3801b6bc823b781cd42"
-  integrity sha512-bZuHGSJC+Ur2Fyu+f73LKybrrrmf8XpP7NvWiQ/HbLzye8sbgKAQEyswvBqRiyA9jeXF1cFy2OJxjR20Vvnv3Q==
-  dependencies:
-    fast-safe-stringify "2.0.6"
-    lodash.get "4.4.2"
-    lodash.omit "4.5.0"
-    rollbar "2.11.0"
 
 lambda-rollbar@1.10.19:
   version "1.10.19"
@@ -3836,19 +3821,19 @@ lambda-rollbar@1.10.19:
     lodash.omit "4.5.0"
     rollbar "2.11.0"
 
-lambda-serverless-api@5.2.5:
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.2.5.tgz#6c892bd74ac7066cc7308d596ee5a6b3eaa254d5"
-  integrity sha512-YvtSlmJPr0SNNrxGEpEqq4Nw2fF2+iwDh7QfauC5DMxiepPH2IObm86ZXqFzBBeGkob1hzmK5NwFXXDM/UNZOg==
+lambda-serverless-api@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.3.0.tgz#9d087bbe8684cc6ac26acd07e55bca63e3cf4b48"
+  integrity sha512-c2gjQEdXM7LveP8H727Bjnjr7HI8gUED20Zsr1aeRpo9kR+MulhPkWoto36Y68yVND8lLZiENMP3GRVOodHhsA==
   dependencies:
     "@hapi/joi" "15.1.0"
-    joi-strict "1.0.4"
-    lambda-rate-limiter "2.4.19"
-    lambda-rollbar "1.10.18"
+    joi-strict "1.0.5"
+    lambda-rate-limiter "2.4.20"
+    lambda-rollbar "1.10.19"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     moment "2.24.0"
-    object-fields "1.3.13"
+    object-fields "1.3.15"
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
 
@@ -5200,22 +5185,17 @@ object-deep-contain@1.0.14:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.14.tgz#c9c622e3355259c0935f43fe668d6e667cd2e83f"
   integrity sha512-WjwbNvoXPAjPidDXvEKnPlB36gMIA0cG5b3i6ZMTAFKPaQWCa5ILE2B3wMc3yykceKTOwnsxgVfmsnrmO0Zl4A==
 
-object-fields@1.3.13:
-  version "1.3.13"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.13.tgz#58b51d253ede6a600c0b4f59c7f07d67828ea792"
-  integrity sha512-KeSw/RJ16hauPlRcDNAfdlD8QlhKFRS7e2SEg++5BlVQyVAOpVQahjVUDzriAhY5htpqX4XwydFzSlG3DvZROA==
+object-fields@1.3.15:
+  version "1.3.15"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.15.tgz#99f81d8de1658dc95617455edc7b6d7d0018cb6a"
+  integrity sha512-ySq/m8KLEH7/BW1Z5xb16A9JWcf+AYIBqwNYB2oukoNXxFq5yNnAVuQZKpYfam5pIagObgGhR9fyk2V0XUYXVQ==
   dependencies:
-    object-scan "10.0.6"
+    object-scan "10.0.7"
 
 object-keys@^1.0.11, object-keys@^1.0.12:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
-
-object-scan@10.0.6:
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.6.tgz#dc3846b3774ae7a6b5889aa9a6f73134fbd333a6"
-  integrity sha512-0SnIzQ+JsR7v0GFnedNZ/nnhv1OU3iVLParKeU4r3yBz/+NOuloAyygCwSQOJmlngW14XB+KHlHYhLrdZq5XNQ==
 
 object-scan@10.0.7:
   version "10.0.7"
