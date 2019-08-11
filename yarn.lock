@@ -3821,6 +3821,16 @@ lambda-rollbar@1.10.18:
     lodash.omit "4.5.0"
     rollbar "2.11.0"
 
+lambda-rollbar@1.10.19:
+  version "1.10.19"
+  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.19.tgz#45cc27a59ec8976eeeec71bc9aa51d1d1756c503"
+  integrity sha512-H5ztvyvQbUU7KaDU5M8PQwqqvf7bJeJtqAg1l9Td/zce5S09HVefOFBLOW7BIStjNKtQyMuiysCV2tmlD1x5IA==
+  dependencies:
+    fast-safe-stringify "2.0.6"
+    lodash.get "4.4.2"
+    lodash.omit "4.5.0"
+    rollbar "2.11.0"
+
 lambda-serverless-api@5.2.5:
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.2.5.tgz#6c892bd74ac7066cc7308d596ee5a6b3eaa254d5"
