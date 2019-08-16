@@ -1032,7 +1032,7 @@ callsite-record@^3.0.0:
     lodash "4.6.1 || ^4.16.1"
     pinkie-promise "^2.0.0"
 
-callsite@^1.0.0:
+callsite@1.0.0, callsite@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
   integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
@@ -3844,10 +3844,10 @@ lambda-serverless-api@5.3.0:
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
 
-lambda-tdd@2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.8.4.tgz#686bac6fcddf302f4fee003e88b501ddece98050"
-  integrity sha512-WKSSv18Fhti8bXmH//mY/s/ptiqgNGloYlEyQExdkuTTZyjrHf3HC9eobjgW7kdtm+gObj3h3qaVoSRK2JcNKw==
+lambda-tdd@2.8.6:
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.8.6.tgz#5957c99663dcfb9b2cbd376be8e4db84b535883f"
+  integrity sha512-cilg2fD1M9VorajriF0CnXwY09p9dBzykjhy2YxzSgu/0JzWIMty0Ix3SIq984i3NPSjcu0BDybIFMVEccuY/w==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.4"
@@ -3855,9 +3855,8 @@ lambda-tdd@2.8.4:
     lambda-wrapper "0.3.0"
     lodash.defaults "4.2.0"
     lodash.get "4.4.2"
-    lodash.pick "4.4.0"
+    node-tdd "1.5.0"
     smart-fs "1.9.5"
-    timekeeper "2.2.0"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
@@ -4205,11 +4204,6 @@ lodash.omit@4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
   integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
-
-lodash.pick@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
-  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
 
 lodash.set@4.3.2, lodash.set@^4.3.2:
   version "4.3.2"
@@ -4805,6 +4799,20 @@ node-pre-gyp@^0.12.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node-tdd@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-1.5.0.tgz#bb0ce962b02c95a5d7b2eee3384c0f534e9c54b7"
+  integrity sha512-NTRPl5o6/dPWGhm83hbTHW8l8pOEB0uNyDQPsZxf+AfprRH+4YleBkotY8sLPOWPmkK8DRp43BssrQzAYe9Sag==
+  dependencies:
+    "@hapi/joi" "15.1.0"
+    callsite "1.0.0"
+    joi-strict "1.0.5"
+    lodash.get "4.4.2"
+    nock "10.0.6"
+    smart-fs "1.9.5"
+    timekeeper "2.2.0"
+    tmp "0.1.0"
 
 "nopt@2 || 3":
   version "3.0.6"
