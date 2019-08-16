@@ -185,6 +185,11 @@
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.0.0.tgz#9f05469c88cb2fd3dcd624776b54ee95c312126a"
   integrity sha512-mV6T0IYqb0xL1UALPFplXYQmR0twnXG0M6jUswpquqT2sD12BOiCiLy3EvMp/Fy7s3DZElC4/aPjEjo2jeZpvw==
 
+"@hapi/bourne@1.x.x":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-1.3.2.tgz#0a7095adea067243ce3283e1b56b8a8f453b242a"
+  integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
+
 "@hapi/hoek@6.x.x":
   version "6.2.4"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-6.2.4.tgz#4b95fbaccbfba90185690890bdf1a2fbbda10595"
@@ -203,6 +208,16 @@
     "@hapi/address" "2.x.x"
     "@hapi/hoek" "6.x.x"
     "@hapi/marker" "1.x.x"
+    "@hapi/topo" "3.x.x"
+
+"@hapi/joi@15.1.1":
+  version "15.1.1"
+  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-15.1.1.tgz#c675b8a71296f02833f8d6d243b34c57b8ce19d7"
+  integrity sha512-entf8ZMOK8sc+8YfeOlM8pCfg3b5+WZIKBfUaaJT8UsjAAPjartzxIYm3TIbjvA4u+u++KbcXD38k682nVHDAQ==
+  dependencies:
+    "@hapi/address" "2.x.x"
+    "@hapi/bourne" "1.x.x"
+    "@hapi/hoek" "8.x.x"
     "@hapi/topo" "3.x.x"
 
 "@hapi/marker@1.x.x":
@@ -1032,7 +1047,7 @@ callsite-record@^3.0.0:
     lodash "4.6.1 || ^4.16.1"
     pinkie-promise "^2.0.0"
 
-callsite@^1.0.0:
+callsite@1.0.0, callsite@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
   integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
@@ -3661,12 +3676,12 @@ joi-strict@1.0.5:
   resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.5.tgz#f4abad8bfd39281eb987f8ceb36c76d5d8de30c2"
   integrity sha512-ZOU1FTny1MmAlm6vXoD77LFqif23KZQVC9m7euLkYq0QHDj0GHKz/A/IRXzhkk3DPll/Y7A74b1R9M7M4fqzTw==
 
-js-gardener@2.0.65:
-  version "2.0.65"
-  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.65.tgz#e2e41242ec48e1c93ab320610e12952e71d43a49"
-  integrity sha512-97VhA/PVGbbUmQ4o6kiZZ/OxRymzK05/OrTBKZr1oB0T2G/l/Tq4ucJoEDefGBHUwCnWRC39ksOlGgHa05QRgg==
+js-gardener@2.0.66:
+  version "2.0.66"
+  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.66.tgz#642e47eaf79fe3c56ea6a9fe867508f5b1b3403f"
+  integrity sha512-AQ5dpnZdAEOfHIt3RmT2l8YKhnGPHJRsgj4Ssfrl4cHo+whHkDiGjDkyMsv/juqZ5JZz7zpwaG1SISpUcvumXA==
   dependencies:
-    "@hapi/joi" "15.1.0"
+    "@hapi/joi" "15.1.1"
     chalk "2.4.2"
     eslint "6.1.0"
     eslint-config-airbnb-base "14.0.0"
@@ -3844,10 +3859,10 @@ lambda-serverless-api@5.3.0:
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
 
-lambda-tdd@2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.8.4.tgz#686bac6fcddf302f4fee003e88b501ddece98050"
-  integrity sha512-WKSSv18Fhti8bXmH//mY/s/ptiqgNGloYlEyQExdkuTTZyjrHf3HC9eobjgW7kdtm+gObj3h3qaVoSRK2JcNKw==
+lambda-tdd@2.8.6:
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.8.6.tgz#5957c99663dcfb9b2cbd376be8e4db84b535883f"
+  integrity sha512-cilg2fD1M9VorajriF0CnXwY09p9dBzykjhy2YxzSgu/0JzWIMty0Ix3SIq984i3NPSjcu0BDybIFMVEccuY/w==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.4"
@@ -3855,9 +3870,8 @@ lambda-tdd@2.8.4:
     lambda-wrapper "0.3.0"
     lodash.defaults "4.2.0"
     lodash.get "4.4.2"
-    lodash.pick "4.4.0"
+    node-tdd "1.5.0"
     smart-fs "1.9.5"
-    timekeeper "2.2.0"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
@@ -4205,11 +4219,6 @@ lodash.omit@4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
   integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
-
-lodash.pick@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
-  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
 
 lodash.set@4.3.2, lodash.set@^4.3.2:
   version "4.3.2"
@@ -4805,6 +4814,20 @@ node-pre-gyp@^0.12.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node-tdd@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-1.5.0.tgz#bb0ce962b02c95a5d7b2eee3384c0f534e9c54b7"
+  integrity sha512-NTRPl5o6/dPWGhm83hbTHW8l8pOEB0uNyDQPsZxf+AfprRH+4YleBkotY8sLPOWPmkK8DRp43BssrQzAYe9Sag==
+  dependencies:
+    "@hapi/joi" "15.1.0"
+    callsite "1.0.0"
+    joi-strict "1.0.5"
+    lodash.get "4.4.2"
+    nock "10.0.6"
+    smart-fs "1.9.5"
+    timekeeper "2.2.0"
+    tmp "0.1.0"
 
 "nopt@2 || 3":
   version "3.0.6"
