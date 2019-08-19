@@ -3937,10 +3937,10 @@ lambda-serverless-api@5.3.1:
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
 
-lambda-tdd@2.9.1:
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.9.1.tgz#227bbb9bf61322f20dfc83f7dcda37f6ab3e0036"
-  integrity sha512-bKL8pB0L8GSATTiYUrvpWgbddRaXy5GbZNMyQUrhOMpnPXCBROalJCwl3zGAbh6fMLejl/kuUVqYjJsgDoL/AA==
+lambda-tdd@2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.9.2.tgz#c9d1865596cc1f88951f4ce3c1dff3dcfca87a85"
+  integrity sha512-L+0Yqyri1Pl9SK9+GqyLHE1Glw1XZs7tMll3d82DwkVTxz4etoNN6kh1ZcgRp3ucCkjPgLRx4k+d1ypTJ7ar3Q==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.4"
@@ -3948,7 +3948,7 @@ lambda-tdd@2.9.1:
     lambda-wrapper "0.3.0"
     lodash.defaults "4.2.0"
     lodash.get "4.4.2"
-    node-tdd "1.10.0"
+    node-tdd "1.12.1"
     smart-fs "1.9.5"
 
 lambda-wrapper@0.3.0:
@@ -4821,6 +4821,18 @@ nock@10.0.6:
     qs "^6.5.1"
     semver "^5.5.0"
 
+nock@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/nock/-/nock-11.0.0.tgz#ad13e1bcea890d8942cfacc5d0aff5e0ef9a6331"
+  integrity sha512-lrlqTP3Ii8pT/j86F6tR2kRPUPA/aMWQ8TADzvLLDsZtqXlPdasKbg4G86bsnXUfM5yMlDIs9gIe/i7ZtPmCoA==
+  dependencies:
+    chai "^4.1.2"
+    debug "^4.1.0"
+    json-stringify-safe "^5.0.1"
+    lodash "^4.17.13"
+    mkdirp "^0.5.0"
+    propagate "^2.0.0"
+
 node-emoji@^1.0.3, node-emoji@^1.4.1:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.10.0.tgz#8886abd25d9c7bb61802a658523d1f8d2a89b2da"
@@ -4888,16 +4900,16 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-tdd@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-1.10.0.tgz#48adcf99630fa483d1cd0316882a6ac9ec7acf42"
-  integrity sha512-nK0BfTW/Aq8oeAoL78vqEc3vjXq79l7ULe+2iGto6M26PTKjAFL4ivr/kWm/5IY5v5SkN3UL8uSnPCPbPrNT4g==
+node-tdd@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-1.12.1.tgz#3210835711c789dc8f75c4a35d474ab99fb3ffbe"
+  integrity sha512-xc82i5Cv2N7RFiYJYt9z5DeF4oT0SAXOWPeSeanScljWdi/JM0s4+HN8AwPKtAiSQdcGvpx64JeyYfh5k8+B+g==
   dependencies:
     "@hapi/joi" "15.1.1"
     callsites "3.1.0"
     joi-strict "1.0.5"
     lodash.get "4.4.2"
-    nock "10.0.6"
+    nock "11.0.0"
     smart-fs "1.9.5"
     timekeeper "2.2.0"
     tmp "0.1.0"
@@ -5907,6 +5919,11 @@ propagate@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/propagate/-/propagate-1.0.0.tgz#00c2daeedda20e87e3782b344adba1cddd6ad709"
   integrity sha1-AMLa7t2iDofjeCs0Stuhzd1q1wk=
+
+propagate@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/propagate/-/propagate-2.0.1.tgz#40cdedab18085c792334e64f0ac17256d38f9a45"
+  integrity sha512-vGrhOavPSTz4QVNuBNdcNXePNdNMaO1xj9yBeH1ScQPjk/rhg9sSlCXPhMkFuaNNW/syTvYqsnbIJxMBfRbbag==
 
 proto-list@~1.2.1:
   version "1.2.4"
