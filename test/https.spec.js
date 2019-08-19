@@ -9,7 +9,7 @@ const lambdaTester = require('lambda-tdd')({
   envVarYml: path.join(__dirname, 'env_https.yml'),
   testFolder: path.join(__dirname, 'https')
 });
-const api = require('./../src/https').internalApi;
+const api = require('../src/https').internalApi;
 
 lambdaTester.execute((process.argv.slice(2).find((e) => e.startsWith('--filter=')) || '').substring(9));
 
