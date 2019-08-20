@@ -3681,11 +3681,6 @@ joi-strict@1.0.6:
   resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.6.tgz#a06122a3a3ebdaf519c91b3001ce2585b05285ad"
   integrity sha512-wSbON6MTjzqo6NaY2yBVZ3T+zMdWPm+VfXAd+6SBE9S/VgSSukx7Wu6VAxI67klr0mw0BJ1Gb94piMLShl9HHA==
 
-joi-strict@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.7.tgz#b68bd5e4b7cee9a384944ddde8057e772861c49e"
-  integrity sha512-9uSO+niRlV6QW9RAqdGpt/OSi65FA4XEE/RaCZFJKBmjwCrKMa8fJ/4nnZH8OTLxsoUMJIvX3CHfVZKNTY0Mcg==
-
 joi-strict@1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.0.8.tgz#c2a0c56274780a8ca8beff22253a0bc8634dd6e9"
@@ -3877,10 +3872,10 @@ lambda-serverless-api@5.3.2:
     route-recognizer "0.3.4"
     swagger-parser "8.0.0"
 
-lambda-tdd@2.9.4:
-  version "2.9.4"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.9.4.tgz#98ae2fd3201e1d2bf45896864b627639909cc006"
-  integrity sha512-wGZ6pTV9aTDtr66+F/sZX9EV/haK0I42UsFH6+1NNneZ+GTn2SOF2v19T9n3GjZPDsKaxW6mZm6+P/7IbXgYhg==
+lambda-tdd@2.9.5:
+  version "2.9.5"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.9.5.tgz#83f87a18f7fb822aca593aadf3b77115cadd3c85"
+  integrity sha512-d/ST7aYHZXK2BxeBqrbAjwbMuVTxL6F1WryFmP1BtdowXy0jYvAdbf3Kobb8vKGv0sWZWpFQKw++0DlU/Y3z4Q==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.4"
@@ -3888,7 +3883,7 @@ lambda-tdd@2.9.4:
     lambda-wrapper "0.3.0"
     lodash.defaults "4.2.0"
     lodash.get "4.4.2"
-    node-tdd "2.0.0"
+    node-tdd "2.0.1"
     smart-fs "1.9.7"
 
 lambda-wrapper@0.3.0:
@@ -4761,10 +4756,10 @@ nock@10.0.6:
     qs "^6.5.1"
     semver "^5.5.0"
 
-nock@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/nock/-/nock-11.0.0.tgz#ad13e1bcea890d8942cfacc5d0aff5e0ef9a6331"
-  integrity sha512-lrlqTP3Ii8pT/j86F6tR2kRPUPA/aMWQ8TADzvLLDsZtqXlPdasKbg4G86bsnXUfM5yMlDIs9gIe/i7ZtPmCoA==
+nock@11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/nock/-/nock-11.3.0.tgz#a9ddc8271c7f74c4a815bc11eee0ef21e6d3be08"
+  integrity sha512-j5KXO096ov2XLvISUJQwl3UYJZy5dvArbK8Gt7+r0+gjtTU2uYiWJwhU4yIMXbtlHoX0od2LQgShAKXUObVbrA==
   dependencies:
     chai "^4.1.2"
     debug "^4.1.0"
@@ -4840,16 +4835,16 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-tdd@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.0.0.tgz#9660a69caaed2cbc05655dc460ec6f988319d64e"
-  integrity sha512-poZa1fEdU2FuLjsd9LU84tZbEIxVoRDbDEbt1yoYlPqMtgnM1i3Jr2kE9O9w33/MO2JRh/mnK5WKunCxDlSPXA==
+node-tdd@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.0.1.tgz#375d7b42aed145bacf37ba6ceee879b8c2ff38e7"
+  integrity sha512-7pvIRdWxLldFf9CrYTGmlDBrjd994PhbFzDXDUok1psEhHqhOjFadYHm9gy5FbkO37VB8I/Mvgb5N83WM5Gn2w==
   dependencies:
     "@hapi/joi" "15.1.1"
     callsites "3.1.0"
-    joi-strict "1.0.7"
+    joi-strict "1.0.8"
     lodash.get "4.4.2"
-    nock "11.0.0"
+    nock "11.3.0"
     smart-fs "1.9.7"
     timekeeper "2.2.0"
     tmp "0.1.0"
