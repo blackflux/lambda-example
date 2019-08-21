@@ -3824,10 +3824,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-lambda-rate-limiter@2.4.22:
-  version "2.4.22"
-  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.22.tgz#203aba36b3a4a01235626a99af6b1a0063d3c8b4"
-  integrity sha512-2BMN9OB3YPzMkfFYCfZYI6JZIeR9+NvS8NnZQ4xuYRTvEsz1FifAzDQlFczgec9mea1wCvDdi/qoRBe30xrVCw==
+lambda-rate-limiter@2.4.23:
+  version "2.4.23"
+  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.23.tgz#95b37c12895910b1a9d3b6f66506c56a321c64a9"
+  integrity sha512-iJdcy/g4sYsNz0zMeq/Tib2DnWnoqoJGon439xevDAYRAWBbxnV2VLER2aRy6mTPojfL3a5yfLy31kxY6MfqHg==
   dependencies:
     lru-cache "5.1.1"
 
@@ -3851,14 +3851,14 @@ lambda-rollbar@1.10.23:
     lodash.omit "4.5.0"
     rollbar "2.12.1"
 
-lambda-serverless-api@5.3.4:
-  version "5.3.4"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.3.4.tgz#9c00b5d4042a90c76ccbcf96064e195bca98eca8"
-  integrity sha512-ZcHPz9N4vSrPYMx9XzPW5cOyqPTlA8cbJwN/dUfbHQNM74el3Y6kowlB52nGMDynu/xANeAmq9Otp0e6wage/A==
+lambda-serverless-api@5.3.5:
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.3.5.tgz#bf3e66c54fc2aac7d65eafaa276cbb7bd84b704d"
+  integrity sha512-k6+fWoi88/LndlIdTzn0t0jWxV1XIwWSbLxy3S4YAvrV1Mjq2qyVeRtrKXc0juQzWxJwUYNl0VR8lBlvNWef2Q==
   dependencies:
     "@hapi/joi" "15.1.1"
     joi-strict "1.0.8"
-    lambda-rate-limiter "2.4.22"
+    lambda-rate-limiter "2.4.23"
     lambda-rollbar "1.10.22"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
