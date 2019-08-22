@@ -3831,16 +3831,6 @@ lambda-rate-limiter@2.4.23:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-rollbar@1.10.22:
-  version "1.10.22"
-  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.22.tgz#5b7212e9021d32eb4f118b74c1cb2248dcfb5708"
-  integrity sha512-uCvcMO5xpAo+UJDZFNyxokPI5ZmYPFsf9jtmJXWWs3slZA5cXOXFZA+YQpHm0yQr2oDK2tdO/ZlQzBabStEzig==
-  dependencies:
-    fast-safe-stringify "2.0.6"
-    lodash.get "4.4.2"
-    lodash.omit "4.5.0"
-    rollbar "2.12.0"
-
 lambda-rollbar@1.10.23:
   version "1.10.23"
   resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-1.10.23.tgz#66a421e1c9420094de3d82a5249c9f10cd6dee3d"
@@ -3851,15 +3841,15 @@ lambda-rollbar@1.10.23:
     lodash.omit "4.5.0"
     rollbar "2.12.1"
 
-lambda-serverless-api@5.3.5:
-  version "5.3.5"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.3.5.tgz#bf3e66c54fc2aac7d65eafaa276cbb7bd84b704d"
-  integrity sha512-k6+fWoi88/LndlIdTzn0t0jWxV1XIwWSbLxy3S4YAvrV1Mjq2qyVeRtrKXc0juQzWxJwUYNl0VR8lBlvNWef2Q==
+lambda-serverless-api@5.3.6:
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-5.3.6.tgz#ab24bfe43f74b8eaf840d70f83aef26b48969313"
+  integrity sha512-siHu6EzpAwsQs6NREIF0AOoBdKLUWZ3Pfbe0Qi0QuFEu7OVtQgU08MLvOXirLmrD1fNA7Cct9DXApCs6VRbxpw==
   dependencies:
     "@hapi/joi" "15.1.1"
     joi-strict "1.0.8"
     lambda-rate-limiter "2.4.23"
-    lambda-rollbar "1.10.22"
+    lambda-rollbar "1.10.23"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     moment "2.24.0"
@@ -6450,24 +6440,6 @@ robo-config@3.2.6:
     object-scan "10.0.10"
     object-treeify "1.1.18"
     smart-fs "1.9.9"
-
-rollbar@2.12.0:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.12.0.tgz#542fc92c7f70ae95a8fdfa5ebeaf175b5b488900"
-  integrity sha512-h2sGyC91VQpRdp4sPP1uEwXg92g/gQ9SLMarJr9w2w73YAFrJXCPlgFmJDMZb3mGuZlOW33lmf9fa1wevqEy7w==
-  dependencies:
-    async "~1.2.1"
-    buffer-from ">=1.1"
-    console-polyfill "0.3.0"
-    debug "2.6.9"
-    error-stack-parser "1.3.3"
-    json-stringify-safe "~5.0.0"
-    lru-cache "~2.2.1"
-    request-ip "~2.0.1"
-    source-map ">=0.5.0"
-    uuid "3.0.x"
-  optionalDependencies:
-    decache "^3.0.5"
 
 rollbar@2.12.1:
   version "2.12.1"
