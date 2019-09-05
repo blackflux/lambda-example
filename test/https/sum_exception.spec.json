@@ -11,6 +11,11 @@
     "queryStringParameters": {
       "input": "[1, 2, 3, 4, ]"
     },
-    "httpMethod": "GET"
+    "httpMethod": "GET",
+    "requestContext": {
+      "identity": {
+        "sourceIp": "123.456.789.123"
+      }
+    }
   }
 }
