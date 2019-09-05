@@ -46,7 +46,7 @@
     "eslint-plugin-markdown": "1.0.0",
     "eslint-plugin-mocha": "6.1.0",
     "js-gardener": "2.0.82",
-    "lambda-tdd": "2.9.18",
+    "lambda-tdd": "2.10.0",
     "mocha": "6.2.0",
     "nock": "11.3.3",
     "nyc": "14.1.1",
