@@ -1,10 +1,12 @@
 const request = require('request');
 const moment = require('moment-timezone');
 const rollbar = require('lambda-rollbar')({
-  verbose: process.env.ROLLBAR_VERBOSE === '1',
-  enabled: process.env.ROLLBAR_ENABLED === '1',
-  accessToken: process.env.ROLLBAR_ACCESS_TOKEN,
-  environment: process.env.STAGE
+  rollbar: {
+    verbose: process.env.ROLLBAR_VERBOSE === '1',
+    enabled: process.env.ROLLBAR_ENABLED === '1',
+    accessToken: process.env.ROLLBAR_ACCESS_TOKEN,
+    environment: process.env.STAGE
+  }
 });
 
 // Compute a / b. The function will throw an error if parameter is missing. Returns null if b is 0.
