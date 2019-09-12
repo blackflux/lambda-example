@@ -48,7 +48,7 @@
     "js-gardener": "2.0.83",
     "lambda-tdd": "2.10.1",
     "mocha": "6.2.0",
-    "nock": "11.3.3",
+    "nock": "11.3.4",
     "nyc": "14.1.1",
     "semantic-release": "15.13.24",
     "smart-fs": "1.9.11"
