@@ -2380,11 +2380,6 @@ fast-levenshtein@~2.0.4:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fast-safe-stringify@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.6.tgz#04b26106cc56681f51a044cfc0d76cf0008ac2c2"
-  integrity sha512-q8BZ89jjc+mz08rSxROs8VsrBBcn1SIw1kq9NjolL509tkABRk9io01RAjSaEv1Xb2uFLt8VtRiZbGp5H8iDtg==
-
 fast-safe-stringify@2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
@@ -3843,16 +3838,6 @@ lambda-rate-limiter@2.4.24:
   integrity sha512-hQJzTbWHgdphEMLloldnzRF0sEXDH9vTaXns9b2znhY4QKRQzQRnInPakWqmafch7S0ibiX8GjM7NnwRaCVH5g==
   dependencies:
     lru-cache "5.1.1"
-
-lambda-rollbar@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/lambda-rollbar/-/lambda-rollbar-2.0.1.tgz#2aa6337c4fb5dd7dc015040b8e76c285edd084d0"
-  integrity sha512-OLmzktSnRCglW62/ORGGrEAIekIEiHLD6+NiMZNiIaXlX1rc2zkLHR50nWOcyOtLAzWhQcoTUdHf1z1Kjo+J7A==
-  dependencies:
-    fast-safe-stringify "2.0.6"
-    joi-strict "1.0.9"
-    lodash.get "4.4.2"
-    rollbar "2.12.3"
 
 lambda-rollbar@2.0.3:
   version "2.0.3"
@@ -6470,24 +6455,6 @@ robo-config@3.3.5:
     object-scan "10.0.11"
     object-treeify "1.1.19"
     smart-fs "1.9.11"
-
-rollbar@2.12.3:
-  version "2.12.3"
-  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.12.3.tgz#ae0e4c5ba58528ea4483a9b6590045c324d22d25"
-  integrity sha512-r+d3YiRr8U5ucpI19YzO081UIN7vXRTRsRMtSnLwgfoOUmCMHJPklYMbV0bhfGYyGpq7LAej7N89O6aI3zMGtw==
-  dependencies:
-    async "~1.2.1"
-    buffer-from ">=1.1"
-    console-polyfill "0.3.0"
-    debug "2.6.9"
-    error-stack-parser "1.3.3"
-    json-stringify-safe "~5.0.0"
-    lru-cache "~2.2.1"
-    request-ip "~2.0.1"
-    source-map ">=0.5.0"
-    uuid "3.0.x"
-  optionalDependencies:
-    decache "^3.0.5"
 
 rollbar@2.13.0:
   version "2.13.0"
