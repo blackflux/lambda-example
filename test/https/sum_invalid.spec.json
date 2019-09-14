@@ -5,7 +5,9 @@
     "to.deep.equal": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Please provide input query parameter list of numbers!\\\"}\"}"
   },
   "logs": {
-    "to.deep.equal": []
+    "to.deep.equal": [
+      "WARNING: {\"event\":{\"queryStringParameters\":{\"input\":\"{}\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}}},\"result\":{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Please provide input query parameter list of numbers!\\\"}\"}}"
+    ]
   },
   "event": {
     "queryStringParameters": {
