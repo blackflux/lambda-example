@@ -174,10 +174,10 @@
   dependencies:
     smart-fs "1.9.11"
 
-"@blackflux/robo-config-plugin@2.6.3":
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/@blackflux/robo-config-plugin/-/robo-config-plugin-2.6.3.tgz#11dcbcfc4309a7cd7d9c3ab85f646eee9d813fd7"
-  integrity sha512-DTja80z1islgbhooDjbvfeA/YhPOZMQwpTz4G1pWR7j0K5ItmQmI5RKqs6h/V5uI/d88kY54ufX9riRRXJSMdw==
+"@blackflux/robo-config-plugin@2.6.5":
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/@blackflux/robo-config-plugin/-/robo-config-plugin-2.6.5.tgz#9603de38711b4663af2318769d6a7b7a75a91182"
+  integrity sha512-gxO7LywiimPn8JrgdoFZAdx0sinwmkLJDY4uV+X8HBlXaylqsPpOVQ9UkWXCNQBD32Y+DADiVxfi43CIIOKUOw==
 
 "@hapi/address@2.x.x":
   version "2.1.1"
@@ -6703,6 +6703,19 @@ smart-fs@1.9.11:
   version "1.9.11"
   resolved "https://registry.yarnpkg.com/smart-fs/-/smart-fs-1.9.11.tgz#5e95b397078d5db1f4167338bf360b54f2e99dca"
   integrity sha512-BSCaUQ+HUPT1FM2t5Em8OKfGruOXeyWX1WOXJCVU4HNH01+iLc6EJHPACpHvlASKJ0T8bI5q6DAxzriWWRplzw==
+  dependencies:
+    fs-extra "8.1.0"
+    json-stringify-pretty-compact "2.0.0"
+    lodash.clonedeep "4.5.0"
+    lodash.isequal "4.5.0"
+    object-align "1.0.7"
+    xml-js "1.6.11"
+    yaml-boost "1.9.15"
+
+smart-fs@1.9.12:
+  version "1.9.12"
+  resolved "https://registry.yarnpkg.com/smart-fs/-/smart-fs-1.9.12.tgz#4897d26cce76f19621dd2bb73350b30b1f82faad"
+  integrity sha512-wkR7Pva0AVAGhjFfIIloY58qebcJ/3Z8GQrrNSYxZ+RD/NPSsZqqJ+NxiER2I8aqu6yk6SVtcjh6g6sl5bBH4g==
   dependencies:
     fs-extra "8.1.0"
     json-stringify-pretty-compact "2.0.0"
