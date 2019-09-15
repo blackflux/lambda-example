@@ -3826,15 +3826,15 @@ lambda-async@1.0.1:
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.1.tgz#b9e1d0c835054b8c1fe6a9ea73ba56a78e7aa433"
   integrity sha512-IDpfhrvglH03qo1DrMIio/MkB7hVVyXZaAAwO58OjYGo1I694SDDQntIzfMUEQVuHq+8xXk9692FgH+gQEoF/A==
 
-lambda-monitor-logger@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.0.tgz#e1260ed3886c5cc928ccb958f4f3b57c0272e04b"
-  integrity sha512-VNNi+Kmg9PzrzZmb5pmGjvqeGxUHsSCYyHfEvWXYCEDrXvlpNKwGocc2KC5LFtKUiqWzC3LTaqJZrjGpsR4mZg==
+lambda-monitor-logger@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.1.tgz#ceb339c9d13a59082a5cf37cc8ab42f8379b20fd"
+  integrity sha512-1NUm+EcbrkYqfFPZfjKRUL3SAsAw2KrcoaV9KewKFi/eVRCkx0ZAHTO+PbrBuHsw+TxEs1FsiZMaLnIdXWO/XA==
 
-lambda-rate-limiter@2.4.25:
-  version "2.4.25"
-  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.25.tgz#a18dd272994975de6bf258f701a67f0a4fc2c9fb"
-  integrity sha512-KFF5OeRvYGCJsNwE3hwJvq3WDJ6z4IDMmkInde/y2zXFzZ3luEsuM0f/71bINLzuZjWVy0IkIYUN0ChHPb/J+Q==
+lambda-rate-limiter@2.4.26:
+  version "2.4.26"
+  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.26.tgz#75993960c293937fdeac72aa2969df2ee2062cdc"
+  integrity sha512-KzR42QsfuH2QMgSPT8Rk0Rf2wW9jOYlG5mSITN5Mtk30C99EbaqGXjrBCH4XUyRli6w/GfM4GcSri1N5CsoO1A==
   dependencies:
     lru-cache "5.1.1"
 
@@ -3848,15 +3848,15 @@ lambda-rollbar@2.0.7:
     lodash.get "4.4.2"
     rollbar "2.13.0"
 
-lambda-serverless-api@6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.0.2.tgz#80d13e38474f09725d2898283ae38fccdfaca929"
-  integrity sha512-R4fbGrlV1LkTOpfsD6PizgtfzZqtavqb2iDdugmVK8lrVbOBP5WkKMuu1ITgQVNZWk4e7ydLm7ZEUSITY+HGfw==
+lambda-serverless-api@6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.0.3.tgz#e80a5b0d41d5640dbc25b044115cfd6f6d5e3fff"
+  integrity sha512-5q+eWJjRm/CuoJUbpHdK97vO/CFORTGy5PBOdI0QAiCCujfouAbuzFd0yJDk74+/57Jz2aw8/JwIDnwRckp9fA==
   dependencies:
-    joi-strict "1.1.1"
+    joi-strict "1.1.2"
     lambda-async "1.0.1"
-    lambda-monitor-logger "2.2.0"
-    lambda-rate-limiter "2.4.25"
+    lambda-monitor-logger "2.2.1"
+    lambda-rate-limiter "2.4.26"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
