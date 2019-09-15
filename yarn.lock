@@ -3841,12 +3841,12 @@ lambda-rollbar@2.0.7:
     lodash.get "4.4.2"
     rollbar "2.13.0"
 
-lambda-serverless-api@6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.0.3.tgz#e80a5b0d41d5640dbc25b044115cfd6f6d5e3fff"
-  integrity sha512-5q+eWJjRm/CuoJUbpHdK97vO/CFORTGy5PBOdI0QAiCCujfouAbuzFd0yJDk74+/57Jz2aw8/JwIDnwRckp9fA==
+lambda-serverless-api@6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.0.4.tgz#010611117cee213d259b83e230e669e88d80eb0e"
+  integrity sha512-nbsLye3hr5XdzQRJt8theh92RW1CRFtK7HQDPHPdB20cmnV5T+KJVylednEkPlbN3U2mvqOdI4BSyMLFKxnS+Q==
   dependencies:
-    joi-strict "1.1.2"
+    joi-strict "1.1.3"
     lambda-async "1.0.1"
     lambda-monitor-logger "2.2.1"
     lambda-rate-limiter "2.4.26"
@@ -3855,7 +3855,7 @@ lambda-serverless-api@6.0.3:
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
-    object-fields "1.3.20"
+    object-fields "1.3.21"
     object-scan "10.0.13"
     route-recognizer "0.3.4"
     swagger-parser "8.0.1"
@@ -5210,12 +5210,12 @@ object-deep-contain@1.0.19:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.19.tgz#faec02a5552f70c58f972344cfafe9f778cdf274"
   integrity sha512-SYI0nlnmN0BRurAyXcbIzaO8aih9IYcNbBj1KeawlL5wfB5/jp+agmuLaUXpXHYZQ9zbRficvBSuR7XKcaNe6A==
 
-object-fields@1.3.20:
-  version "1.3.20"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.20.tgz#e2a2a2bd9e6dae3d8ea616bba821df7b8504e4e2"
-  integrity sha512-/HWd/Es2NoQakTEqXp+CSXptJJ3GzmxJZFTwvZMjpmCj4hI4oA5lPhIR6+P2XzqqU99PcPYICYUlUKn46C5oyQ==
+object-fields@1.3.21:
+  version "1.3.21"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.21.tgz#23a7ab9d5b15892c1b91e3bab882a923a21ddb33"
+  integrity sha512-8DVY3DBz+aHuVW754k47aBcNJuVTY1WdQAH+0heZIc/feiVRfDhor4/BAgLPU3XNa0JGUhmbpVxofBMvaqXF0Q==
   dependencies:
-    object-scan "10.0.11"
+    object-scan "10.0.13"
 
 object-inspect@^1.6.0:
   version "1.6.0"
@@ -5226,11 +5226,6 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
-
-object-scan@10.0.11:
-  version "10.0.11"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.11.tgz#e559093079658bf8a2de7bcae17c15746aeb4c20"
-  integrity sha512-mLCcwD6uVdKLOp/wKKNb06g5YW7ayXrMr1iagl9QOdP3da6CBxSSJW94gbPozWDg+dTuVX2aJ6z5Aqx0brwDUw==
 
 object-scan@10.0.13:
   version "10.0.13"
