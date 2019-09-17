@@ -1,10 +1,11 @@
 {
   "handler": "logger",
-  "allowedUnmatchedRecordings": ["POST https://api.rollbar.com:443/api/1/item/"],
   "success": true,
   "timeout": 30000,
   "logs": {
-    "to.deep.contain": "Some Log Message"
+    "to.deep.equal()": [
+      "ERROR: Some Log Message"
+    ]
   },
   "event": {}
 }
