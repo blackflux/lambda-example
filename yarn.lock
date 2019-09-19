@@ -205,6 +205,17 @@
     "@hapi/pinpoint" "^1.0.2"
     "@hapi/topo" "^3.1.3"
 
+"@hapi/joi@16.1.2":
+  version "16.1.2"
+  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-16.1.2.tgz#c566d9e0d81d6847f7622f7d5e23adadaa2d7332"
+  integrity sha512-wkMIEMQQPNmat9P7zws7wO8Gon9W3NgG5Pac1m0LK8bQ1bbszofxzL0CJogAgzitk5rZZw5/txR+wOK/ioLmGw==
+  dependencies:
+    "@hapi/address" "^2.1.1"
+    "@hapi/formula" "^1.2.0"
+    "@hapi/hoek" "^8.2.4"
+    "@hapi/pinpoint" "^1.0.2"
+    "@hapi/topo" "^3.1.3"
+
 "@hapi/pinpoint@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@hapi/pinpoint/-/pinpoint-1.0.2.tgz#025b7a36dbbf4d35bf1acd071c26b20ef41e0d13"
@@ -3625,6 +3636,13 @@ joi-strict@1.1.4:
   dependencies:
     "@hapi/joi" "16.1.1"
 
+joi-strict@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.1.5.tgz#54ea55558ebcd70f52ac77792ee9a8f69dc00139"
+  integrity sha512-BFaOtnX3zcfs0wCHl6JAUp97lfE44IY3+c43eyJjAr4uOKEuipMGqaHLU/4NliAS9CJPQAYnxAkgjH7ZQPKCLQ==
+  dependencies:
+    "@hapi/joi" "16.1.2"
+
 js-gardener@2.0.97:
   version "2.0.97"
   resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.97.tgz#6725d63b1d6a81879230943132d1cc6820d26269"
@@ -3783,12 +3801,12 @@ lambda-rate-limiter@2.4.26:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.2.3:
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.2.3.tgz#e25ea76ec6e9818f0153f8c41f8fa0a6f6c688e4"
-  integrity sha512-4HJtRsjRj59sjouHAXEnb7L+HoWjVxyalTQlr7DhGksyJ1jr+z9tkA6vjHUwju9d3rvSX8+BZZJ+63XZeTJ1Vg==
+lambda-serverless-api@6.2.4:
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.2.4.tgz#b5ddbeccda2304c5a914909cc2a8ceee84f11fdf"
+  integrity sha512-MwjXnxfnQlfjxDlgVOsPFARhUig8npLmLGZwjGzg+A5CeYBgGmIXMzyZMEIkizgQoPpm9ttYZjd1ABw+t+iIpQ==
   dependencies:
-    joi-strict "1.1.4"
+    joi-strict "1.1.5"
     lambda-async "1.0.2"
     lambda-monitor-logger "2.2.1"
     lambda-rate-limiter "2.4.26"
