@@ -9,7 +9,7 @@
   },
   "logs": {
     "to.deep.equal": [
-      "WARNING: 429 GET\n{\"event\":{\"queryStringParameters\":{\"input\":\"[1, 2, 3, 4, 5]\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"headers\":{}},\"response\":{\"statusCode\":429,\"body\":\"{\\\"message\\\":\\\"Rate limit exceeded.\\\"}\"}}"
+      "WARNING: 429 GET\n{\"event\":{\"queryStringParameters\":{\"input\":\"[1, 2, 3, 4, 5]\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"headers\":{}},\"response\":{\"statusCode\":429,\"body\":{\"message\":\"Rate limit exceeded.\"}}}"
     ]
   },
   "event": {
