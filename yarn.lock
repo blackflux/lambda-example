@@ -3765,11 +3765,6 @@ lambda-async@1.0.2:
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.2.tgz#ae558377b659977b6c8aa3f07a1126371f208228"
   integrity sha512-kzkwDRknDlFrKmMGP5SMuxuY0YLxq+Ajbu5z4UFuecumLA7ioxM7R8SwYCs2Av6Fa/Jrp3xt6wuoAhci42Py4g==
 
-lambda-monitor-logger@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.1.tgz#ceb339c9d13a59082a5cf37cc8ab42f8379b20fd"
-  integrity sha512-1NUm+EcbrkYqfFPZfjKRUL3SAsAw2KrcoaV9KewKFi/eVRCkx0ZAHTO+PbrBuHsw+TxEs1FsiZMaLnIdXWO/XA==
-
 lambda-monitor-logger@2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.2.tgz#37c4858a63336a31b6a84c8bc8c27966569320ca"
@@ -3782,14 +3777,14 @@ lambda-rate-limiter@2.4.26:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.3.2:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.3.2.tgz#fc8a46d1125348643a1af8684ea68d71143beb69"
-  integrity sha512-mOt0sgGUj7021FNDmNznyJ/oiHRBLiS3ULzjkB/pkatHW2vsyWPHpwAWnzmopJgmc1s+Gu4JOs+EhRaZyDDkog==
+lambda-serverless-api@6.3.3:
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.3.3.tgz#937d797fbfdf7c324eeb9991bfea4b4a0f6041a8"
+  integrity sha512-opzvxXh90AejCoGrEcijlsFNBsKFqB1/cv2vXYTyGgVrADoswAj/S80fZTA5H5f+24wCjGQOUb6RascmbKFuXQ==
   dependencies:
     joi-strict "1.1.6"
     lambda-async "1.0.2"
-    lambda-monitor-logger "2.2.1"
+    lambda-monitor-logger "2.2.2"
     lambda-rate-limiter "2.4.26"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
