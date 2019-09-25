@@ -173,10 +173,10 @@
   dependencies:
     smart-fs "1.9.14"
 
-"@blackflux/robo-config-plugin@2.6.11":
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/@blackflux/robo-config-plugin/-/robo-config-plugin-2.6.11.tgz#47ccf58a3bfa9d135c135edcfa68a6ceb17450b0"
-  integrity sha512-Dx/D72azrFPqHm27Po2mcfk0H395NeXPha9u0Hxqy42CTbGXLDUSrW7YfeRYdOpbGDA6ExkapXy9O0cbYca+fA==
+"@blackflux/robo-config-plugin@2.6.13":
+  version "2.6.13"
+  resolved "https://registry.yarnpkg.com/@blackflux/robo-config-plugin/-/robo-config-plugin-2.6.13.tgz#9b4a41ab5ff7a9169b9d798cf547743e9f07294f"
+  integrity sha512-PeYRknKQASnHf78cxsjpL9QyxHQJlKaeyP45/OKJ3kw/o28qMXTQr8MRe6EiiCOH+dW5tSk56ahgN5cMJirceA==
 
 "@hapi/address@^2.1.2":
   version "2.1.2"
@@ -3777,10 +3777,10 @@ lambda-rate-limiter@2.4.26:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.3.3:
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.3.3.tgz#937d797fbfdf7c324eeb9991bfea4b4a0f6041a8"
-  integrity sha512-opzvxXh90AejCoGrEcijlsFNBsKFqB1/cv2vXYTyGgVrADoswAj/S80fZTA5H5f+24wCjGQOUb6RascmbKFuXQ==
+lambda-serverless-api@6.3.5:
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.3.5.tgz#5af2abf0118ada231df68543cb154aba95d9362d"
+  integrity sha512-/0fs1bNt5WsY58RaVvmbVSLGDXvQbrRiM/m8YZxjJAVuJoUHVHPYsPCUbV2zAh/5Nf/UnHQ5xeS00rlIdV7odg==
   dependencies:
     joi-strict "1.1.6"
     lambda-async "1.0.2"
