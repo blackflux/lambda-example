@@ -166,12 +166,12 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@blackflux/eslint-plugin-rules@1.3.12":
-  version "1.3.12"
-  resolved "https://registry.yarnpkg.com/@blackflux/eslint-plugin-rules/-/eslint-plugin-rules-1.3.12.tgz#f9e52d3fbf6b76dfcea7aaa037520ed90e903e3f"
-  integrity sha512-VOK7igr+Gr8QSD4zb9LC8esin/z3dlTOYInXN3PDc0gHJDkX4oGzMhvQUcfE8GLs4HeNeJbXgQpDrf9i3pFbSA==
+"@blackflux/eslint-plugin-rules@1.3.13":
+  version "1.3.13"
+  resolved "https://registry.yarnpkg.com/@blackflux/eslint-plugin-rules/-/eslint-plugin-rules-1.3.13.tgz#215206b0b949de7f76ee39bb85326f5957d15694"
+  integrity sha512-eP362fkZdogjxt0MoqaR1EITKKJLKHzJFXH4rTn3bw3LsiV0tBuM7B3cpAI77zpWJln+0F5X2ggPT9kwSMFgwQ==
   dependencies:
-    smart-fs "1.9.14"
+    smart-fs "1.10.1"
 
 "@blackflux/robo-config-plugin@2.6.15":
   version "2.6.15"
@@ -3791,10 +3791,10 @@ lambda-serverless-api@6.5.1:
     route-recognizer "0.3.4"
     swagger-parser "8.0.1"
 
-lambda-tdd@2.10.14:
-  version "2.10.14"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.10.14.tgz#1cdd66a36a2f81546993b42a8b02eca4886479c7"
-  integrity sha512-Q88NjZd8D6VL+f4n0YpB/H4ZGBgHTfBnLRPPJyoRnFqgtz+rcvZbFr4duHqmztsr9Cra2iRZ0b+Wa6VsoXMO8Q==
+lambda-tdd@2.10.15:
+  version "2.10.15"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.10.15.tgz#83627886d9cd57fd42589cdd4fca43a6cdb8d69c"
+  integrity sha512-mWjzFSp271jR91PP9c71dU3R69OWiiTP/mur2IhpSjhV6qQrkWWefd/QUNQbUAkX9W4+3K5WszBJ7jr3IiQPRA==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.4"
@@ -3803,7 +3803,7 @@ lambda-tdd@2.10.14:
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
     node-tdd "2.5.12"
-    smart-fs "1.9.14"
+    smart-fs "1.10.1"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
