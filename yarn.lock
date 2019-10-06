@@ -3790,12 +3790,12 @@ lambda-rate-limiter@2.4.26:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.5.1:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.5.1.tgz#11c601ea8eb57ffa24dd57f6f3f3b73b60426bb0"
-  integrity sha512-iNcVGHwCbOsDvoEiRSRV3ij5Zc8x+LxzebTpeWzmcatNhlTAWGfjhLASi5VZP7OykgVzOsmNEi9IClPmwW9fOQ==
+lambda-serverless-api@6.5.2:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.5.2.tgz#3e841c4a65e39453ee1dcf061cc6810e0461125a"
+  integrity sha512-aSjeYLZU9mtiBFL0gJsyr1aALqPFNM5MUzxEermt0nT8UqUzEw5Z2jfkcqaRDfY8hCVyPAZynVRZmvH8KYdAYw==
   dependencies:
-    joi-strict "1.1.6"
+    joi-strict "1.1.7"
     lambda-async "1.0.2"
     lambda-monitor-logger "2.2.2"
     lambda-rate-limiter "2.4.26"
@@ -3809,14 +3809,14 @@ lambda-serverless-api@6.5.1:
     route-recognizer "0.3.4"
     swagger-parser "8.0.1"
 
-lambda-tdd@2.10.18:
-  version "2.10.18"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.10.18.tgz#db77130401a2f9d6c87a2a0d7757c12dbc27bb7f"
-  integrity sha512-o9saewcAXllKukkM8juUa0ccGeKIXvJsm1+n6Ws2XPIFz0cEPM0HsehlARYJf++5ZAhisQMR81sbvGutdTn7pg==
+lambda-tdd@2.10.19:
+  version "2.10.19"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.10.19.tgz#7bd78add9308219481f0217d59ecee0e6e86b7a2"
+  integrity sha512-R6CZrHks5t1uQoIQzD1AqORDrSkRprjcN4DEHtv3g4GlPZcTfhDEOhxgiM5lELLwd1zRJdh3ol5wutPmi89R6w==
   dependencies:
     app-root-path "2.2.1"
     glob "7.1.4"
-    joi-strict "1.1.6"
+    joi-strict "1.1.7"
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
