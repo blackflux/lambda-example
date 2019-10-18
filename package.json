@@ -50,7 +50,7 @@
     "mocha": "6.2.2",
     "nock": "11.4.0",
     "nyc": "14.1.1",
-    "semantic-release": "15.13.24",
+    "semantic-release": "15.13.27",
     "smart-fs": "1.11.0"
   },
   "licenses": [
