@@ -3773,10 +3773,10 @@ lambda-rate-limiter@2.4.26:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.5.3:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.5.3.tgz#c503347841ce766da3390695808cf610fb0a5123"
-  integrity sha512-YPY0hv7vqcl2dcL9ewqS34FoA20y37axdCgKTP+Gt2u9B3XojQDN5OTkkTsgpAdpzCPmsKKi27CWgb98/n91UQ==
+lambda-serverless-api@6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.5.4.tgz#d2a89914280d61a9b0b66281c3510e85e5288407"
+  integrity sha512-9K+gNQxUSd6YfFKyva9Zh3do3ZBsAl1+ENH80XEkcaBONkzCjRCpAl0VNwjkeYFfHgKlDtBN8Qwanssb5NKLAw==
   dependencies:
     joi-strict "1.1.7"
     lambda-async "1.0.2"
@@ -3790,7 +3790,7 @@ lambda-serverless-api@6.5.3:
     object-fields "1.3.21"
     object-scan "10.0.13"
     route-recognizer "0.3.4"
-    swagger-parser "8.0.2"
+    swagger-parser "8.0.3"
 
 lambda-tdd@2.10.22:
   version "2.10.22"
@@ -6990,10 +6990,10 @@ swagger-methods@^2.0.1:
   resolved "https://registry.yarnpkg.com/swagger-methods/-/swagger-methods-2.0.1.tgz#629c3eea41d47782f9309df1647cf6faf9a7185a"
   integrity sha512-+Wb4jXbZA724K1VriN1bFwUxoL0+Nr5vA4GT4Yz5rldxa+tG2aDjt5ONWeE6diviBbLTvncfuD3nQrPPFElYpA==
 
-swagger-parser@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/swagger-parser/-/swagger-parser-8.0.2.tgz#64c172b71b0c0cb5279e1f8f3a2b481490b3a10f"
-  integrity sha512-/PpU/XjHdxhfj9A6TM9k8fuZ9jPcIp28rqqQOpFv1Qhxx8/1XQxL/rWuE33s1Z/zIkbYUtAlauBMRScBGq8tLQ==
+swagger-parser@8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/swagger-parser/-/swagger-parser-8.0.3.tgz#2f577527c5307d94050785cfb8939aaefe3575d8"
+  integrity sha512-y2gw+rTjn7Z9J+J1qwbBm0UL93k/VREDCveKBK6iGjf7KXC6QGshbnpEmeHL0ZkCgmIghsXzpNzPSbBH91BAEQ==
   dependencies:
     call-me-maybe "^1.0.1"
     json-schema-ref-parser "^7.1.1"
