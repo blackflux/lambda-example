@@ -3953,19 +3953,19 @@ lambda-serverless-api@6.6.9:
     route-recognizer "0.3.4"
     swagger-parser "8.0.3"
 
-lambda-tdd@2.11.2:
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.2.tgz#64614276f32c7298f1188fccbe38aec2c2350beb"
-  integrity sha512-cFoqbcngednbPyPTzJWTZWF71m7Om/7AU4dK6f5uPlLcAx+BAlF7JbHoHG+m0TdGCObYkvrR7aBiM/0kYIjWtQ==
+lambda-tdd@2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.4.tgz#75289de80e13e1af915e452a5cdff15580930aaa"
+  integrity sha512-0hdCpEqzKBy/C3K41EAb+NQsNw/IBy3E06JCOfYEqrIGTC3cekWN6GTUVLZKNbjMtb8euDrDZfli9SbF8xTmbg==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
-    joi-strict "1.1.9"
+    joi-strict "1.1.10"
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
     node-tdd "2.5.20"
-    smart-fs "1.11.2"
+    smart-fs "1.11.3"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
