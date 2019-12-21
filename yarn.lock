@@ -3946,10 +3946,10 @@ lambda-serverless-api@6.6.9:
     route-recognizer "0.3.4"
     swagger-parser "8.0.3"
 
-lambda-tdd@2.11.5:
-  version "2.11.5"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.5.tgz#dd3e1522aa5d8745792bd1b73f1d3605d8647d18"
-  integrity sha512-tjy6qKlLfSKcRB6g6JxeEqP5ZA9swQ/DhJ9VQEoAWP+CM1Wv3jNACi6UP1TXEhvjDLNyA7/5N8Y0pn7r+Qxu+Q==
+lambda-tdd@2.11.7:
+  version "2.11.7"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.7.tgz#f464b59855f1a2877708644bb7f4748136ae2a88"
+  integrity sha512-ZLAVdSp5dbVmqu+OeIFbwSA8img0kD46fgno1My7C/J4Wzn7SimQY2DXeWk7Hd5tZ6nEzJdP1sGxvUH+X6JITg==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
@@ -3957,8 +3957,8 @@ lambda-tdd@2.11.5:
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.5.22"
-    smart-fs "1.11.3"
+    node-tdd "2.5.24"
+    smart-fs "1.11.4"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
@@ -4916,16 +4916,16 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-tdd@2.5.22:
-  version "2.5.22"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.5.22.tgz#9222fffe991d5a60a942fe7466feed711bfeb93d"
-  integrity sha512-QRb5IXoOpSBtzdzmxhtyDiN+u1szksTG7h5EAZ3g9IEQq/4ONDr+nw+EOOHYrgWci/wEhhsUEpbQGljVvo9r0A==
+node-tdd@2.5.24:
+  version "2.5.24"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.5.24.tgz#69eed6ec1afc5992aadd3db19cf44b476f6bb2b9"
+  integrity sha512-3AKJbyxhXLZtOuzFxRyRBU4nl3OkoJLAOyfCM0iwJGD9NITZbkh9UHwNH7wrz5jQvqGBt54aq60etqfa4/7p8A==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.1.10"
     lodash.get "4.4.2"
     nock "11.7.0"
-    smart-fs "1.11.3"
+    smart-fs "1.11.5"
     timekeeper "2.2.0"
     tmp "0.1.0"
 
@@ -6816,6 +6816,20 @@ smart-fs@1.11.4:
     xml-js "1.6.11"
     yaml-boost "1.9.18"
 
+smart-fs@1.11.5:
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/smart-fs/-/smart-fs-1.11.5.tgz#01c0f7a073c9937266ae51045870c9878eb1b4b6"
+  integrity sha512-lcBoa8tclM4ySLOR3wZ/IjDptw5AQWRzNuBtTl8QPmxCSsBo6jz/AtepopBYKWCjtMBXOZc/F/ksxPJQP89beA==
+  dependencies:
+    fs-extra "8.1.0"
+    js-yaml "3.13.1"
+    json-stringify-pretty-compact "2.0.0"
+    lodash.clonedeep "4.5.0"
+    lodash.isequal "4.5.0"
+    object-align "1.0.10"
+    xml-js "1.6.11"
+    yaml-boost "1.9.19"
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/snapdragon-node/-/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -8001,6 +8015,16 @@ yaml-boost@1.9.18:
   version "1.9.18"
   resolved "https://registry.yarnpkg.com/yaml-boost/-/yaml-boost-1.9.18.tgz#7b7423af4f8641a1048c3dfc7473308b82a7a9f2"
   integrity sha512-/YrAJLcELw85HOPSzgRwV3f7crqz8rL9NqOlCzB+Tzs8SnUPoRTyGvUiVrA34u6Gkb5Yw6NIHd1r9seROLV+kA==
+  dependencies:
+    js-yaml "3.13.1"
+    lodash.get "4.4.2"
+    lodash.mergewith "4.6.2"
+    lodash.set "4.3.2"
+
+yaml-boost@1.9.19:
+  version "1.9.19"
+  resolved "https://registry.yarnpkg.com/yaml-boost/-/yaml-boost-1.9.19.tgz#cf5b303c2237d4fc340c59213ef378764aa12383"
+  integrity sha512-+RNGBTYyqAEIVJlR+FsZuzLPfYmWXRxFvi5wNV7Z+OCCGoSLLP/m8+FIdroRXIzRkzksq/fQPf7efyjXoM+Pjw==
   dependencies:
     js-yaml "3.13.1"
     lodash.get "4.4.2"
