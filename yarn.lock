@@ -3920,29 +3920,29 @@ lambda-monitor-logger@2.2.4:
   resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.4.tgz#9dc189398fa3f0d99612a1f0b15ca0d4d925ce6a"
   integrity sha512-5SihsBZ/q/V37xUTnnwQDn/LgMIMJ1smlo56UaIz6QoO73jHpMWcvUI1DXQOleqReKNmcyT6SivEq+V8nvGlyw==
 
-lambda-rate-limiter@2.4.27:
-  version "2.4.27"
-  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.27.tgz#45186e12d730161fd86bfc83837d30158af04fa4"
-  integrity sha512-RL9YKgXsxyEWYJlN/SnUJ8uPahWTbKxU6/O1zwZBdO7l0IJHBOfWCLJxdGys+Bxdh098UPKN4oSGFWAMPddkIQ==
+lambda-rate-limiter@2.4.28:
+  version "2.4.28"
+  resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.28.tgz#8cf544fc6a2a2c9f952cd997887583f71b97fe7f"
+  integrity sha512-v3/LwWgzsLGC4Jzj5Ki0wchRccT3gH1otk1z6YmE48VO5lYL4EPHWgVxw9iH1zU8Eiq8iHfX4J0lAPeBY5lf/g==
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.6.9:
-  version "6.6.9"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.6.9.tgz#90ea50f7897aef8c50432d5c3ecb07afda31f22a"
-  integrity sha512-KeoP4DjWyYx98Od49WWHHdTlEqlVUFUNsJOnMIPg1YEg02bN3CISy8KTx4mBJHpRvRFxIr+g9lC9izlj60aVmQ==
+lambda-serverless-api@6.6.11:
+  version "6.6.11"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.6.11.tgz#8f8ae0ce29105693564b9f734a8648d8284473f4"
+  integrity sha512-wN+muwCCieCBkI8v5tY7xllRB0Ylkl7j6YZ7juTQpQePMn99kj1x4jZl/x1Q0IADNqLnITspUyTVnzMA/8p7nQ==
   dependencies:
     joi-strict "1.1.10"
     lambda-async "1.0.4"
     lambda-monitor-logger "2.2.3"
-    lambda-rate-limiter "2.4.27"
+    lambda-rate-limiter "2.4.28"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
-    object-fields "1.3.23"
-    object-scan "10.0.14"
+    object-fields "1.3.24"
+    object-scan "10.0.15"
     route-recognizer "0.3.4"
     swagger-parser "8.0.3"
 
@@ -5345,10 +5345,10 @@ object-deep-contain@1.0.21:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.21.tgz#114d76af13838f2754a03c7957e981b3c31e2778"
   integrity sha512-ZB08b47u2FKNDFfpY7yj0rvUfxGxMXNqrB9+zqqsmrmWzYDIM5PsJrSBY6yZKBghsQVF82VggMX2QkfhD0zZ+Q==
 
-object-fields@1.3.23:
-  version "1.3.23"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.23.tgz#370a89faad8306f793d6161c610d89f1338ae0e9"
-  integrity sha512-i6SjTeLplX4nkO/wTXOjRyLMYU7PY+c5E+9jHdfrEqsHHYsZD4WmCBkj8M4mEtPSrNaJG3AVyXnFsHRMbpbeuA==
+object-fields@1.3.24:
+  version "1.3.24"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.24.tgz#d8dc63fb0308b8141a4dc42c49fd3494017e2958"
+  integrity sha512-OabfqZz/SD6XZJEBAsMmCxNxNyBy08nMNPtici+Dk79w98WzHZx0V/APiAek3wnbuXx27jeO9IK/U4nVKHaQyg==
   dependencies:
     object-scan "10.0.14"
 
@@ -5371,6 +5371,11 @@ object-scan@10.0.14:
   version "10.0.14"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.14.tgz#3a3c6bfcd8136c3f67fc5b9dc476f070370c4594"
   integrity sha512-cJgtbUlroRrDk63xGk7I1q01cI4Hn4/J0u0/BSwICPTQgHwz8vpZ/ZlXp/tOMAGwt6tlrBUUrzmel91OAe4VoQ==
+
+object-scan@10.0.15:
+  version "10.0.15"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.15.tgz#c0b4481081317be281d5b2c10e308de0af9cd5f6"
+  integrity sha512-zPu1SctWM6qGf09mwLffRNpgmKZ7kjPGWwNuqYMooXS00Iu3eQiA8833MlNSkp/f6TJhjcBfZCrTO+XZ2yBIWg==
 
 object-treeify@1.1.21:
   version "1.1.21"
