@@ -3792,6 +3792,13 @@ joi-strict@1.1.10:
   dependencies:
     "@hapi/joi" "16.1.8"
 
+joi-strict@1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.1.11.tgz#4a08c14772f10f1ef06ec1a9dbabc1b8aedc5753"
+  integrity sha512-CxN0zLwlKPVjWFFDTvAv8rdmjdsFhAkWNCM1kYMqVwG3zCWG+akyO6bufMA4ovKsm9IYaOklTGi+OKLj3mHg5w==
+  dependencies:
+    "@hapi/joi" "16.1.8"
+
 js-gardener@2.0.123:
   version "2.0.123"
   resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.123.tgz#7504d7f0cde2f4130aab29ff09e65edd5e087f0c"
@@ -3943,10 +3950,10 @@ lambda-async@1.0.5:
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.5.tgz#bebd1c92e98d15bfd6572dea27b1115efe7ec1a3"
   integrity sha512-K1ixfmh4MoMIM/M4RriWp8FA2ccwMmMJs6WDTGmTd5ekTsLzksPrNmpOnXfxb94zInPOPwLvJ5HeciisfHbz9Q==
 
-lambda-monitor-logger@2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.3.tgz#f7d24894ec6b71af9875d313c751454ccf68beda"
-  integrity sha512-dbicLuGzZyiGthP/L/ubuhq2WGz9GegGrI4KPuUWy3AlAH4XIPtKwCD1lhIjDxq9Ce4dk4BQ7IUUlZghyqlCdw==
+lambda-monitor-logger@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.4.tgz#9dc189398fa3f0d99612a1f0b15ca0d4d925ce6a"
+  integrity sha512-5SihsBZ/q/V37xUTnnwQDn/LgMIMJ1smlo56UaIz6QoO73jHpMWcvUI1DXQOleqReKNmcyT6SivEq+V8nvGlyw==
 
 lambda-monitor-logger@2.2.5:
   version "2.2.5"
@@ -3960,38 +3967,38 @@ lambda-rate-limiter@2.4.28:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.6.11:
-  version "6.6.11"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.6.11.tgz#8f8ae0ce29105693564b9f734a8648d8284473f4"
-  integrity sha512-wN+muwCCieCBkI8v5tY7xllRB0Ylkl7j6YZ7juTQpQePMn99kj1x4jZl/x1Q0IADNqLnITspUyTVnzMA/8p7nQ==
+lambda-serverless-api@6.6.14:
+  version "6.6.14"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.6.14.tgz#3754392dd1ab8e24d2b87792b17b3b76d621600d"
+  integrity sha512-9F45Rlo2/jdiYnPYl9NwBMJN64Ga8OA1CsOHSCJ0SKoUbOjCzq/MI8blnWpxwzqJp2Wju5pxqyxvKzGbnlfQeA==
   dependencies:
-    joi-strict "1.1.10"
+    joi-strict "1.1.11"
     lambda-async "1.0.4"
-    lambda-monitor-logger "2.2.3"
+    lambda-monitor-logger "2.2.4"
     lambda-rate-limiter "2.4.28"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
-    object-fields "1.3.24"
+    object-fields "1.3.27"
     object-scan "10.0.15"
     route-recognizer "0.3.4"
     swagger-parser "8.0.3"
 
-lambda-tdd@2.11.7:
-  version "2.11.7"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.7.tgz#f464b59855f1a2877708644bb7f4748136ae2a88"
-  integrity sha512-ZLAVdSp5dbVmqu+OeIFbwSA8img0kD46fgno1My7C/J4Wzn7SimQY2DXeWk7Hd5tZ6nEzJdP1sGxvUH+X6JITg==
+lambda-tdd@2.11.10:
+  version "2.11.10"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.10.tgz#3636939f919c3cbd29e6edc14e0a7cbd63a61b91"
+  integrity sha512-8asGmX81466hY1T3f6tiPX/gnii87S7656dw+WBf4Bour90jaRUgUJ5kbtQguZX6jcfomjW7q1/gT5TJzlqHew==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
-    joi-strict "1.1.10"
+    joi-strict "1.1.11"
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.5.24"
-    smart-fs "1.11.4"
+    node-tdd "2.5.25"
+    smart-fs "1.11.7"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
@@ -4919,10 +4926,10 @@ node-preload@^0.2.0:
   dependencies:
     process-on-spawn "^1.0.0"
 
-node-tdd@2.5.24:
-  version "2.5.24"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.5.24.tgz#69eed6ec1afc5992aadd3db19cf44b476f6bb2b9"
-  integrity sha512-3AKJbyxhXLZtOuzFxRyRBU4nl3OkoJLAOyfCM0iwJGD9NITZbkh9UHwNH7wrz5jQvqGBt54aq60etqfa4/7p8A==
+node-tdd@2.5.25:
+  version "2.5.25"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.5.25.tgz#ed6517828b9d7e7f5c227da0322bac69307c333c"
+  integrity sha512-teeJqSlzkHCHLeV91j4JP2VLd4jjUfjQDWCsZPlIrA8MH2WL/RASNQekpcRMe6vSFigUs94PGMy5SVH6cUaBJQ==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.1.10"
@@ -5343,12 +5350,12 @@ object-deep-contain@1.0.21:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.21.tgz#114d76af13838f2754a03c7957e981b3c31e2778"
   integrity sha512-ZB08b47u2FKNDFfpY7yj0rvUfxGxMXNqrB9+zqqsmrmWzYDIM5PsJrSBY6yZKBghsQVF82VggMX2QkfhD0zZ+Q==
 
-object-fields@1.3.24:
-  version "1.3.24"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.24.tgz#d8dc63fb0308b8141a4dc42c49fd3494017e2958"
-  integrity sha512-OabfqZz/SD6XZJEBAsMmCxNxNyBy08nMNPtici+Dk79w98WzHZx0V/APiAek3wnbuXx27jeO9IK/U4nVKHaQyg==
+object-fields@1.3.27:
+  version "1.3.27"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.27.tgz#5150bf074d8663faaa59c1f36c62d459acf4cd64"
+  integrity sha512-p4DbqMQXe+wdmhbqTtD2sp0Z/0JGxU7djcLUTGrWjhrcKiadXxUxHfptxqg2FKarZSUF9OheCByG/pO0XvrQFQ==
   dependencies:
-    object-scan "10.0.14"
+    object-scan "10.0.16"
 
 object-inspect@^1.6.0:
   version "1.6.0"
@@ -5365,15 +5372,15 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-object-scan@10.0.14:
-  version "10.0.14"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.14.tgz#3a3c6bfcd8136c3f67fc5b9dc476f070370c4594"
-  integrity sha512-cJgtbUlroRrDk63xGk7I1q01cI4Hn4/J0u0/BSwICPTQgHwz8vpZ/ZlXp/tOMAGwt6tlrBUUrzmel91OAe4VoQ==
-
 object-scan@10.0.15:
   version "10.0.15"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.15.tgz#c0b4481081317be281d5b2c10e308de0af9cd5f6"
   integrity sha512-zPu1SctWM6qGf09mwLffRNpgmKZ7kjPGWwNuqYMooXS00Iu3eQiA8833MlNSkp/f6TJhjcBfZCrTO+XZ2yBIWg==
+
+object-scan@10.0.16:
+  version "10.0.16"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.16.tgz#b0f9c5de3afd2bc17144ef540ab8c23e79e7b778"
+  integrity sha512-uvm6lSG0BEc1cAfRx+v+htxwJ3Wlebw6vzxU3srt4M3MA9LuzAAHuIgk1utwYtlTN73p3wa2t22k9KhWnqIZXQ==
 
 object-treeify@1.1.22:
   version "1.1.22"
