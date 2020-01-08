@@ -3973,20 +3973,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-lambda-async@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.4.tgz#d5c618ce34561ae2b9c67a6e32fcbd963e97a2d4"
-  integrity sha512-F/R+ynEMkaXb8saJnFRhrs/70uR0ZfCQSGIEnQQ8spXWhRb7x3s+9C8Zpnx335DEl5O4q0fPjv+31PFjBKNfQg==
-
 lambda-async@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.5.tgz#bebd1c92e98d15bfd6572dea27b1115efe7ec1a3"
   integrity sha512-K1ixfmh4MoMIM/M4RriWp8FA2ccwMmMJs6WDTGmTd5ekTsLzksPrNmpOnXfxb94zInPOPwLvJ5HeciisfHbz9Q==
-
-lambda-monitor-logger@2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.4.tgz#9dc189398fa3f0d99612a1f0b15ca0d4d925ce6a"
-  integrity sha512-5SihsBZ/q/V37xUTnnwQDn/LgMIMJ1smlo56UaIz6QoO73jHpMWcvUI1DXQOleqReKNmcyT6SivEq+V8nvGlyw==
 
 lambda-monitor-logger@2.2.5:
   version "2.2.5"
@@ -4000,14 +3990,14 @@ lambda-rate-limiter@2.4.28:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.6.15:
-  version "6.6.15"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.6.15.tgz#7e1dc3ec2bcfc82632173f5d4dd9a27268e8adf9"
-  integrity sha512-8wfWU7Yp0aiv8/IdUIreICCIT1a1TjFL+7ZfrebxgibS9jGdJIBTRJCA9o8g6TkPvtF5vetK9aGPGaXmkh+hYg==
+lambda-serverless-api@6.6.17:
+  version "6.6.17"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.6.17.tgz#ad81e27b3545c341238f91a3d4e00be55ed99373"
+  integrity sha512-k+vWNECbW/Kiez+nL+rbIbPgSVwsruEtFgll7IbCSpynMZWUmeL3/XSMTjSOlbnVDHrDVffLimil0IENRB+jOQ==
   dependencies:
     joi-strict "1.1.11"
-    lambda-async "1.0.4"
-    lambda-monitor-logger "2.2.4"
+    lambda-async "1.0.5"
+    lambda-monitor-logger "2.2.5"
     lambda-rate-limiter "2.4.28"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
