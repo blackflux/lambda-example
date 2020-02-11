@@ -4015,10 +4015,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.7.2:
-  version "6.7.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.7.2.tgz#f7d2a89b087ff785ac4533c270842a9752725752"
-  integrity sha512-xMPPMl3LOL9wfyQX5/TzEMF6xO6eAdBpMWbW+c5OQjm6IOhMudTWkpOCPTCALhHnJqz/P7vSHo3wdYEfK+3Bhg==
+lambda-serverless-api@6.7.3:
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.7.3.tgz#41b53168284cceef5e97e01a9dfc797332de20f7"
+  integrity sha512-4Vhe1+7RkYQb6sn+MQaek+fJwYbRhKVkQ2HL/kCCpXDfhVt8zLxJLncpPZqiAhFL3lemaHMpFTcaK2bVfXNE2w==
   dependencies:
     joi-strict "1.1.11"
     lambda-async "1.0.5"
@@ -4029,7 +4029,7 @@ lambda-serverless-api@6.7.2:
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
-    object-fields "1.3.28"
+    object-fields "1.3.29"
     object-scan "11.0.0"
     route-recognizer "0.3.4"
     swagger-parser "8.0.4"
@@ -5402,12 +5402,12 @@ object-deep-contain@1.0.22:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.22.tgz#bee7a05eb1177486169d3bdf1f0b99da5c2b8d4e"
   integrity sha512-Ru8rGGVEd1Dq+z3LGKjWOzG2iQpbxW8fPNpYOBpTALGiZt1HBzKjGt/P3KQyUvN6WzWlwImXAB+RIhjsSpEFUA==
 
-object-fields@1.3.28:
-  version "1.3.28"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.28.tgz#cc43c496ee57180bf7f12b10506fd727c2bec788"
-  integrity sha512-vcTWkAGpD00uODOAXTkdeO3NkTTNjBjD1zlqTsGLg9GuoJN8qGC9Ug5mNJG+IXPOO4Xpyah4QibpNYFmD04kdA==
+object-fields@1.3.29:
+  version "1.3.29"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-1.3.29.tgz#b2b68bd2c67aaf26a5917b8cfe5866e39248ff46"
+  integrity sha512-IwX7aJwXneF/oLkVJSoQnwW8JZD3jjZHF60w62HkGt3OaULAt/MOiTypiKIHX8iFQjZLmf5d8LubtQoQrzo9rA==
   dependencies:
-    object-scan "11.0.0"
+    object-scan "11.0.1"
 
 object-inspect@^1.6.0:
   version "1.6.0"
@@ -5433,6 +5433,11 @@ object-scan@11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-11.0.0.tgz#f7a69a08063be214e5c965852d405fcce480ccd5"
   integrity sha512-dCCK4dsAiztD8rVwu8TS6eP+NdweL6gzW5zW5rmxFdfoTYTNRAJfZqolPeA2qrKwJSzgNFG7/RrZRMz0MzXuYw==
+
+object-scan@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-11.0.1.tgz#587aaec7eba4a01a7112dc81e5a567d22b1115b4"
+  integrity sha512-pJ853I6dxeAyYLsMhMrE6zMrauux5EmcBz7JJeR24T5VFBpDd2fKI8N2zBXX0zolHV2z+TsQglRY1IaC/l46/w==
 
 object-treeify@1.1.23:
   version "1.1.23"
