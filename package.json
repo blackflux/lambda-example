@@ -48,9 +48,9 @@
     "js-gardener": "2.0.133",
     "lambda-tdd": "2.11.16",
     "mocha": "7.0.1",
-    "nock": "11.8.2",
+    "nock": "12.0.0",
     "nyc": "15.0.0",
-    "semantic-release": "17.0.2",
+    "semantic-release": "17.0.4",
     "smart-fs": "1.11.8"
   },
   "licenses": [
@@ -68,7 +68,7 @@
   "dependencies": {
     "lambda-async": "1.0.5",
     "lambda-monitor-logger": "2.2.5",
-    "lambda-serverless-api": "6.7.3",
+    "lambda-serverless-api": "6.7.4",
     "moment-timezone": "0.5.27",
     "request": "2.88.2"
   },
