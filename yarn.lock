@@ -1499,6 +1499,11 @@ compare-func@^1.3.1:
     array-ify "^1.0.0"
     dot-prop "^3.0.0"
 
+compare-versions@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/compare-versions/-/compare-versions-3.6.0.tgz#1a5689913685e5a87637b8d3ffca75514ec41d62"
+  integrity sha512-W6Af2Iw1z4CB7q4uU4hv646dW9GQuBM+YpC0UvUCWSD8w90SJjp+ujJuXaEMtAXBtSqGfMPuFOVn4/+FlaqfBA==
+
 component-emitter@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
@@ -4023,10 +4028,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.7.4:
-  version "6.7.4"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.7.4.tgz#fbc14f7bb53c803bfd571cd1f7f8f56700fdda5a"
-  integrity sha512-HL3JdH5O2k5BOOSScbZ2Av2GPRpIdEDy7CEe1BEOMyuih/40pKjesGvPksD/ZjcF3U6QQ1UtJ86EwrWL8M10Dw==
+lambda-serverless-api@6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.8.0.tgz#b174d85d71700cb4b0dd4e7837f9ddeabc2e694a"
+  integrity sha512-3ZsoOwriwR6PU2Kmrb+syI+63uuaHX4PGRwjA+EwkL4Xk8f66opKDpVn2cgEtZxvD+775y5lQVwNmMchFBecFQ==
   dependencies:
     joi-strict "1.1.11"
     lambda-async "1.0.5"
@@ -4037,8 +4042,10 @@ lambda-serverless-api@6.7.4:
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
+    moment-timezone "0.5.28"
     object-fields "1.3.29"
     object-scan "11.0.1"
+    painless-version "1.1.6"
     route-recognizer "0.3.4"
     swagger-parser "8.0.4"
 
@@ -5771,6 +5778,13 @@ pacote@^9.1.0, pacote@^9.5.11, pacote@^9.5.3:
     tar "^4.4.10"
     unique-filename "^1.1.1"
     which "^1.3.1"
+
+painless-version@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/painless-version/-/painless-version-1.1.6.tgz#7329d35ed3089443b2c23326c0b4281c827fd306"
+  integrity sha512-vzLmNNsMiqAIqjKyOAprdMxSxU7qBCb9jfSCr+zQwJp2VQc1ymIyDnc8zg2KAZ6eOYSZL9aQw5PIq/lh2mRqIw==
+  dependencies:
+    compare-versions "3.6.0"
 
 parallel-transform@^1.1.0:
   version "1.2.0"
