@@ -2219,10 +2219,10 @@ eslint-plugin-json@2.1.0:
     lodash "^4.17.15"
     vscode-json-languageservice "^3.4.12"
 
-eslint-plugin-markdown@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.1.tgz#9705786310f84dad9cf800bea1eb5c4acafcc13a"
-  integrity sha512-nAUURNHJGPooBMZMP23FmTbh3LTdgoSqeFBv9FA3fYrJ+vDUJxrp6nKiQF4iDNAmnWQnmnrDvV61BmIF4X9QAQ==
+eslint-plugin-markdown@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.2.tgz#79274bf17ce3ead48e4a55cbcb6d7ce735754280"
+  integrity sha512-BfvXKsO0K+zvdarNc801jsE/NTLmig4oKhZ1U3aSUgTf2dB/US5+CrfGxMsCK2Ki1vS1R3HPok+uYpufFndhzw==
   dependencies:
     object-assign "^4.0.1"
     remark-parse "^5.0.0"
@@ -4028,10 +4028,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.8.0.tgz#b174d85d71700cb4b0dd4e7837f9ddeabc2e694a"
-  integrity sha512-3ZsoOwriwR6PU2Kmrb+syI+63uuaHX4PGRwjA+EwkL4Xk8f66opKDpVn2cgEtZxvD+775y5lQVwNmMchFBecFQ==
+lambda-serverless-api@6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.9.0.tgz#16efebceff783d8759179698c83db9dce2d4d456"
+  integrity sha512-t7QvH2jv+XqhUyHNG15AA0ebEdLZlpeeVBZAQyIlsGDC6ZXoCcbHKMcX9KTzj3ZeLdbFOp5M+oEzmjOoV3yf5Q==
   dependencies:
     joi-strict "1.1.11"
     lambda-async "1.0.5"
@@ -4042,7 +4042,6 @@ lambda-serverless-api@6.8.0:
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
-    moment-timezone "0.5.28"
     object-fields "1.3.29"
     object-scan "11.0.1"
     painless-version "1.1.6"

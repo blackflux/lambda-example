@@ -43,7 +43,7 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-json": "2.1.0",
-    "eslint-plugin-markdown": "1.0.1",
+    "eslint-plugin-markdown": "1.0.2",
     "eslint-plugin-mocha": "6.3.0",
     "js-gardener": "2.0.133",
     "lambda-tdd": "2.11.20",
@@ -68,7 +68,7 @@
   "dependencies": {
     "lambda-async": "1.0.5",
     "lambda-monitor-logger": "2.2.5",
-    "lambda-serverless-api": "6.8.0",
+    "lambda-serverless-api": "6.9.0",
     "moment-timezone": "0.5.28",
     "request": "2.88.2"
   },
