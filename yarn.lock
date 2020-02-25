@@ -3877,21 +3877,21 @@ joi-strict@1.2.0:
   dependencies:
     "@hapi/joi" "16.1.8"
 
-js-gardener@2.0.133:
-  version "2.0.133"
-  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.133.tgz#58373cbc4016a6719349c57c978d21b02bb496c1"
-  integrity sha512-6k/RVMMpOhJik+X+eteTXHkstduBxzPMmBZtnDUwqKeVOUaAHPhdj5mr1bsMdJeCpNkYfFf2FZtKkw9J27fkpw==
+js-gardener@2.0.135:
+  version "2.0.135"
+  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.135.tgz#5ddba1301622cd9e44ff0d795f835fc21b8b45cb"
+  integrity sha512-fOudiysHtV/GYG51TMAU7rnLvr0phOUH4Jw9HvNToeQwwb2fvbIogZs9BLBJ8wSOrDynJhKn2Wk/CQvNtKY/Tw==
   dependencies:
     chalk "3.0.0"
     fancy-log "1.3.3"
     glob "7.1.6"
-    joi-strict "1.1.11"
+    joi-strict "1.2.0"
     js-yaml "3.13.1"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     mocha "7.0.1"
     npm-check "5.9.0"
-    robo-config "3.4.24"
+    robo-config "3.4.25"
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -4035,12 +4035,12 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.9.0.tgz#16efebceff783d8759179698c83db9dce2d4d456"
-  integrity sha512-t7QvH2jv+XqhUyHNG15AA0ebEdLZlpeeVBZAQyIlsGDC6ZXoCcbHKMcX9KTzj3ZeLdbFOp5M+oEzmjOoV3yf5Q==
+lambda-serverless-api@6.9.2:
+  version "6.9.2"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.9.2.tgz#7c0b63b76ce0d9473f4e3059fe9fd2fd002a2863"
+  integrity sha512-cP+LMkmLXga7OCKtg1RwHEPTQMO13ZsojhVPV7u/uoDT2ch4fS08BtJX7kISfd3CyxwiBzRqn+/RtLGta2M4gA==
   dependencies:
-    joi-strict "1.1.11"
+    joi-strict "1.2.0"
     lambda-async "1.0.5"
     lambda-monitor-logger "2.2.5"
     lambda-rate-limiter "2.4.29"
@@ -4051,7 +4051,7 @@ lambda-serverless-api@6.9.0:
     moment "2.24.0"
     object-fields "1.3.29"
     object-scan "11.0.1"
-    painless-version "1.1.6"
+    painless-version "1.2.2"
     route-recognizer "0.3.4"
     swagger-parser "8.0.4"
 
@@ -5785,12 +5785,13 @@ pacote@^9.1.0, pacote@^9.5.11, pacote@^9.5.3:
     unique-filename "^1.1.1"
     which "^1.3.1"
 
-painless-version@1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/painless-version/-/painless-version-1.1.6.tgz#7329d35ed3089443b2c23326c0b4281c827fd306"
-  integrity sha512-vzLmNNsMiqAIqjKyOAprdMxSxU7qBCb9jfSCr+zQwJp2VQc1ymIyDnc8zg2KAZ6eOYSZL9aQw5PIq/lh2mRqIw==
+painless-version@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/painless-version/-/painless-version-1.2.2.tgz#de3fc12bfbdac828a1cff57143f8f3c03e6c669a"
+  integrity sha512-BhOL1DZG6aP+RxZiV0zhqfsoXe5tPZWRt2j5QZlz71h4b1pNK8kiDX79s2L8w/FcHUBYT6sWavCwfkPgOCnGoQ==
   dependencies:
     compare-versions "3.6.0"
+    lodash.set "4.3.2"
 
 parallel-transform@^1.1.0:
   version "1.2.0"
@@ -6654,14 +6655,14 @@ rimraf@^3.0.0:
   dependencies:
     glob "^7.1.3"
 
-robo-config@3.4.24:
-  version "3.4.24"
-  resolved "https://registry.yarnpkg.com/robo-config/-/robo-config-3.4.24.tgz#27fb7bb31a6cb3ed175df1d47ccfb9af48097d10"
-  integrity sha512-Hz7n5NptiISeefEbZMKKI/Nj/YfWRiqzQ043sPOA9LRiOy401CYYmQIfeyyBwdOL0Y7yyjtw/WKd4c3lPwnS7g==
+robo-config@3.4.25:
+  version "3.4.25"
+  resolved "https://registry.yarnpkg.com/robo-config/-/robo-config-3.4.25.tgz#92df1a88d0281217c74a81ebc66592b45ca7cde3"
+  integrity sha512-gty1Gx2SZcTxKNKq07fuhWjPb4dBDBu/jbLzb0D7t4YFl0A9Xkg9unNQ/9rsxecPXc0trjocl5u1MU7WJY9oMA==
   dependencies:
     app-root-path "3.0.0"
     deepmerge "4.2.2"
-    joi-strict "1.1.11"
+    joi-strict "1.2.0"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
