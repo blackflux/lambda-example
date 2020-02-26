@@ -4048,10 +4048,10 @@ lambda-serverless-api@6.9.3:
     route-recognizer "0.3.4"
     swagger-parser "8.0.4"
 
-lambda-tdd@2.11.22:
-  version "2.11.22"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.22.tgz#19fa7ac10df0fe6f3d3a51c34b7041fcfdcbbf00"
-  integrity sha512-3nGo7qVxP5wlLoWRfvi+PbhidFwizO8HjexD2/foPkiysS8ZgcmC4nvwD/GsMBWYTkrJ2P8/UhkY2ULVFPOeJQ==
+lambda-tdd@2.11.23:
+  version "2.11.23"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.23.tgz#3e4b8a2280d64c101fa83af74c907644b6f2957b"
+  integrity sha512-T2mq4IfXmZEGweKWOCLiKYB7dkx3ZhVnwx1CMjk+OA/URVNxQxOvDFQA38nUrzDPPQl9wsEuiRzGpu3ToQIGuw==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
@@ -4059,7 +4059,7 @@ lambda-tdd@2.11.22:
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.9.3"
+    node-tdd "2.9.4"
     smart-fs "1.11.8"
 
 lambda-wrapper@0.3.0:
@@ -5008,10 +5008,10 @@ node-preload@^0.2.0:
   dependencies:
     process-on-spawn "^1.0.0"
 
-node-tdd@2.9.3:
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.9.3.tgz#8e977f96500a037b4c5696d9743c4dad7cd5363c"
-  integrity sha512-YNFcpVyigPbTo5tVlcgXY9n3mgJU/YgnJo31y7qtRg7euR1e+rUAe94/scKma1HowZSgSjCLhlLkULupS+MIcQ==
+node-tdd@2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.9.4.tgz#31e040176880b7e0f7343a173afb729375b0aa04"
+  integrity sha512-LamA7ZQlYqlGaKZaW7sUyh34y58QPT0o5420Hf/VyQmmcF02/1IVSZ7sW6PDUKdrKPitNXOSXE2sm1iErcVBiQ==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.2.0"
@@ -5021,7 +5021,7 @@ node-tdd@2.9.3:
     smart-fs "1.11.8"
     timekeeper "2.2.0"
     tmp "0.1.0"
-    uuid "7.0.0"
+    uuid "7.0.1"
     xml2js "0.4.23"
 
 "nopt@2 || 3":
@@ -7854,10 +7854,10 @@ uuid@3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-uuid@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.0.tgz#1833d4b9ce50b732bfaa271f9cb74e974d303c79"
-  integrity sha512-LNUrNsXdI/fUsypJbWM8Jt4DgQdFAZh41p9C7WE9Cn+CULOEkoG2lgQyH68v3wnIy5K3fN4jdSt270K6IFA3MQ==
+uuid@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.1.tgz#95ed6ff3d8c881cbf85f0f05cc3915ef994818ef"
+  integrity sha512-yqjRXZzSJm9Dbl84H2VDHpM3zMjzSJQ+hn6C4zqd5ilW+7P4ZmLEEqwho9LjP+tGuZlF4xrHQXT0h9QZUS/pWA==
 
 uuid@^3.3.2, uuid@^3.3.3:
   version "3.3.3"
