@@ -3963,6 +3963,13 @@ lambda-monitor-logger@2.2.5:
   resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.2.5.tgz#35784c40e4c77b0265e6755eee4a8df14621a461"
   integrity sha512-0EaCCTru2wUGoWOICHlLzairo9ZUS0ZHikT9OvwT5fdywjiGGlGGyLoWsKOhsqLzd7y/9PMsOwtTbYE0BiQIQw==
 
+lambda-monitor-logger@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.3.0.tgz#a5fdbc614c9c77cbf8195da59bd56ae4e5befe3b"
+  integrity sha512-/cCSf435UUPu1M1AoJ2zKvQgKDX4aoYPhgcy57eBv+vrIsYu7zOoNmpQ585/BboYLuflzN1ZiorCUsyVi6xfqg==
+  dependencies:
+    joi-strict "1.2.0"
+
 lambda-rate-limiter@2.4.29:
   version "2.4.29"
   resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.29.tgz#4654bc20a442a4c051b320a5d86b10ed42afb064"
