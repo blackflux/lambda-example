@@ -4067,10 +4067,10 @@ lambda-serverless-api@6.11.3:
     route-recognizer "0.3.4"
     swagger-parser "9.0.1"
 
-lambda-tdd@2.11.32:
-  version "2.11.32"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.32.tgz#fec80fd49947936e9ba4645513d8e60015f0612e"
-  integrity sha512-7ZbOYFDZ+F4sJN2QDliv90XVTDT183QqdxmmO/hxOQ6Ot/f931HxNTLbK3ix/P4MZPxGUYG/8Gc3H1SoiD3byg==
+lambda-tdd@2.11.33:
+  version "2.11.33"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.33.tgz#e95b6eba47495209d7aafa7cd9dbe23cf842dd8c"
+  integrity sha512-LLBmqxbY76uUfhnMzSx1vs5vyZ0hLjT9FfmQp3QSY3fSI2RvUkJGIUi9runWexPBcUqRJ6pHZzonz4E8Xgoh8Q==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
@@ -4078,7 +4078,7 @@ lambda-tdd@2.11.32:
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.10.0"
+    node-tdd "2.10.1"
     smart-fs "1.11.9"
 
 lambda-wrapper@0.3.0:
@@ -5044,17 +5044,17 @@ node-sass-tilde-importer@^1.0.2:
   dependencies:
     find-parent-dir "^0.3.0"
 
-node-tdd@2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.10.0.tgz#56660622699f01348d6bde729f47dc18952aed03"
-  integrity sha512-A2BI/Aei4FO7JRyGpMPCZHnExX4yO1YsHLnkVtNqi4aCgXGJ9vMoeY2STzZCKLO90XI/2bxyp2WjWYAo6FHuZg==
+node-tdd@2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.10.1.tgz#19940da016f1ddc745098960b1950b298ccd3871"
+  integrity sha512-32iEVH/LwVRoXKBIhIwsvud84VjVkEMvND0d8lP26u0MyV4LsMq+nzQXVeb+VXL/7gby2x9HYgo03BeZNYn3nQ==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.2.1"
     lodash.get "4.4.2"
     minimist "1.2.5"
     nock "12.0.3"
-    smart-fs "1.11.9"
+    smart-fs "1.11.10"
     timekeeper "2.2.0"
     tmp "0.1.0"
     uuid "7.0.2"
