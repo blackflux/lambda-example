@@ -4112,10 +4112,10 @@ lambda-serverless-api@6.11.6:
     route-recognizer "0.3.4"
     swagger-parser "9.0.1"
 
-lambda-tdd@2.11.35:
-  version "2.11.35"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.35.tgz#485baa8725f20f8658d01598e7fb43950db8426f"
-  integrity sha512-1tQxaIfs9Fxm6Mky3oPJxTIsGx1PNSAbLORfDKfNdp6hx7WhtZ41qFowvnlYtYWILhmFngWqSbjOeos0ZXIR6A==
+lambda-tdd@2.11.36:
+  version "2.11.36"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.36.tgz#6e795f9c2ec8df1664c2d2d1a110e172549acdd0"
+  integrity sha512-4wosavMg0fACi7JVsGFJiYhaElDr1B/t5zQA1exrUG+1Fs8gWTeaY8fgMHZ9sYpg1zdHuhylC+kpV2jb6fJw1w==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
@@ -4123,7 +4123,7 @@ lambda-tdd@2.11.35:
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.10.3"
+    node-tdd "2.10.4"
     smart-fs "1.11.11"
 
 lambda-wrapper@0.3.0:
@@ -5042,10 +5042,10 @@ node-sass-tilde-importer@^1.0.2:
   dependencies:
     find-parent-dir "^0.3.0"
 
-node-tdd@2.10.3:
-  version "2.10.3"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.10.3.tgz#fc7b9e5390699df2bf8504ed8de7b872435cf352"
-  integrity sha512-Reb2HVzeOjXs268GFa8aj4//gBLxcU07fyuXRx4UOfqL2/waIHiyfygjfpP6mQoWyJVUBZt1Ax1pD8TD8Vlltw==
+node-tdd@2.10.4:
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.10.4.tgz#0a3b1452fa814ec3304b1883d1ab385c26c06322"
+  integrity sha512-QkoiYznDa07QR3po/5L+LVPX2hkrEuyFvHfJ7ph0IQIYoOM4TnuAU84Ve7lo6PU276yevx59abyZoVHBZQicTQ==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.2.1"
@@ -5055,7 +5055,7 @@ node-tdd@2.10.3:
     smart-fs "1.11.11"
     timekeeper "2.2.0"
     tmp "0.1.0"
-    uuid "7.0.2"
+    uuid "7.0.3"
     xml2js "0.4.23"
 
 "nopt@2 || 3":
@@ -7870,10 +7870,10 @@ uuid@3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-uuid@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
-  integrity sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
+uuid@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 uuid@^3.3.2, uuid@^3.3.3:
   version "3.3.3"
