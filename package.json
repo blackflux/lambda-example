@@ -49,7 +49,7 @@
     "lambda-tdd": "2.11.36",
     "mocha": "7.1.1",
     "nock": "12.0.3",
-    "nyc": "15.0.0",
+    "nyc": "15.0.1",
     "semantic-release": "17.0.4",
     "smart-fs": "1.11.11"
   },
