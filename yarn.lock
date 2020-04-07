@@ -4092,10 +4092,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.11.10:
-  version "6.11.10"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.10.tgz#71b850122aa886ce18e22ab70b620af3b2846106"
-  integrity sha512-N7CwDkiuch68jdzO7HNwUtcOpWuzZxYE3CzgxLdDhA8gkqzoCfbwz3TI4CYaLjbIZezG0HW4Js+XFBOvfrtwMg==
+lambda-serverless-api@6.11.11:
+  version "6.11.11"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.11.tgz#8d2d47974a5e243253f7b09c88ca4261f4355f00"
+  integrity sha512-uxeGT8IYLSMZUOyTLWUGykR8yl+MObccEZg/kQICMVFcjfT1nvsbRa8hPyC73ycCrUfjNFzd+0mUnQbRIHTOvw==
   dependencies:
     joi-strict "1.2.1"
     lambda-async "1.0.5"
@@ -4106,7 +4106,7 @@ lambda-serverless-api@6.11.10:
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     moment "2.24.0"
-    object-fields "2.0.2"
+    object-fields "2.0.3"
     object-scan "13.0.0"
     painless-version "1.2.2"
     route-recognizer "0.3.4"
@@ -5455,12 +5455,12 @@ object-deep-contain@1.0.23:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.23.tgz#5e0e76634cc8b5d0291395dcdb897d2c37290dbc"
   integrity sha512-y//xnySc0wul+bKzjbuMMkV31sX3AqXq83CzxoY3GvxoEYaRWRwOddGr2n704w0wCmSIcvlAZZbUnL5MJbsF6A==
 
-object-fields@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.2.tgz#24e5dd11fa51c19748a6779e32917c2caed95ec3"
-  integrity sha512-n7EYmFHgfmJYq0WU6GtM5HghpUaIZHv/uOL1WRdmPxJxxWqzw8Sd4tDTIBrw9fwfbnnWJrLUxo1rTeGSEPIefw==
+object-fields@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.3.tgz#98e0dc45b9fd0d21bcb561378522ec0cb2baa2d9"
+  integrity sha512-dVQ7XBd3L0gjdzKbz3mrZSmUWSWGq2w7TzBIc70/l1yvsKf2SX+U6Zp6JLz2jf0JhuOvZnIaF/UEeTULhcg6DA==
   dependencies:
-    object-scan "11.1.1"
+    object-scan "13.0.0"
 
 object-inspect@^1.6.0:
   version "1.6.0"
