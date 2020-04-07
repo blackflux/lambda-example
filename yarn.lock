@@ -4092,10 +4092,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.11.9:
-  version "6.11.9"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.9.tgz#12a8f86798687d3684ff7155a14670dc5298626e"
-  integrity sha512-/Z1a5U29NAvly0tG2fKMxrbffvpV2ol+0MXo+MvRZzG8nZTn64N+hclNQ2iuE/3gOrYvjUdpNeo48ZyJz4kLcw==
+lambda-serverless-api@6.11.10:
+  version "6.11.10"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.10.tgz#71b850122aa886ce18e22ab70b620af3b2846106"
+  integrity sha512-N7CwDkiuch68jdzO7HNwUtcOpWuzZxYE3CzgxLdDhA8gkqzoCfbwz3TI4CYaLjbIZezG0HW4Js+XFBOvfrtwMg==
   dependencies:
     joi-strict "1.2.1"
     lambda-async "1.0.5"
@@ -4107,7 +4107,7 @@ lambda-serverless-api@6.11.9:
     lodash.set "4.3.2"
     moment "2.24.0"
     object-fields "2.0.2"
-    object-scan "11.1.1"
+    object-scan "13.0.0"
     painless-version "1.2.2"
     route-recognizer "0.3.4"
     swagger-parser "9.0.1"
@@ -5481,6 +5481,11 @@ object-scan@11.1.1:
   version "11.1.1"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-11.1.1.tgz#65527b182719e94f83529c5105be4fbeca0b4565"
   integrity sha512-e9h3Iaq2aVJjkqBUbRN+l/pfBfiGspaJGAWp7TJW2WgJkUwORe2P3/0ZHwDiMtOHW5QdhDNKpYtWsBjdOVhpJQ==
+
+object-scan@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.0.0.tgz#604ddd414c2a9d5c4ac7ee7cfd20fac3b1f0c35a"
+  integrity sha512-t0999QAo/ZQ8Q8JPHHng50l63RgRTMA6eCqUYl3iG62j3ctaXhvH+U+ve+AFMm5U0oA19JBs1OER+7T7P6jrCA==
 
 object-treeify@1.1.24:
   version "1.1.24"
