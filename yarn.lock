@@ -3948,21 +3948,21 @@ joi-strict@1.2.2:
   dependencies:
     "@hapi/joi" "17.1.1"
 
-js-gardener@2.0.150:
-  version "2.0.150"
-  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.150.tgz#a8d827d37ded82020ba70465941785da5ce9eaa4"
-  integrity sha512-M9X6Qhsf1exK/hp3i63yNaCugdU6c3b6h/W3/UvLq3dK/Lws7DRi0wxu9Q0gEj+OzJrEV6IBTNAW13gBj2OChg==
+js-gardener@2.0.152:
+  version "2.0.152"
+  resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.152.tgz#b9b9408d7972106e8fce98a5244bb4e3400d91bb"
+  integrity sha512-wnKoAPI204dAsx95AgrU6DXO91xrmo/ShQnsQMWJHiqOuIdVRRjOoDbT2ASYMJ+TWpf9Bx48ZnO+6OyPBBVSoA==
   dependencies:
     chalk "4.0.0"
     fancy-log "1.3.3"
     glob "7.1.6"
-    joi-strict "1.2.1"
+    joi-strict "1.2.2"
     js-yaml "3.13.1"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     mocha "7.1.1"
     npm-check "5.9.2"
-    robo-config "3.5.3"
+    robo-config "3.5.4"
 
 js-tokens@^3.0.0:
   version "3.0.2"
@@ -4115,12 +4115,12 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.11.11:
-  version "6.11.11"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.11.tgz#8d2d47974a5e243253f7b09c88ca4261f4355f00"
-  integrity sha512-uxeGT8IYLSMZUOyTLWUGykR8yl+MObccEZg/kQICMVFcjfT1nvsbRa8hPyC73ycCrUfjNFzd+0mUnQbRIHTOvw==
+lambda-serverless-api@6.11.12:
+  version "6.11.12"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.12.tgz#63db74a63f75a7baf0253f8d641b860b012b1b68"
+  integrity sha512-GhZh/BaaZEP9EQZvGUPtt1zK5+LH8uLDLiCXAvVwm55IvpB/kBTfJsvLKLH2Cy3ierMzIh5ghLJKMfSigxejaw==
   dependencies:
-    joi-strict "1.2.1"
+    joi-strict "1.2.2"
     lambda-async "1.0.5"
     lambda-monitor-logger "2.3.1"
     lambda-rate-limiter "2.4.29"
@@ -4135,10 +4135,10 @@ lambda-serverless-api@6.11.11:
     route-recognizer "0.3.4"
     swagger-parser "9.0.1"
 
-lambda-tdd@2.11.37:
-  version "2.11.37"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.37.tgz#d5223ace38de7dc66386820d81bd910950a8a774"
-  integrity sha512-QwsTuCtZv1nwWtxu+R+2BB/Gk28Lib8rwwYXbAEBLcNe4mbR1r7DAYM3XAMGCRf6gbIIYD24u1o5Wb93ve16xA==
+lambda-tdd@2.11.38:
+  version "2.11.38"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.11.38.tgz#eb8cb3d99902ed2e3234473ebec4ebbe21897100"
+  integrity sha512-DtnzVrEeOX0M/A8+oQZsS/ExCinIGSk54Xf4uajepSiiqjAFnCkZcODWXo/otegMNZJhkOSX/GDDE0WiYmp34A==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
@@ -4146,7 +4146,7 @@ lambda-tdd@2.11.37:
     js-yaml "3.13.1"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.10.4"
+    node-tdd "2.10.5"
     smart-fs "1.11.11"
 
 lambda-wrapper@0.3.0:
@@ -5065,13 +5065,13 @@ node-sass-tilde-importer@^1.0.2:
   dependencies:
     find-parent-dir "^0.3.0"
 
-node-tdd@2.10.4:
-  version "2.10.4"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.10.4.tgz#0a3b1452fa814ec3304b1883d1ab385c26c06322"
-  integrity sha512-QkoiYznDa07QR3po/5L+LVPX2hkrEuyFvHfJ7ph0IQIYoOM4TnuAU84Ve7lo6PU276yevx59abyZoVHBZQicTQ==
+node-tdd@2.10.5:
+  version "2.10.5"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.10.5.tgz#afd410ec18e995e6cd0f8fa82a0033691b741665"
+  integrity sha512-jrnfOlxffRhIHFUh94J/+kroLnhBb/7+osYDoWeJ0drs/8bNnere7v99B5y4/xMC4NXPe68zZS6htnssZ/LdZg==
   dependencies:
     callsites "3.1.0"
-    joi-strict "1.2.1"
+    joi-strict "1.2.2"
     lodash.get "4.4.2"
     minimist "1.2.5"
     nock "12.0.3"
@@ -6691,14 +6691,14 @@ rimraf@^3.0.0:
   dependencies:
     glob "^7.1.3"
 
-robo-config@3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/robo-config/-/robo-config-3.5.3.tgz#7f84b2dd6a8d6eac2fac8df6eccac3040a572acb"
-  integrity sha512-5PxudOvK1Rlcl0EhwoMBn7TpTMlrL6ySB3oBCwOqJE99F4wvyUH4Ajw1/ky//2ApExJPkyJagDbL4cV+xTFsJQ==
+robo-config@3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/robo-config/-/robo-config-3.5.4.tgz#16e79966b20109c6880c530b4a2ab0d8c2f767aa"
+  integrity sha512-j8WPG7vJJz/BcjhP4NenWD+m0RUbYFE98bS8NKl29elHu5sovc3NHQSs0CTMl0cEQ/VCsJtPGEsp68RVR8UVNw==
   dependencies:
     app-root-path "3.0.0"
     deepmerge "4.2.2"
-    joi-strict "1.2.1"
+    joi-strict "1.2.2"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
