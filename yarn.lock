@@ -4094,6 +4094,13 @@ lambda-monitor-logger@2.3.2:
   dependencies:
     joi-strict "1.2.2"
 
+lambda-monitor-logger@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.3.3.tgz#24e1e468ca9e20477362aa48ac17120106da1412"
+  integrity sha512-VoejmTY90E7OUoh6uJPFAsfeKGUbUc5JVGJU31lEoMJoMlCRSo+A+23cicUD9Qvt/aEbQ9KigEtRv98GeYvEgw==
+  dependencies:
+    joi-strict "1.2.2"
+
 lambda-rate-limiter@2.4.29:
   version "2.4.29"
   resolved "https://registry.yarnpkg.com/lambda-rate-limiter/-/lambda-rate-limiter-2.4.29.tgz#4654bc20a442a4c051b320a5d86b10ed42afb064"
