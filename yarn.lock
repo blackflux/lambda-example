@@ -4093,13 +4093,6 @@ lambda-async@1.0.5:
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.5.tgz#bebd1c92e98d15bfd6572dea27b1115efe7ec1a3"
   integrity sha512-K1ixfmh4MoMIM/M4RriWp8FA2ccwMmMJs6WDTGmTd5ekTsLzksPrNmpOnXfxb94zInPOPwLvJ5HeciisfHbz9Q==
 
-lambda-monitor-logger@2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.3.2.tgz#6e9f7bac866c94f23580b81f015b72e3817bbe37"
-  integrity sha512-0qd+2MBNPFRJe+niQ4dNQJK4yqCkL23iGsjmbJmN57MKrO2Pi0Cgr2MO4ywwlWNv5qZNFzVj8ML1XP0vlD3wKQ==
-  dependencies:
-    joi-strict "1.2.2"
-
 lambda-monitor-logger@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.4.0.tgz#c8666d5848b141091ec116a0e1cf037d1dc6b818"
@@ -4114,22 +4107,22 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.11.14:
-  version "6.11.14"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.11.14.tgz#4ef1bda0fc27e687de8184edf73b2ca33df99747"
-  integrity sha512-PjDSCH/BHUsr6OHrfrJU+nbQqhqM0J8a0wc8wXtEV30mxeVrUBOCB27np7aq0Dy8EqHpIMNHGJZ220RuBjnTBQ==
+lambda-serverless-api@6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.12.0.tgz#860972a1efc89af4a74aa1b313020013d808effa"
+  integrity sha512-giLFGArsSfMEMPg9Rv3jv0bhq1dMVd0lnMh7zuMBGFQ9upYhjeke49DYiVZ02DTCRR7GyfO6qVbtCapyabmpNA==
   dependencies:
     joi-strict "1.2.2"
     lambda-async "1.0.5"
-    lambda-monitor-logger "2.3.2"
+    lambda-monitor-logger "2.4.0"
     lambda-rate-limiter "2.4.29"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
-    moment "2.24.0"
+    moment "2.25.3"
     object-fields "2.0.4"
-    object-scan "13.0.1"
+    object-scan "13.0.2"
     painless-version "1.2.2"
     route-recognizer "0.3.4"
     swagger-parser "9.0.1"
@@ -4875,10 +4868,10 @@ moment-timezone@0.5.28:
   dependencies:
     moment ">= 2.9.0"
 
-moment@2.24.0, "moment@>= 2.9.0":
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+moment@2.25.3, "moment@>= 2.9.0":
+  version "2.25.3"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.25.3.tgz#252ff41319cf41e47761a1a88cab30edfe9808c0"
+  integrity sha512-PuYv0PHxZvzc15Sp8ybUCoQ+xpyPWvjOuK72a5ovzp2LI32rJXOiIfyoFoYvG3s6EwwrdkMyWuRiEHSZRLJNdg==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
