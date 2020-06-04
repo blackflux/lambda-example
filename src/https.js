@@ -1,9 +1,12 @@
 const api = require('lambda-serverless-api').Api({});
 
+const limit = process.env.RATE_LIMIT === undefined
+  ? undefined
+  : parseInt(process.env.RATE_LIMIT, 10);
 
 module.exports.sum = api.wrap('GET sum', [
   api.Str('input', 'query')
-], { limit: process.env.RATE_LIMIT }, ({ input }) => {
+], { limit }, ({ input }) => {
   const inputParsed = JSON.parse(input);
   if (!(inputParsed instanceof Array) || inputParsed.some(Number.isNaN)) {
     throw api.ApiError('Please provide input query parameter list of numbers!');
