@@ -4189,10 +4189,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@6.13.0:
-  version "6.13.0"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-6.13.0.tgz#62223a1dc8f9f6cd0563374b8fcfab4620824b38"
-  integrity sha512-l5oMPjYxL8NvFMqMW0Mva1N9gnCZo1u3k5JQvubbUn2T+puoRx5t+GQvgHLXzRxPIFToE7CxapZiJGxb6vMuZQ==
+lambda-serverless-api@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.0.0.tgz#1203b9625949ee005c92c2eae8482d6b4d68a247"
+  integrity sha512-ETUQKsStcXbprsenkewIRGML3PmFbZnn3F3t/m9BG/R0PU33QLtfKdz7IKpLeh8iRiC+ngMThrdziogPvWRJ9Q==
   dependencies:
     joi-strict "1.2.2"
     lambda-async "1.0.5"
@@ -4202,9 +4202,8 @@ lambda-serverless-api@6.13.0:
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
-    moment "2.26.0"
-    object-fields "2.0.6"
-    object-scan "13.1.0"
+    object-fields "2.0.7"
+    object-scan "13.1.1"
     painless-version "1.2.2"
     route-recognizer "0.3.4"
     swagger-parser "9.0.1"
@@ -4996,7 +4995,7 @@ moment-timezone@0.5.31:
   dependencies:
     moment ">= 2.9.0"
 
-moment@2.26.0, "moment@>= 2.9.0":
+"moment@>= 2.9.0":
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.26.0.tgz#5e1f82c6bafca6e83e808b30c8705eed0dcbd39a"
   integrity sha512-oIixUO+OamkUkwjhAVE18rAMfRJNsNe/Stid/gwHSOfHrOtw9EhAY2AHvdKZ/k/MggcYELFCJz/Sn2pL8b8JMw==
@@ -5563,12 +5562,12 @@ object-deep-contain@1.0.24:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.24.tgz#6d1088f00545eca1dd160100d3e7ba7ca94aaf73"
   integrity sha512-49NP9G7PKdkQnh44yhQQsZqYIXgg4qpwS8ZxOW5tyVEPwR/FSoCT9UyeMZgddzvFsN0nSIMe8gq6HV6DxspHng==
 
-object-fields@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.6.tgz#b0218602f211f8664e6ee438157d3c8cdbf57458"
-  integrity sha512-oaMw7ns3KwxJKj2D4fX0GoxnIfoJ2lk67+cfkXQW6T2RY2JrvcmbSfg2vETgIoA7amlopDp/mKiU68a/7Dul8Q==
+object-fields@2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.7.tgz#8649435bb2e1f37a1e3bd5ecfdb85a2ace97ce89"
+  integrity sha512-UgFvBQyeXzkRUv5neMZbxSZvZgVm1Ds24mR4kiw/uT6hWC9Ua9RgtXv7YzVVdsVGGn9cuYCgWlq8bWd6ZZUPSg==
   dependencies:
-    object-scan "13.0.3"
+    object-scan "13.1.0"
 
 object-inspect@^1.7.0:
   version "1.7.0"
@@ -5580,15 +5579,15 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-object-scan@13.0.3:
-  version "13.0.3"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.0.3.tgz#2e8b19ffa6b527407fcd897946af26fd54861f8f"
-  integrity sha512-Y/c67L3mFd0zDerQuzv3jEAqQzQXsnPwesr772PKo2LbcQ/liwk+XYvja8neUvOpYMPXbWzhYtN3gi1YYQ87mA==
-
 object-scan@13.1.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.1.0.tgz#97f4648455fe8b207cd797abf77bc6ac8777e48d"
   integrity sha512-97xvtdijuenZUTRUvkgXLj+ilFiH/X+VmD7B8jDDAggUKQi/3mXZ/bzIwEOi4auvA/yQfC2Px0jy0FB+qIu/TA==
+
+object-scan@13.1.1:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.1.1.tgz#99b4c11cf91e2de8919066d52eab7bfdd757f502"
+  integrity sha512-dlrrdiU8BrOEN+dKl+uX7ly4Az18wHi+Abg4nl5ZS3w025FixgFMwsmptRfyHPkgQ3iD4YM5Mbxf1ISuVXU4KQ==
 
 object-treeify@1.1.25:
   version "1.1.25"
