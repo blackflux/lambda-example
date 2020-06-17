@@ -14,5 +14,4 @@ module.exports.sum = api.wrap('GET sum', [
   return api.JsonResponse({ result: inputParsed.reduce((a, b) => a + b, 0) });
 });
 
-
 module.exports.internalApi = api;
