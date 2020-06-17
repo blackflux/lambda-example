@@ -46,12 +46,12 @@
     "eslint-plugin-markdown": "1.0.2",
     "eslint-plugin-mocha": "7.0.1",
     "js-gardener": "2.0.161",
-    "lambda-tdd": "2.12.5",
+    "lambda-tdd": "2.12.6",
     "mocha": "8.0.1",
     "nock": "12.0.3",
     "nyc": "15.1.0",
     "semantic-release": "17.0.8",
-    "smart-fs": "1.11.13"
+    "smart-fs": "1.11.14"
   },
   "licenses": [
     {
