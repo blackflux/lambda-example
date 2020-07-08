@@ -4140,10 +4140,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.0.2.tgz#8706a72428b2bb485942c9d5f55fa246df71ded4"
-  integrity sha512-CJOb0DPiNfMh69DgHP97y5A0X/1IUgAz4ezikwxQIRNCjfTym1tYxj2ZRaO6vFYyKcXO9QgPy4KqMIxeIaPotw==
+lambda-serverless-api@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.1.0.tgz#86b573de1cd873aa06846b3be36852e1fccacf8e"
+  integrity sha512-zvvAtspbzXClfokgd3erZw3WsNgcxdLXPrAF/zHv1DymVvTnVPLWIdOXT1V0cDxeP2AUCsMMNLuP26T9ZYhqCw==
   dependencies:
     joi-strict "1.2.2"
     lambda-async "1.0.5"
