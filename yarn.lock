@@ -2,37 +2,37 @@
 # yarn lockfile v1
 
 
-"@apidevtools/json-schema-ref-parser@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-8.0.0.tgz#9eb749499b3f8d919e90bb141e4b6f67aee4692d"
-  integrity sha512-n4YBtwQhdpLto1BaUCyAeflizmIbaloGShsPyRtFf5qdFJxfssj+GgLavczgKJFa3Bq+3St2CKcpRJdjtB4EBw==
+"@apidevtools/json-schema-ref-parser@^9.0.2":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.0.3.tgz#4ec58992c8f15778cc59baf7a872c8ad6294fed5"
+  integrity sha512-SWaTn0CZ7iUUbe2WuqIUkoXhTcMYyavL5vKqp61ehOi8XWl52MSdo80+RytnC10VjpKmHJlRzhgLc6QopKOehg==
   dependencies:
-    "@jsdevtools/ono" "^7.1.0"
+    "@jsdevtools/ono" "^7.1.2"
     call-me-maybe "^1.0.1"
     js-yaml "^3.13.1"
 
-"@apidevtools/openapi-schemas@^2.0.2":
+"@apidevtools/openapi-schemas@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@apidevtools/openapi-schemas/-/openapi-schemas-2.0.3.tgz#c21f198b445bc8b8a90cd4f97534b96deefdfcb4"
   integrity sha512-QoPaxGXfgqgGpK1p21FJ400z56hV681a8DOcZt3J5z0WIHgFeaIZ4+6bX5ATqmOoCpRCsH4ITEwKaOyFMz7wOA==
 
-"@apidevtools/swagger-methods@^3.0.0":
+"@apidevtools/swagger-methods@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@apidevtools/swagger-methods/-/swagger-methods-3.0.1.tgz#cf3b1c6b92f811d3f14d51645d277fb54ddd5211"
   integrity sha512-1Vlm18XYW6Yg7uHunroXeunWz5FShPFAdxBbPy8H6niB2Elz9QQsCoYHMbcc11EL1pTxaIr9HXz2An/mHXlX1Q==
 
-"@apidevtools/swagger-parser@9.0.1":
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/@apidevtools/swagger-parser/-/swagger-parser-9.0.1.tgz#592e39dc412452ac4b34507a765e4d74ff6eda14"
-  integrity sha512-Irqybg4dQrcHhZcxJc/UM4vO7Ksoj1Id5e+K94XUOzllqX1n47HEA50EKiXTCQbykxuJ4cYGIivjx/MRSTC5OA==
+"@apidevtools/swagger-parser@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@apidevtools/swagger-parser/-/swagger-parser-10.0.0.tgz#a2cb38dca9ad8d6b4a341a77c5f6591b704fa28b"
+  integrity sha512-0/LJ0BfJeJzem6bCW+RBMK1Q+NaJ4v24+W5I7t+CFPPd6DDTUafGx2OVNciU2hJatu0aA0xAaFtklv4VIYfBJw==
   dependencies:
-    "@apidevtools/json-schema-ref-parser" "^8.0.0"
-    "@apidevtools/openapi-schemas" "^2.0.2"
-    "@apidevtools/swagger-methods" "^3.0.0"
-    "@jsdevtools/ono" "^7.1.0"
+    "@apidevtools/json-schema-ref-parser" "^9.0.2"
+    "@apidevtools/openapi-schemas" "^2.0.3"
+    "@apidevtools/swagger-methods" "^3.0.1"
+    "@jsdevtools/ono" "^7.1.2"
     call-me-maybe "^1.0.1"
     openapi-types "^1.3.5"
-    z-schema "^4.2.2"
+    z-schema "^4.2.3"
 
 "@babel/cli@7.10.4":
   version "7.10.4"
@@ -342,7 +342,7 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@jsdevtools/ono@^7.1.0":
+"@jsdevtools/ono@^7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@jsdevtools/ono/-/ono-7.1.2.tgz#373995bb40a6686589a7fcfec06b0e6e304ef6c6"
   integrity sha512-qS/a24RA5FEoiJS9wiv6Pwg2c/kiUo3IVUQcfeM9JvsR6pM8Yx+yl/6xWYLckZCT5jpLNhslgjiA8p/XcGyMRQ==
@@ -4140,10 +4140,10 @@ lambda-rate-limiter@2.4.29:
   dependencies:
     lru-cache "5.1.1"
 
-lambda-serverless-api@7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.1.1.tgz#5bc298a224094203ce89fb3c3ddec22bcbe94a17"
-  integrity sha512-n1uGFSyDKOiZ0wlmKvMwJKN57bdzovKZGZohh58xyB0dkPyWVR1fARTyzvl9fSnPXUvDH95LL5KcBhKWXSj9Ug==
+lambda-serverless-api@7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.1.2.tgz#5823feef1f36379114167d2d02f277bbd9e2b957"
+  integrity sha512-cvjn5czwQtz2WXDwSbDjhTquoh5OBRi35qplXcon0A0yDJ3o/vxbjBuOWC295tu6C5s2tTfGTACY7h0z6fZAeg==
   dependencies:
     joi-strict "1.2.2"
     lambda-async "1.0.5"
@@ -4157,7 +4157,7 @@ lambda-serverless-api@7.1.1:
     object-scan "13.1.1"
     painless-version "1.2.2"
     route-recognizer "0.3.4"
-    swagger-parser "9.0.1"
+    swagger-parser "10.0.0"
 
 lambda-tdd@2.12.13:
   version "2.12.13"
@@ -7406,12 +7406,12 @@ supports-hyperlinks@^2.1.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-swagger-parser@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/swagger-parser/-/swagger-parser-9.0.1.tgz#338e7e1ec10699069741535a7ef227a6efccbcd4"
-  integrity sha512-oxOHUaeNetO9ChhTJm2fD+48DbGbLD09ZEOwPOWEqcW8J6zmjWxutXtSuOiXsoRgDWvORYlImbwM21Pn+EiuvQ==
+swagger-parser@10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/swagger-parser/-/swagger-parser-10.0.0.tgz#a7f8cc3217d91258d8c598aca0602ef5f194d6d4"
+  integrity sha512-cRAI0qDjlAjVqT9q7Ob0nyTRIX2bQEuJMDwgNpDYwU10E6TPtNSqiwYO7vYiUAA+Agl8FVRe5LgzBXdmiAoyaA==
   dependencies:
-    "@apidevtools/swagger-parser" "9.0.1"
+    "@apidevtools/swagger-parser" "10.0.0"
 
 table@^5.2.3:
   version "5.4.6"
@@ -8332,7 +8332,7 @@ yargs@^8.0.2:
     y18n "^3.2.1"
     yargs-parser "^7.0.0"
 
-z-schema@^4.2.2:
+z-schema@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-4.2.3.tgz#85f7eea7e6d4fe59a483462a98f511bd78fe9882"
   integrity sha512-zkvK/9TC6p38IwcrbnT3ul9in1UX4cm1y/VZSs4GHKIiDCrlafc+YQBgQBUdDXLAoZHf2qvQ7gJJOo6yT1LH6A==
