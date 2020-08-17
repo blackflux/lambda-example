@@ -4122,13 +4122,6 @@ lambda-async@1.0.6:
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.6.tgz#5089e704ae019ddde7c31ac00d89575192fc3f46"
   integrity sha512-Kq/9YhpSS5Q0Dp7lNZMC4aHWzC3sDT9I8k1ElsIJAFDIZemWgGxgJj75JQh6Qlpbts6gcyeEoZO2SaSFUAJCBQ==
 
-lambda-monitor-logger@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.4.0.tgz#c8666d5848b141091ec116a0e1cf037d1dc6b818"
-  integrity sha512-5oB/H63ZMxq5LfBEOgHxKfRBLE+jj3RZI30WzhujOei/o0aoR88QpSR6aPkcDV68Dn0M0hIkhtsro6aXaUKwCA==
-  dependencies:
-    joi-strict "1.2.2"
-
 lambda-monitor-logger@2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.4.2.tgz#16d6e9036753df05c3bfee3a0b01a9cdf6534536"
@@ -4143,20 +4136,20 @@ lambda-rate-limiter@2.4.31:
   dependencies:
     lru-cache "6.0.0"
 
-lambda-serverless-api@7.1.4:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.1.4.tgz#567500ea17efdb1f6eb63158732a533771816f6c"
-  integrity sha512-8PpAZ+Ce/F3iRR204u6djWiiwt1uu2/aza08bhb6BPnMmOkiQcKSRN26+ulFao8AplxjPJclnAOLkTms014RdQ==
+lambda-serverless-api@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.2.0.tgz#b87cafe906ce87ef9e3fcb9eefe47f69613ea684"
+  integrity sha512-mbM7hK3HipmjKK1xh0EQx4idai+OJM5Yh7s5wlu4aOeP1eHWq/zr+fyEi72dK+zuQxs6EuWj2oHsQ2zrb9WBWg==
   dependencies:
     joi-strict "1.2.3"
     lambda-async "1.0.6"
-    lambda-monitor-logger "2.4.0"
+    lambda-monitor-logger "2.4.2"
     lambda-rate-limiter "2.4.31"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
-    object-fields "2.0.9"
+    object-fields "2.0.10"
     object-scan "13.1.2"
     painless-version "1.2.3"
     route-recognizer "0.3.4"
@@ -5568,12 +5561,12 @@ object-deep-contain@1.0.24:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.24.tgz#6d1088f00545eca1dd160100d3e7ba7ca94aaf73"
   integrity sha512-49NP9G7PKdkQnh44yhQQsZqYIXgg4qpwS8ZxOW5tyVEPwR/FSoCT9UyeMZgddzvFsN0nSIMe8gq6HV6DxspHng==
 
-object-fields@2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.9.tgz#32668f7fa8ca6597a6ca13ac4408b202abb7368e"
-  integrity sha512-C8h2ob1s8E0FGmUAuk8DTDIEqGEYEG1Dby38VArEslYMG/NarEvJhF32NTEjOl7H+HM5SBcTxULGaSMnhgdUOQ==
+object-fields@2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.10.tgz#ac619f6bbe62d4e18ed4217275b0e708eee5f960"
+  integrity sha512-EeXQQguILOzXLAwdfmbDcbxwQX4TN93GouaTelV2QWvbEh6CwLAYr89OX5qpbemCkVK9xM0OvgI4dEektkV8Zg==
   dependencies:
-    object-scan "13.1.1"
+    object-scan "13.1.2"
 
 object-inspect@^1.7.0:
   version "1.8.0"
