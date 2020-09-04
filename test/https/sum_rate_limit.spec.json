@@ -3,13 +3,14 @@
     "RATE_LIMIT": "0"
   },
   "handler": "sum",
+  "timestamp": "2020-09-04T13:09:51.410Z",
   "success": true,
   "response": {
-    "to.deep.equal": "{\"statusCode\":429,\"body\":\"{\\\"message\\\":\\\"Rate limit exceeded.\\\"}\"}"
+    "to.deep.equal": "{\"statusCode\":429,\"body\":\"{\\\"message\\\":\\\"Rate limit exceeded.\\\"}\",\"headers\":{\"X-Rate-Limit-Reset\":9}}"
   },
   "logs": {
     "to.deep.equal": [
-      "WARNING: 429 GET\n{\"event\":{\"queryStringParameters\":{\"input\":\"[1, 2, 3, 4, 5]\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"headers\":{}},\"response\":{\"statusCode\":429,\"body\":{\"message\":\"Rate limit exceeded.\"}}}"
+      "WARNING: 429 GET\n{\"event\":{\"queryStringParameters\":{\"input\":\"[1, 2, 3, 4, 5]\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"headers\":{}},\"response\":{\"statusCode\":429,\"body\":{\"message\":\"Rate limit exceeded.\"},\"headers\":{\"X-Rate-Limit-Reset\":9}}}"
     ]
   },
   "event": {
