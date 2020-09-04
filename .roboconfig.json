@@ -8,6 +8,7 @@
       "packageName": "lambda-example",
       "projectName": "lambda-example",
       "owner": "simlu",
+      "nodeVersion": "10",
       "ownerName": "Lukas Siemon",
       "mergeBot": "MrsFlux"
     }
