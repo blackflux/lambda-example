@@ -4060,6 +4060,13 @@ joi-strict@1.2.4:
   dependencies:
     "@hapi/joi" "17.1.1"
 
+joi-strict@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.2.5.tgz#bba6adbaedd949f9dda1ef921520e719ddee845d"
+  integrity sha512-UvAuLlApA0+18Tk4hA0oJ5mTumtFx7HOKIwXIrVMa4d8J5xCli0XzhMS7HLFJhNms+e5cgssvB8PZeoJGpBhKQ==
+  dependencies:
+    "@hapi/joi" "17.1.1"
+
 js-gardener@2.0.172:
   version "2.0.172"
   resolved "https://registry.yarnpkg.com/js-gardener/-/js-gardener-2.0.172.tgz#c58a9c5c6548a8066d63a9264c0b276a87efa429"
@@ -4256,19 +4263,19 @@ lambda-serverless-api@7.3.7:
     route-recognizer "0.3.4"
     swagger-parser "10.0.2"
 
-lambda-tdd@2.13.7:
-  version "2.13.7"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.13.7.tgz#3c268a52a6c63e71a8dde3220b2fa1bc0f65d772"
-  integrity sha512-Qtr4s8svjxDx5YfqemYE/Dyqgwu19qHkgWChlAS/QAoHQYXGSJO6Lyo7KX7W/peQPs3GfyzalF8wGV/dBizaoQ==
+lambda-tdd@2.13.9:
+  version "2.13.9"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.13.9.tgz#12f58a87197df80f045149b36e1d17b3fbcaa9a8"
+  integrity sha512-dJErg6RLVfCaCgIG6xVo5gKclPpwP1EefVVrqwBbhASec+KDZ6sJvRBlPv/7g9ied9qmwT22XsmaB64DCoUe6w==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
-    joi-strict "1.2.4"
+    joi-strict "1.2.5"
     js-yaml "3.14.0"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.18.4"
-    smart-fs "1.11.19"
+    node-tdd "2.18.8"
+    smart-fs "1.11.21"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
@@ -5167,10 +5174,10 @@ node-sass-tilde-importer@^1.0.2:
   dependencies:
     find-parent-dir "^0.3.0"
 
-node-tdd@2.18.4:
-  version "2.18.4"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.18.4.tgz#0a4dae16f3072646e23105d7b41664c29c9597d6"
-  integrity sha512-d4vvfv9+Ch8Ty3/b3tVVoA9sTjDTt+hiXWqy4b/8/H8KCYsUz285QocZe6S1LVzK0izXxrpiCv2Mm3+hdbaErQ==
+node-tdd@2.18.8:
+  version "2.18.8"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.18.8.tgz#ceb126a9424b5995a338e34114d0105b8fc30f11"
+  integrity sha512-5I2qgMRhutPCFonYPpfyAsRt4kdU3PJpe4PRW9zVT9qO2bvmPQZmOvceS+BoPPfAQwAsTBKxAKxhW4XDVZ4olQ==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.2.3"
@@ -5178,8 +5185,8 @@ node-tdd@2.18.4:
     lodash.get "4.4.2"
     minimist "1.2.5"
     nock "13.0.4"
-    object-scan "13.1.4"
-    smart-fs "1.11.16"
+    object-scan "13.1.5"
+    smart-fs "1.11.19"
     timekeeper "2.2.0"
     tmp "0.2.1"
     uuid "8.3.0"
