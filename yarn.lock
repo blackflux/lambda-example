@@ -1027,10 +1027,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk-wrap@4.4.21:
-  version "4.4.21"
-  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-4.4.21.tgz#272b43bc80bd1ef9dcafca24355216b46e6ba22c"
-  integrity sha512-3RjiTwgy3i/7EgnLNmeMciLGGeVB5NzfwHWFVSbPjvCjQtf3cM6Qli9if7EbjLHHZbNHmGvyMOSTstVDxEsJVQ==
+aws-sdk-wrap@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-4.5.0.tgz#97b4784351b962ccf3c13221741741fcecb4de98"
+  integrity sha512-xiJ4TkeBxx6T+PEPtdmxUoDFR6LwYtC3iFifUxoVZs03F8VVzGRbrQSz2F7n8YWeDgSbH2L8NV9pbYOmTWp4ag==
   dependencies:
     joi-strict "1.2.5"
     lambda-async "1.0.8"
@@ -4215,12 +4215,12 @@ lambda-monitor-logger@2.4.5:
   dependencies:
     joi-strict "1.2.5"
 
-lambda-serverless-api@7.3.10:
-  version "7.3.10"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.3.10.tgz#1e3022ea2561f79600c9de980c8b71febc2b722b"
-  integrity sha512-n8RRHHh1lT6z0SGLYNBWu9TqWHLIWCjxIVW35UTsmWeZZ1dKD2kpdlQhoKQpL0gT+pfbl66cLUDbP3h7TfRTWQ==
+lambda-serverless-api@7.3.11:
+  version "7.3.11"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.3.11.tgz#4dc3e4f792f5f47f92ff1fcd27b0707f1d8c701b"
+  integrity sha512-ZxsXesi8ba4OK735aqKM2mrIjAuyllXhKXGHg03u0mQ1Lu8DrrXNsWAcPM+mK4/nHGUScQjkltoK1iGQoDRBVw==
   dependencies:
-    aws-sdk-wrap "4.4.21"
+    aws-sdk-wrap "4.5.0"
     joi-strict "1.2.5"
     lambda-async "1.0.8"
     lambda-monitor-logger "2.4.5"
@@ -4228,7 +4228,7 @@ lambda-serverless-api@7.3.10:
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
-    lru-cache-ext "1.1.15"
+    lru-cache-ext "1.2.0"
     object-fields "2.0.14"
     object-hash-strict "1.2.32"
     object-scan "13.1.6"
@@ -4657,6 +4657,13 @@ lru-cache-ext@1.1.15:
   version "1.1.15"
   resolved "https://registry.yarnpkg.com/lru-cache-ext/-/lru-cache-ext-1.1.15.tgz#b94fd075f9489447fecd8f08dbd466207f9be9a2"
   integrity sha512-rlPRbapEBv3pwD5dCADsbrUZ7Aa6ms7GUzahOZnrOYwCudGEd4zfI/qCwFUPCCMaLPgjw5tAjcXI2CLmCbsJHA==
+  dependencies:
+    lru-cache "6.0.0"
+
+lru-cache-ext@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/lru-cache-ext/-/lru-cache-ext-1.2.0.tgz#9e0f3c086202d39a901686e09c9ca644c76de28f"
+  integrity sha512-HbruRdlMF03TVf8xIT4tR+YhVhoTWcY74FyNanL4iC4ZDzpt7bDqCjPG/RaIC4jJK7I3da2wX0gBl5D0rR44Lw==
   dependencies:
     lru-cache "6.0.0"
 
