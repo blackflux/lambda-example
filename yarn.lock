@@ -4291,10 +4291,10 @@ lambda-monitor-logger@2.4.6:
   dependencies:
     joi-strict "1.2.5"
 
-lambda-serverless-api@7.3.11:
-  version "7.3.11"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.3.11.tgz#4dc3e4f792f5f47f92ff1fcd27b0707f1d8c701b"
-  integrity sha512-ZxsXesi8ba4OK735aqKM2mrIjAuyllXhKXGHg03u0mQ1Lu8DrrXNsWAcPM+mK4/nHGUScQjkltoK1iGQoDRBVw==
+lambda-serverless-api@7.3.13:
+  version "7.3.13"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.3.13.tgz#dc0bf85b6c3ae7294de0e8f4c6d0cb19332addff"
+  integrity sha512-7fi9+QwclEPIiNrQQ7oIImgA/fn0EprupJSwM4XVbuEXSbtpK+PUwA8UoJBIwCCsMa+faZlFfYBj812n1TDsfw==
   dependencies:
     aws-sdk-wrap "4.5.0"
     joi-strict "1.2.5"
@@ -4307,7 +4307,7 @@ lambda-serverless-api@7.3.11:
     lru-cache-ext "1.2.0"
     object-fields "2.0.14"
     object-hash-strict "1.2.32"
-    object-scan "13.1.6"
+    object-scan "13.3.9"
     painless-version "1.2.5"
     route-recognizer "0.3.4"
     swagger-parser "10.0.2"
@@ -5708,6 +5708,11 @@ object-scan@13.1.6:
   version "13.1.6"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.1.6.tgz#7ca059e129ee653edadb4ea1fecb57996d998a3d"
   integrity sha512-11zDs+8YzbqrhsFEqsPfPS8MucHuph5bmu0HA6JL2BlDoauLe2yKFa7HrZG1rS/+vdQCBibivqA+nvE5hj5ahQ==
+
+object-scan@13.3.9:
+  version "13.3.9"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.3.9.tgz#c2000db1732f0cbafff8ec304f739f432f179ee0"
+  integrity sha512-Fj1x3aP1jUGtz/CQ8JTl6Is9zCkl6xnaK5PRdQk19YTkHfn/Wx8V2KiglJWx1ijjBUeiKDKK/RGnnJh9vucL4w==
 
 object-treeify@1.1.28:
   version "1.1.28"
