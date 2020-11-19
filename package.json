@@ -50,7 +50,7 @@
     "mocha": "8.2.0",
     "nock": "13.0.4",
     "nyc": "15.1.0",
-    "semantic-release": "17.2.1",
+    "semantic-release": "17.2.3",
     "smart-fs": "1.12.0",
     "babel-preset-latest-node": "5.0.0"
   },
