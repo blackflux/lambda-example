@@ -51,7 +51,7 @@
     "nock": "13.0.5",
     "nyc": "15.1.0",
     "semantic-release": "17.2.3",
-    "smart-fs": "1.12.1",
+    "smart-fs": "1.12.2",
     "babel-preset-latest-node": "5.1.1"
   },
   "licenses": [
@@ -68,8 +68,8 @@
   ],
   "dependencies": {
     "lambda-async": "1.0.9",
-    "lambda-monitor-logger": "2.4.6",
-    "lambda-serverless-api": "7.3.13",
+    "lambda-monitor-logger": "2.4.7",
+    "lambda-serverless-api": "7.3.14",
     "moment-timezone": "0.5.32",
     "request": "2.88.2"
   },
