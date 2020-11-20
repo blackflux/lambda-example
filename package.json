@@ -51,7 +51,7 @@
     "nock": "13.0.5",
     "nyc": "15.1.0",
     "semantic-release": "17.2.3",
-    "smart-fs": "1.12.1",
+    "smart-fs": "1.12.2",
     "babel-preset-latest-node": "5.1.1"
   },
   "licenses": [
