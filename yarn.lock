@@ -1049,10 +1049,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk-wrap@4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-4.5.2.tgz#819d4a5ef175e9aa6076069a5b0db90421f29389"
-  integrity sha512-aMneoaNYe0GWwGLrVS188/MYClsVz5UlDGiTJjfYHoifFJrr4RDt7Q3sG4JTlZ1SEpicOpYze+/EVWhA2CfAVw==
+aws-sdk-wrap@4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-4.5.3.tgz#7c1491422861fdb8ba47e1c1fb39b4a15afcf562"
+  integrity sha512-goS99Qx9qP4+vMUPsY86OKYeSi47Lbp9T9eSB49rIUsV7J/wn4YlEFSZKE2PfJjaEUTkkoLEDolcZAUP6PP6XA==
   dependencies:
     joi-strict "1.2.6"
     lambda-async "1.0.9"
@@ -1061,7 +1061,7 @@ aws-sdk-wrap@4.5.2:
     lru-cache-ext "1.2.3"
     object-hash "2.0.3"
     promise-pool-ext "1.3.10"
-    smart-fs "1.12.1"
+    smart-fs "1.12.2"
 
 aws-sdk@^2.4.0:
   version "2.746.0"
@@ -4184,12 +4184,12 @@ lambda-monitor-logger@2.4.7:
   dependencies:
     joi-strict "1.2.6"
 
-lambda-serverless-api@7.3.15:
-  version "7.3.15"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.3.15.tgz#f4694b9f657f78f1a45a04ea776498b163d8c111"
-  integrity sha512-D8XOa8minsKEmeLiTxQK4WYTzOnJIQkVXdWm9Xb4LzMqZKWFf6xE7kky0HlpAGtA9sHGU4tEik1C1XhRpyTfWA==
+lambda-serverless-api@7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.0.tgz#28aeeb1d211bace477c6582fddc69071eac20dbf"
+  integrity sha512-AQ5e6GGQbWyMfjBs5yebU7dMQZI/0X5WGNnAEFVvsVLFQEzJZtxQHxEh0ZTgMaOvAZqyDpTByn+jI47vw0sXbA==
   dependencies:
-    aws-sdk-wrap "4.5.2"
+    aws-sdk-wrap "4.5.3"
     joi-strict "1.2.6"
     lambda-async "1.0.9"
     lambda-monitor-logger "2.4.7"
