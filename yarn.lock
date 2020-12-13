@@ -1055,10 +1055,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk-wrap@4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-4.5.3.tgz#7c1491422861fdb8ba47e1c1fb39b4a15afcf562"
-  integrity sha512-goS99Qx9qP4+vMUPsY86OKYeSi47Lbp9T9eSB49rIUsV7J/wn4YlEFSZKE2PfJjaEUTkkoLEDolcZAUP6PP6XA==
+aws-sdk-wrap@4.6.4:
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-4.6.4.tgz#c3713873ba19b604c658bf4f281552a7d07d4e41"
+  integrity sha512-19R8NsmW/9GO7NMVAk9/OBbj0tdTTY0Rd37idKv+KzerE/UJo8Jfu1K5DMGEfK2CV4712rUlp8LH17ofhWpZSg==
   dependencies:
     joi-strict "1.2.6"
     lambda-async "1.0.9"
@@ -4190,12 +4190,12 @@ lambda-monitor-logger@2.4.7:
   dependencies:
     joi-strict "1.2.6"
 
-lambda-serverless-api@7.4.0:
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.0.tgz#28aeeb1d211bace477c6582fddc69071eac20dbf"
-  integrity sha512-AQ5e6GGQbWyMfjBs5yebU7dMQZI/0X5WGNnAEFVvsVLFQEzJZtxQHxEh0ZTgMaOvAZqyDpTByn+jI47vw0sXbA==
+lambda-serverless-api@7.4.2:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.2.tgz#341adbe4b6f1b18c218228f42314c1c15cdb4680"
+  integrity sha512-bfr3DQdtYor2jdj4FDNu7dZUozAZcThY5ZcAzUMLPDUgoL2kZdw7zK7bLojf2rPdHMOaTy/lzAh5fWzB8lWVjg==
   dependencies:
-    aws-sdk-wrap "4.5.3"
+    aws-sdk-wrap "4.6.4"
     joi-strict "1.2.6"
     lambda-async "1.0.9"
     lambda-monitor-logger "2.4.7"
@@ -4206,7 +4206,7 @@ lambda-serverless-api@7.4.0:
     lru-cache-ext "1.2.3"
     object-fields "2.0.17"
     object-hash-strict "1.2.35"
-    object-scan "13.6.6"
+    object-scan "13.6.9"
     painless-version "1.2.6"
     route-recognizer "0.3.4"
     swagger-parser "10.0.2"
@@ -5584,6 +5584,11 @@ object-scan@13.6.6:
   version "13.6.6"
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.6.6.tgz#e44677a7f5411b96bf5d5f66ce627e94ea09e599"
   integrity sha512-Ag+m0/43i2HhbxMptWA9gZT0XvEQAv2fsvPkUQzvZTgo8sGcFgqdXEDFtru1VnYSTZpBWcEePy8dI0yyyFI5wA==
+
+object-scan@13.6.9:
+  version "13.6.9"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.6.9.tgz#0f3e58a53457cacfc47ff2e629c8cb0c4ad21cc1"
+  integrity sha512-313rLSzH9uE9I9aGIt+seNP/k1XvB6iAOyuDYJdnqEmG/wyVb9enG7rOtTTe6cO3KEp4B9K//D2hSj8iVlMzLA==
 
 object-treeify@1.1.29:
   version "1.1.29"
