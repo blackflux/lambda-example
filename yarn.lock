@@ -4222,10 +4222,10 @@ lambda-monitor-logger@2.4.9:
   dependencies:
     joi-strict "1.2.9"
 
-lambda-serverless-api@7.4.3:
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.3.tgz#20415db9bd8b8f773495a6162d5571c637cb00e1"
-  integrity sha512-bOhHAnpmp39Rdczx74EvHb56cuXO3+3wj6/UBo88Q1JO+8vfb1QRMRq0O6euYJEEO3wzKhkClQ4mSfYcQmBXQw==
+lambda-serverless-api@7.4.4:
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.4.tgz#95098f925efa9d2219234268067aa9efaea85a43"
+  integrity sha512-fjvB/fUOxyjJ1SF7kIlk/XHdPWtgttD7UjqMafiIzuqNj8g4Hk6zt8ZmKdCngUcEcKxzSRJISVljMgqRORh9EQ==
   dependencies:
     aws-sdk-wrap "4.6.5"
     joi-strict "1.2.9"
@@ -4236,7 +4236,7 @@ lambda-serverless-api@7.4.3:
     lodash.get "4.4.2"
     lodash.set "4.3.2"
     lru-cache-ext "1.2.3"
-    object-fields "2.0.19"
+    object-fields "2.0.20"
     object-hash-strict "1.2.37"
     object-scan "13.6.9"
     painless-version "1.2.7"
@@ -5562,12 +5562,12 @@ object-deep-contain@1.0.29:
   resolved "https://registry.yarnpkg.com/object-deep-contain/-/object-deep-contain-1.0.29.tgz#d6cf9df21455e31de769f486410594cd6885d215"
   integrity sha512-nLOAncdGePrOWzjSD1AwroXRtaUOXf3LRyVhTntdYSPwvWld65toDGxFrDvw/0ji3AGF5FeEvnoBNZBUElK3Ng==
 
-object-fields@2.0.19:
-  version "2.0.19"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.19.tgz#19403db205e83fadaf292dc117049b0c08256b5d"
-  integrity sha512-CAmnldaVHpT1K+IBed3nyNx4qVSiZIy4eSeCTkvPA+fDbB/sSd57WcjSqpsTopExfWrbkmFSTCTlHcq6Q/raHw==
+object-fields@2.0.20:
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.20.tgz#48f6dc0c19f62a45f5cebff2ded6436f3053b328"
+  integrity sha512-NqbPk+QnK4nKUV8az/hprehO68BsWk+9JBakqxNt9/C0kUz4s29coN1u4dWW8xR1fnWnWjs1OZuiLeqEySd0nA==
   dependencies:
-    object-scan "13.6.9"
+    object-scan "13.7.1"
 
 object-hash-strict@1.2.37:
   version "1.2.37"
