@@ -70,7 +70,7 @@
     "lambda-async": "1.0.10",
     "lambda-monitor-logger": "2.4.9",
     "lambda-serverless-api": "7.4.4",
-    "moment-timezone": "0.5.32",
+    "moment-timezone": "0.5.33",
     "request": "2.88.2"
   },
   "peerDependencies": {},
