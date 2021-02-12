@@ -73,7 +73,9 @@
     "moment-timezone": "0.5.33",
     "request": "2.88.2"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "aws-sdk": "2.842.0"
+  },
   "keywords": [],
   "nyc": {
     "tempDir": "./coverage/.nyc_output",
