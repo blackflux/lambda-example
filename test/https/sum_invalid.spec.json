@@ -6,7 +6,7 @@
   },
   "logs": {
     "to.deep.equal": [
-      "WARNING: 400 GET\n{\"event\":{\"queryStringParameters\":{\"input\":\"{}\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"headers\":{}},\"response\":{\"statusCode\":400,\"body\":{\"message\":\"Please provide input query parameter list of numbers!\"}}}"
+      "WARNING: 400 GET sum\n{\"event\":{\"queryStringParameters\":{\"input\":\"{}\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"path\":\"/sum\",\"headers\":{}},\"response\":{\"statusCode\":400,\"body\":{\"message\":\"Please provide input query parameter list of numbers!\"}}}"
     ]
   },
   "event": {
