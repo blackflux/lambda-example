@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/blackflux/lambda-example#readme",
   "devDependencies": {
-    "@babel/cli": "7.12.16",
-    "@babel/core": "7.12.16",
+    "@babel/cli": "7.12.13",
+    "@babel/core": "7.12.13",
     "@babel/register": "7.12.13",
     "@blackflux/eslint-plugin-rules": "1.3.45",
     "@blackflux/robo-config-plugin": "4.0.4",
@@ -48,7 +48,7 @@
     "eslint-plugin-mocha": "8.0.0",
     "js-gardener": "2.0.184",
     "lambda-tdd": "2.13.15",
-    "mocha": "8.3.0",
+    "mocha": "8.2.1",
     "nock": "13.0.7",
     "nyc": "15.1.0",
     "semantic-release": "17.3.8",
@@ -73,9 +73,7 @@
     "moment-timezone": "0.5.33",
     "request": "2.88.2"
   },
-  "peerDependencies": {
-    "aws-sdk": "2.842.0"
-  },
+  "peerDependencies": {},
   "keywords": [],
   "nyc": {
     "tempDir": "./coverage/.nyc_output",
