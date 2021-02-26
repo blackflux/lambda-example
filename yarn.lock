@@ -695,6 +695,18 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
+"@turf/helpers@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/helpers/-/helpers-6.3.0.tgz#87f90f806c3f8ad6385ef8d2041d3662bf3c9fb1"
+  integrity sha512-kr6KuD4Z0GZ30tblTEvi90rvvVNlKieXuMC8CTzE/rVQb0/f/Cb29zCXxTD7giQTEQY/P2nRW23wEqqyNHulCg==
+
+"@turf/kinks@6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/kinks/-/kinks-6.3.0.tgz#a16b4ccc5a5aae139d43e36271e0a0494fdb4bf7"
+  integrity sha512-BLWvbl2/fa4SeJzVMbleT6Vo1cmzwmzRfxL2xxMei2jmf6JSvqDoMJFwIHGXrLZXvhOCb1b2C+MhBfhtc7kYkQ==
+  dependencies:
+    "@turf/helpers" "^6.3.0"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -4320,11 +4332,12 @@ lambda-monitor-logger@2.4.9:
   dependencies:
     joi-strict "1.2.9"
 
-lambda-serverless-api@7.4.6:
-  version "7.4.6"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.6.tgz#c892012ab003531967336e4f84832b129265bb40"
-  integrity sha512-DxvF24mDaIEfzAvIrdAhb2ok/kko7vCnILofuq+QUkczZnFitpr4nhzCpFJ1SqyqegO/1EmnriBzdWySTgqzkQ==
+lambda-serverless-api@7.4.7:
+  version "7.4.7"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.4.7.tgz#4f2fb08cc4f43d7643daa60d26510202f03c0f6f"
+  integrity sha512-7Aq3jnB0/F/S0FucmZgJqQ+7SmEwSL9Vaebr1GMxjOWfn9mDaZ+qvEnPzCxhek2UP55VbQZPD7Fz29QplVUBXQ==
   dependencies:
+    "@turf/kinks" "6.3.0"
     aws-sdk-wrap "7.2.1"
     joi-strict "1.2.9"
     lambda-async "1.0.10"
@@ -4336,10 +4349,11 @@ lambda-serverless-api@7.4.6:
     lru-cache-ext "1.2.4"
     object-fields "2.0.20"
     object-hash-strict "2.0.1"
-    object-scan "13.9.0"
+    object-scan "13.9.1"
     painless-version "1.2.7"
     route-recognizer "0.3.4"
     swagger-parser "10.0.2"
+    turf-polygon "1.0.3"
 
 lambda-tdd@2.13.15:
   version "2.13.15"
@@ -5734,10 +5748,10 @@ object-scan@13.8.0:
   resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.8.0.tgz#70ec43620b76fbc580856beb5275ee28321f781c"
   integrity sha512-ljh4WKzs/TTBML0kl+qfTpu13lSZ0Q41aj5XiJa0ue9FkEdP5fi5/FTHbZgsGBiXo/AeyPRh1XZDOuGQLffC1A==
 
-object-scan@13.9.0:
-  version "13.9.0"
-  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.9.0.tgz#9d7d01075e9fbb24b851f7a4443d1cdb41d8976f"
-  integrity sha512-kOVtnRmRpCj/831b2KpR5YK33gz4rZOtHFZCQXO96+/PbmlVF6xCGrWQHla8cruAJC40Kl8yhVn1Kxi+W3iHpA==
+object-scan@13.9.1:
+  version "13.9.1"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-13.9.1.tgz#03ab1be0d55e29471774945173a5fdcfcf5ebb35"
+  integrity sha512-81wHtSNKDEJiuo02QDsijTL0KHmKejAbgXzlFADnRIwhAAAuCFbdoPOZ+ZFCmssZWJTi/tq3Q0ohPw9YqJq/Cg==
 
 object-treeify@1.1.31:
   version "1.1.31"
@@ -7863,6 +7877,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+turf-polygon@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/turf-polygon/-/turf-polygon-1.0.3.tgz#671dd34849864509281af18e236f67a7448c6363"
+  integrity sha1-Zx3TSEmGRQkoGvGOI29np0SMY2M=
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
