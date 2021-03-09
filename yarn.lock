@@ -4304,6 +4304,11 @@ lambda-async@1.0.10:
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.10.tgz#328e2794b0ce189625cf1a3dad6fd09fa0667056"
   integrity sha512-zi6lvMe8B4JcNX21bA896QwLknSEf04ZUbq5YHHwatkiixUHvvSK/PXM9CfJlOCFaWjGR0ZQE6CV9rTq0rW/vQ==
 
+lambda-async@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.11.tgz#389fba16cdcc7c30f2eb0335be8faac3358d6c77"
+  integrity sha512-8gNC37n9LmDp7+PfgseK7tZHzW0HpatxmFzrhTGhDqZOGqlxf3TlErp4mW4ZJCMjXRff7DBFNnA49HtdKUTUAw==
+
 lambda-monitor-logger@2.4.9:
   version "2.4.9"
   resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.4.9.tgz#2403da632fc5314db983cfc2d2c3cf319e729c17"
