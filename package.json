@@ -69,7 +69,7 @@
   "dependencies": {
     "lambda-async": "1.0.11",
     "lambda-monitor-logger": "2.4.10",
-    "lambda-serverless-api": "7.5.1",
+    "lambda-serverless-api": "7.5.2",
     "moment-timezone": "0.5.33",
     "request": "2.88.2"
   },
