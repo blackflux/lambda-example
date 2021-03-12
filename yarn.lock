@@ -4134,6 +4134,13 @@ joi-strict@1.2.10:
   dependencies:
     "@hapi/joi" "17.1.1"
 
+joi-strict@1.2.11:
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.2.11.tgz#237d85a0d2b2b6776a9364e350a27b17c87ce014"
+  integrity sha512-lQzZRh8iY76PDRBktFJeDJfOJFjLBBIC6GlaZlFrokCyolGO0J/AKBOCuJapV2pGI0dScF3UzV3gjkyvDAvybw==
+  dependencies:
+    "@hapi/joi" "17.1.1"
+
 joi-strict@1.2.9:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.2.9.tgz#d92e27afcf1abc60fa77ef6a2c3db5e66fca8210"
@@ -4343,18 +4350,18 @@ lambda-serverless-api@7.5.2:
     swagger-parser "10.0.2"
     turf-polygon "1.0.3"
 
-lambda-tdd@2.13.17:
-  version "2.13.17"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-2.13.17.tgz#dbe2f82e0c3b73332f6c36742b3ea695505051dd"
-  integrity sha512-VtqtnGlyPFe4HQx/N1tUQLbRagiBvUJLk4cTkDvnhY0r6RsZfDn0gd39Jya1tKJJtiPQTYALZ4bAXtZHsKDZhA==
+lambda-tdd@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-3.0.0.tgz#cbb9a1252d6cd3ab46cbd31f9448fb567d18f83f"
+  integrity sha512-PrqXq1wpvDmmFbaEZ+5tj9WLpnwPQjtBTIn746r1iOlvxJjc3dPnQV3ujTKZinmnd3nwlRImD3gqX6BfkFul/Q==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
-    joi-strict "1.2.10"
+    joi-strict "1.2.11"
     js-yaml "4.0.0"
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
-    node-tdd "2.19.2"
+    node-tdd "3.0.0"
     smart-fs "1.12.5"
 
 lambda-wrapper@0.3.0:
@@ -5272,10 +5279,10 @@ node-sass-tilde-importer@^1.0.2:
   dependencies:
     find-parent-dir "^0.3.0"
 
-node-tdd@2.19.2:
-  version "2.19.2"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.19.2.tgz#9b73152b2aa7d8a4dec535d1ec626f7b67808fa7"
-  integrity sha512-VY65IAsspvgUHHfYl5d/gaa7C4KiJQIDEqELV66uroLBZEQVoLpQnbC+9NBHvSUYo6SxqEkNkkk+u+LHWcau3g==
+node-tdd@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-3.0.0.tgz#f95fbf554a2ce51d031cd275d21f46007b5ce82a"
+  integrity sha512-NVJdULCJivE1wgDqHh6FT4O+CLK0V/wtwJXire7bYl1zhlyjpZob/83N8czmbGWLd6RbiB4v+Yeq4ITSr4WTiA==
   dependencies:
     callsites "3.1.0"
     joi-strict "1.2.9"
