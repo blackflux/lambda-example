@@ -47,7 +47,7 @@
     "eslint-plugin-markdown": "2.0.0",
     "eslint-plugin-mocha": "8.1.0",
     "js-gardener": "2.0.188",
-    "lambda-tdd": "3.0.1",
+    "lambda-tdd": "3.0.2",
     "mocha": "8.3.2",
     "nock": "13.0.11",
     "nyc": "15.1.0",
@@ -69,7 +69,7 @@
   "dependencies": {
     "lambda-async": "1.0.11",
     "lambda-monitor-logger": "2.4.10",
-    "lambda-serverless-api": "7.5.2",
+    "lambda-serverless-api": "8.0.1",
     "moment-timezone": "0.5.33",
     "request": "2.88.2"
   },
