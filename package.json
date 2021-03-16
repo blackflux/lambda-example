@@ -52,7 +52,7 @@
     "nock": "13.0.11",
     "nyc": "15.1.0",
     "semantic-release": "17.4.2",
-    "smart-fs": "1.12.6"
+    "smart-fs": "1.12.7"
   },
   "licenses": [
     {
