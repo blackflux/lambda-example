@@ -1113,19 +1113,20 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk-wrap@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-8.0.2.tgz#04867cb264481bbd6c30ddb943c448f2e719029d"
-  integrity sha512-K6700HBb6vM7mehAsw6oFc8EgbAwNMleMf6JbSLT+DOnaXrSmlduU63w2nfvlxeflSf61794boSXNPKnUPPA8A==
+aws-sdk-wrap@9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-9.1.1.tgz#aa61e173ae83257404da40669e10e6386131cd61"
+  integrity sha512-UUBd2+o8VTKF5IIbeNo6eeBWa5tBXiJ/sX6vASzoFYeiiQyBi+fdZGyeG1Bu68sh0vC9mLXsGCZC0/gYSbnVKw==
   dependencies:
     dynamodb-toolbox "0.3.3"
-    joi-strict "1.2.9"
-    lambda-async "1.0.10"
+    joi-strict "1.2.11"
+    lambda-async "1.0.11"
     lodash.chunk "4.2.0"
     lodash.get "4.4.2"
-    object-hash-strict "2.0.1"
-    promise-pool-ext "1.3.12"
-    smart-fs "1.12.5"
+    object-fields "2.0.22"
+    object-hash-strict "2.0.3"
+    promise-pool-ext "1.3.14"
+    smart-fs "1.12.6"
 
 aws-sdk@^2.4.0:
   version "2.746.0"
@@ -4154,6 +4155,13 @@ joi-strict@1.2.10:
   dependencies:
     "@hapi/joi" "17.1.1"
 
+joi-strict@1.2.11:
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.2.11.tgz#237d85a0d2b2b6776a9364e350a27b17c87ce014"
+  integrity sha512-lQzZRh8iY76PDRBktFJeDJfOJFjLBBIC6GlaZlFrokCyolGO0J/AKBOCuJapV2pGI0dScF3UzV3gjkyvDAvybw==
+  dependencies:
+    "@hapi/joi" "17.1.1"
+
 joi-strict@1.2.9:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/joi-strict/-/joi-strict-1.2.9.tgz#d92e27afcf1abc60fa77ef6a2c3db5e66fca8210"
@@ -4341,11 +4349,6 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-lambda-async@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.10.tgz#328e2794b0ce189625cf1a3dad6fd09fa0667056"
-  integrity sha512-zi6lvMe8B4JcNX21bA896QwLknSEf04ZUbq5YHHwatkiixUHvvSK/PXM9CfJlOCFaWjGR0ZQE6CV9rTq0rW/vQ==
-
 lambda-async@1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/lambda-async/-/lambda-async-1.0.11.tgz#389fba16cdcc7c30f2eb0335be8faac3358d6c77"
@@ -4358,25 +4361,32 @@ lambda-monitor-logger@2.4.10:
   dependencies:
     joi-strict "1.2.9"
 
-lambda-serverless-api@7.5.2:
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-7.5.2.tgz#fd087534cb8541dc87bccea4e10eee03fa79632d"
-  integrity sha512-FNNNeV2Sqn8CZ2et7nZgoUdy8PmZZ6RIUjsbtqYjmyv6e2uwpX27d7xYzdEkPl882VxL9fLi+VOUZWhI7U3b6w==
+lambda-monitor-logger@2.4.11:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-2.4.11.tgz#2d2a4b305dcabcc43497c8e6762f00e00fcf601f"
+  integrity sha512-l5QraW2gDG3iHFI0vSZDTHfdvmMObRUkBKC/Astv6l211M0y6Bt7OWnYLYAWYATZdOqPeSfwScbBBLDr37IotQ==
+  dependencies:
+    joi-strict "1.2.10"
+
+lambda-serverless-api@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.0.1.tgz#0ab8c75595195404ceeac5a61a53308642dae052"
+  integrity sha512-m443szJIsf2pPlKvlEpxYuMu7FKoPJfFgbx6Zs/MrXuiH74mTHiofTAoLLZr5x3WL8j7CS4hLsQfXq4PdUpbQg==
   dependencies:
     "@turf/kinks" "6.3.0"
-    aws-sdk-wrap "8.0.2"
+    aws-sdk-wrap "9.1.1"
     joi-strict "1.2.10"
     lambda-async "1.0.11"
-    lambda-monitor-logger "2.4.10"
+    lambda-monitor-logger "2.4.11"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
-    lru-cache-ext "1.2.5"
+    lru-cache-ext "1.2.6"
     object-fields "2.0.21"
-    object-hash-strict "2.0.2"
+    object-hash-strict "3.0.0"
     object-scan "14.0.0"
-    painless-version "1.2.8"
+    painless-version "1.2.9"
     route-recognizer "0.3.4"
     swagger-parser "10.0.2"
     turf-polygon "1.0.3"
@@ -4798,10 +4808,10 @@ lowercase-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
   integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
 
-lru-cache-ext@1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/lru-cache-ext/-/lru-cache-ext-1.2.5.tgz#cd23eead6fc057a01e56e28083192b0988df558e"
-  integrity sha512-3lk96NVCHDG12DH4gYBG1ziC7n+B1qEYZbs8d5Nm0NEm+7GZ2LMJhcmC8Gn6ArYdwwGzB0b2mrLjqwuhO8+b7Q==
+lru-cache-ext@1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/lru-cache-ext/-/lru-cache-ext-1.2.6.tgz#bd684d33edd485b3daf4e51f9886650ebd3d33bd"
+  integrity sha512-0dvMzCFLJGlaZGN39ky6RokRoEt+XT6ooguEFiyuwjYonW+2T7hVSgrKsbCAhCz5sGfAxQz5TKFL/PLyf+JzDg==
   dependencies:
     lru-cache "6.0.0"
 
@@ -5748,21 +5758,28 @@ object-fields@2.0.21:
   dependencies:
     object-scan "13.9.1"
 
-object-hash-strict@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/object-hash-strict/-/object-hash-strict-2.0.1.tgz#33a368df3c978dde11f0f09db4256d4986caf95b"
-  integrity sha512-7+2QlqVSZyCs00lRjytjjRVeSnGdewj+0oeuoifO8LS+AgHkobIquCGiu13R0Q8yxmqfJWIZBcMx+IuX3OZiTQ==
+object-fields@2.0.22:
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.22.tgz#31d7943d7ad8297e86e44698df461b83a41c3215"
+  integrity sha512-RzLvuwTC4uqjF/QVLxrYnIBmcBoqrrOlgdi1zEgaZrNlpoJMgE+wQRkaJEAZlp8sx4jwxkJz+gHAa5T+WBDX/w==
   dependencies:
-    object-hash "2.1.1"
-    object-scan "13.8.0"
+    object-scan "14.0.0"
 
-object-hash-strict@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/object-hash-strict/-/object-hash-strict-2.0.2.tgz#225eb627497e2213222b1ae84e9af0848d940d93"
-  integrity sha512-frBxq3M+P1uqzIzY5YoObiq3aYPAucjIM7KuNl6Ug9EvZR/cvhTCbz0baMmRwu7vhNgmLzNYy+OPtjuGsxq6pg==
+object-hash-strict@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/object-hash-strict/-/object-hash-strict-2.0.3.tgz#201aa222cc11aee22117b11defe55a0835761002"
+  integrity sha512-i+6kPWz+/ZXB1ZpNWY1IZntNf1ojcF1XTqQB0uL3xTYaxkf4Po3cYyL5xWwSGangB9LHUmlbw9+o3yMF1TCedw==
   dependencies:
     object-hash "2.1.1"
-    object-scan "13.9.1"
+    object-scan "14.0.0"
+
+object-hash-strict@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/object-hash-strict/-/object-hash-strict-3.0.0.tgz#a0bfb993b41877dbc5c57d7e79cb43828587601d"
+  integrity sha512-lkJNnElUNg+23VhKxCg/0cpJRF2H5XqSsCFgGxWEh0H4+XksEyh5HWC9iqfAGtlAsCnqRlKFAeBugCTMj25uvw==
+  dependencies:
+    object-hash "2.1.1"
+    object-scan "14.0.0"
 
 object-hash@2.1.1:
   version "2.1.1"
@@ -6121,10 +6138,10 @@ pacote@^9.1.0, pacote@^9.5.12, pacote@^9.5.3:
     unique-filename "^1.1.1"
     which "^1.3.1"
 
-painless-version@1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/painless-version/-/painless-version-1.2.8.tgz#04450b00309e25d242a6df7fe00a410ee6d767d2"
-  integrity sha512-wrKvDS3mVEeHwWdi8qN4830KxH2gtExXOJP5B6PCPAujQiwlh9OIj2f32UK19wXPwdBx6ROxh/FzVA96GN28bA==
+painless-version@1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/painless-version/-/painless-version-1.2.9.tgz#6f3dd6a85f1e42153b169a619e45578c406ad54e"
+  integrity sha512-UcsmV+xHkWaUTTEORUcKk5leMOOHGRiRAQQWdnD/SXyP1vP8dZ2vHCAR1XeyTA6ciWbVbQ/UAZZpHrYObSdiXQ==
   dependencies:
     compare-versions "3.6.0"
     lodash.set "4.3.2"
@@ -6407,12 +6424,12 @@ promise-inflight@^1.0.1, promise-inflight@~1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-promise-pool-ext@1.3.12:
-  version "1.3.12"
-  resolved "https://registry.yarnpkg.com/promise-pool-ext/-/promise-pool-ext-1.3.12.tgz#43c6ca3576907e29cbf3fe46d6e34bed3097ac58"
-  integrity sha512-QyXCFi6QxF1AIQa4qZ7uOaulZxKyk5L2WwplpE2BXEeRTxAbVWuWYFV4HvaVpYw0sXrEcM+RU+pGaHhZlwiqPw==
+promise-pool-ext@1.3.14:
+  version "1.3.14"
+  resolved "https://registry.yarnpkg.com/promise-pool-ext/-/promise-pool-ext-1.3.14.tgz#bd9493d5f9b13aef8420ed74d952bfb60f7872a7"
+  integrity sha512-gUPDUU4YviHOYy3RJJxm+UAx+mVnIdcSEBMo+YIMeCy2xz0ZABoTkoDBO9DPlpfzlgniY41/4LdqdfrDO39Qzg==
   dependencies:
-    joi-strict "1.2.9"
+    joi-strict "1.2.10"
 
 promise-retry@^1.1.1:
   version "1.1.1"
