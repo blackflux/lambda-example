@@ -4384,10 +4384,10 @@ lambda-serverless-api@8.0.2:
     swagger-parser "10.0.2"
     turf-polygon "1.0.3"
 
-lambda-tdd@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-3.0.2.tgz#b05e056d2f6cd3ea4b9d74d07ad65355f3a8aaaa"
-  integrity sha512-9XPL6dSSjlMckoytrXaYWvdHPoqZqWYXBameJNTgCSNM2tyVKRmAhxk+EgvZKYRhc6eyqJ+BXHp7/FdIsKwEiw==
+lambda-tdd@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/lambda-tdd/-/lambda-tdd-3.0.3.tgz#123d861f2843e31124e60efe35a3459015f98a25"
+  integrity sha512-bt56S/4vdHiK9avpcOIz7BiuiQ9TcZQfef9jCadzyBGzPNtnizcCAvE22iU4tfi6dNzyAVULZwDjh49d6C67/w==
   dependencies:
     app-root-path "3.0.0"
     glob "7.1.6"
@@ -4396,7 +4396,7 @@ lambda-tdd@3.0.2:
     lambda-wrapper "0.3.0"
     lodash.get "4.4.2"
     node-tdd "3.0.1"
-    smart-fs "2.0.0"
+    smart-fs "2.0.1"
 
 lambda-wrapper@0.3.0:
   version "0.3.0"
