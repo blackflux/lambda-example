@@ -47,12 +47,12 @@
     "eslint-plugin-markdown": "2.0.0",
     "eslint-plugin-mocha": "8.1.0",
     "js-gardener": "3.0.1",
-    "lambda-tdd": "3.0.2",
+    "lambda-tdd": "3.0.3",
     "mocha": "8.3.2",
     "nock": "13.0.11",
     "nyc": "15.1.0",
     "semantic-release": "17.4.2",
-    "smart-fs": "2.0.0"
+    "smart-fs": "2.0.1"
   },
   "licenses": [
     {
@@ -69,7 +69,7 @@
   "dependencies": {
     "lambda-async": "2.0.0",
     "lambda-monitor-logger": "3.0.0",
-    "lambda-serverless-api": "8.0.1",
+    "lambda-serverless-api": "8.0.2",
     "moment-timezone": "0.5.33",
     "request": "2.88.2"
   },
