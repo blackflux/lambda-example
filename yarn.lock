@@ -4361,15 +4361,15 @@ lambda-monitor-logger@3.0.0:
   dependencies:
     joi-strict "2.0.0"
 
-lambda-serverless-api@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.0.1.tgz#0ab8c75595195404ceeac5a61a53308642dae052"
-  integrity sha512-m443szJIsf2pPlKvlEpxYuMu7FKoPJfFgbx6Zs/MrXuiH74mTHiofTAoLLZr5x3WL8j7CS4hLsQfXq4PdUpbQg==
+lambda-serverless-api@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.0.2.tgz#d2053a4a36382704402c22ec72579efa9cc43e80"
+  integrity sha512-ZwxiQaYMC/2ltOTRtaeynMO7uwDIlRcfy4HEYj1rfZ2Xxp2UQIahMvYN7HQw8weDL5ktdOW90v1/bZsRBFEHjw==
   dependencies:
     "@turf/kinks" "6.3.0"
     aws-sdk-wrap "9.1.1"
     joi-strict "1.2.10"
-    lambda-async "1.0.11"
+    lambda-async "2.0.0"
     lambda-monitor-logger "2.4.11"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
