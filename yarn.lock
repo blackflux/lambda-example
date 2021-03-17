@@ -4361,22 +4361,22 @@ lambda-monitor-logger@3.0.0:
   dependencies:
     joi-strict "2.0.0"
 
-lambda-serverless-api@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.0.2.tgz#d2053a4a36382704402c22ec72579efa9cc43e80"
-  integrity sha512-ZwxiQaYMC/2ltOTRtaeynMO7uwDIlRcfy4HEYj1rfZ2Xxp2UQIahMvYN7HQw8weDL5ktdOW90v1/bZsRBFEHjw==
+lambda-serverless-api@8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.0.4.tgz#d687eb6a52a4eb42c028653be325e7d9dcf3ee88"
+  integrity sha512-R6bMinhRSioB23diyHBr/4jkPKLGYW61vcUNRXjjK3yS0offZJu3/KYTQvhWuvDBK4LJghew83RLgl1F8MwY+Q==
   dependencies:
     "@turf/kinks" "6.3.0"
     aws-sdk-wrap "9.1.1"
-    joi-strict "1.2.10"
+    joi-strict "2.0.0"
     lambda-async "2.0.0"
     lambda-monitor-logger "2.4.11"
     lodash.clonedeep "4.5.0"
     lodash.difference "4.5.0"
     lodash.get "4.4.2"
     lodash.set "4.3.2"
-    lru-cache-ext "1.2.6"
-    object-fields "2.0.21"
+    lru-cache-ext "2.0.0"
+    object-fields "3.0.0"
     object-hash-strict "3.0.0"
     object-scan "14.0.0"
     painless-version "1.2.9"
@@ -4801,10 +4801,10 @@ lowercase-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
   integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
 
-lru-cache-ext@1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/lru-cache-ext/-/lru-cache-ext-1.2.6.tgz#bd684d33edd485b3daf4e51f9886650ebd3d33bd"
-  integrity sha512-0dvMzCFLJGlaZGN39ky6RokRoEt+XT6ooguEFiyuwjYonW+2T7hVSgrKsbCAhCz5sGfAxQz5TKFL/PLyf+JzDg==
+lru-cache-ext@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache-ext/-/lru-cache-ext-2.0.0.tgz#a67faf6166e18bbb19684600eb9542e689f15e2b"
+  integrity sha512-0M/cj9kxWudqGN7eGWQaJrCEr58TliQpKYPAmmAPTsn3OgMr5yszC/ZpOqH//M3LMKrBMZOAoJVXVtXJ0Y1osg==
   dependencies:
     lru-cache "6.0.0"
 
@@ -5713,17 +5713,17 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
-object-fields@2.0.21:
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.21.tgz#e68683a49e8d668210467d1e7584fc6f1b4a395a"
-  integrity sha512-QS92P494Ncth3DTvZnaV2houZn7mH7LYWjGqNfAtkfRIAZUHdH+USOaAIvkjQDSisTQsy7kxegfD7tgZn0boQw==
-  dependencies:
-    object-scan "13.9.1"
-
 object-fields@2.0.22:
   version "2.0.22"
   resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-2.0.22.tgz#31d7943d7ad8297e86e44698df461b83a41c3215"
   integrity sha512-RzLvuwTC4uqjF/QVLxrYnIBmcBoqrrOlgdi1zEgaZrNlpoJMgE+wQRkaJEAZlp8sx4jwxkJz+gHAa5T+WBDX/w==
+  dependencies:
+    object-scan "14.0.0"
+
+object-fields@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/object-fields/-/object-fields-3.0.0.tgz#90614dc7e973c5c168f596da023e33f5a83c65d1"
+  integrity sha512-b+y0vFLAPvxUv+9CFeOobkDONuuMVpRITGKsMaoxUqzEBa8qOFt/iLfnHN6aRrNHW/bqHJ0Y/EOYi1nSLGNOzg==
   dependencies:
     object-scan "14.0.0"
 
