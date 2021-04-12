@@ -1089,10 +1089,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk-wrap@9.2.7:
-  version "9.2.7"
-  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-9.2.7.tgz#d27550007439080822cb22534bb3fa569f7a56ac"
-  integrity sha512-HcLWTGSx0vr3KeLRCPimKZMebqw/8HGn6rXY5h7/fHuV93LJHLocagIwBIMMB8XC8KqE+1kZqqyE0jO9N0aegg==
+aws-sdk-wrap@9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-9.4.1.tgz#96a07ee68909a6f893e4d28d6c13998889e7f95d"
+  integrity sha512-jmRKLj2gxLb6UDU7Aua7tROwRWZW+X19A0oUwCViRgrHs1Yod8YVW+EWuVPh8RYI1qn8QMBiwevycQOizl1Beg==
   dependencies:
     dynamodb-toolbox "0.3.3"
     joi-strict "2.0.0"
@@ -1101,6 +1101,7 @@ aws-sdk-wrap@9.2.7:
     lodash.get "4.4.2"
     object-fields "3.0.0"
     object-hash-strict "3.0.0"
+    object-scan "14.0.0"
     promise-pool-ext "2.1.1"
     smart-fs "2.0.2"
 
@@ -4311,13 +4312,13 @@ lambda-monitor-logger@3.0.0:
   dependencies:
     joi-strict "2.0.0"
 
-lambda-serverless-api@8.0.7:
-  version "8.0.7"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.0.7.tgz#9c500caaaad73d1a986f1f90d4a6d7e64d83c18c"
-  integrity sha512-M6w7kuroYkWU4uFPuluwpdHrt9Kx8Y4JBN2uxBLmYgQgQlR9hQdSysnr/EM6TBM+SU76MZi7JRRU+fc6Q2zxFQ==
+lambda-serverless-api@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.1.0.tgz#b6ad8294ef837b4ea7f773c67bbc3ef81b84ff5a"
+  integrity sha512-NXpEHzqg7UlfuAIvFlmhmJ2/2G2hZceGk+rNNqrxCOdlHMvY9BccRZ0hhAVbhN403PWBXVXRNR40IYGsaqfBOA==
   dependencies:
     "@turf/kinks" "6.3.0"
-    aws-sdk-wrap "9.2.7"
+    aws-sdk-wrap "9.4.1"
     joi-strict "2.0.0"
     lambda-async "2.0.0"
     lambda-monitor-logger "3.0.0"
