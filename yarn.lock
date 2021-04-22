@@ -1089,10 +1089,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-aws-sdk-wrap@9.4.1:
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-9.4.1.tgz#96a07ee68909a6f893e4d28d6c13998889e7f95d"
-  integrity sha512-jmRKLj2gxLb6UDU7Aua7tROwRWZW+X19A0oUwCViRgrHs1Yod8YVW+EWuVPh8RYI1qn8QMBiwevycQOizl1Beg==
+aws-sdk-wrap@9.5.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk-wrap/-/aws-sdk-wrap-9.5.0.tgz#12414644d230c9d3d2cb8e7fc74f325c5da2e813"
+  integrity sha512-im7ixQN9dKY+iCNA/E/NVlFrlskpH0A1dq6/en8UIYHEc7TOyG3BBNXXkxRt3HazRoQghHQF5YXPo88JaEk4Yw==
   dependencies:
     dynamodb-toolbox "0.3.3"
     joi-strict "2.0.0"
@@ -4312,13 +4312,13 @@ lambda-monitor-logger@3.0.0:
   dependencies:
     joi-strict "2.0.0"
 
-lambda-serverless-api@8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-8.2.0.tgz#c69a9f8baeaab0fc5dd468c597286436bd6126ca"
-  integrity sha512-UYgpmCdELgJrYYwMYiKSI81EBiPg8i9LLC0kaV5g9AxC6KckmgmbBaIrqRUQbl6MeuNasfmWAg44/KYZ5FW8+Q==
+lambda-serverless-api@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-9.0.0.tgz#44609315ff0c0e88d88a84df6233165f9945aef9"
+  integrity sha512-D922fvWDbLAEGmjmUD5erkMOm/z7Ggd3JEMy3+8wSK4CtK3CXqFlpB0QtB1Acpojk2ISFknqHMUlvMe1WuIW6g==
   dependencies:
     "@turf/kinks" "6.3.0"
-    aws-sdk-wrap "9.4.1"
+    aws-sdk-wrap "9.5.0"
     joi-strict "2.0.0"
     lambda-async "2.0.0"
     lambda-monitor-logger "3.0.0"
