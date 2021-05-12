@@ -51,7 +51,7 @@
     "mocha": "8.4.0",
     "nock": "13.0.11",
     "nyc": "15.1.0",
-    "semantic-release": "17.4.2",
+    "semantic-release": "17.4.3",
     "smart-fs": "2.0.2"
   },
   "licenses": [
