@@ -4436,10 +4436,10 @@ lambda-monitor-logger@3.0.0:
   dependencies:
     joi-strict "2.0.0"
 
-lambda-serverless-api@9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-9.1.0.tgz#02f41f034c64febbea890d480853c235bd5c698c"
-  integrity sha512-etIIWHUgr+jItIUT/RUsSbSaPDGR8do7ae8ighUY5wuRNu1UUqwaJmDYKVagNJW+Lneyapx//PsDIAJo4YjmpQ==
+lambda-serverless-api@9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/lambda-serverless-api/-/lambda-serverless-api-9.1.1.tgz#f1d8c0ae6872aef6cac86545624e510585ae5046"
+  integrity sha512-BqjwzpixRFIC9NSrWRYlp7uFcEqfXGjdpPdYJXkTlx82jTBK/mUQPbFmZeDD60oAyhea7cYm3DQ9sQxjrANjKg==
   dependencies:
     "@turf/kinks" "6.3.0"
     aws-sdk-wrap "9.5.0"
