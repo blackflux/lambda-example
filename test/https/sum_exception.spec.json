@@ -1,11 +1,16 @@
 {
   "handler": "sum",
-  "success": false,
-  "error": {
-    "to.deep.equal": "Unexpected token ] in JSON at position 13"
+  "success": true,
+  "expect": {
+    "to.deep.equal()": {
+      "statusCode": 500,
+      "body": "{\"message\":\"Internal Server Error\"}"
+    }
   },
   "logs": {
-    "to.deep.equal": []
+    "to.deep.equal()": [
+      "WARNING: Unexpected token ] in JSON at position 13: GET sum\n{\"context\":\"lambda-serverless-api\",\"route\":\"GET sum\",\"error\":{\"name\":\"SyntaxError\",\"message\":\"Unexpected token ] in JSON at position 13\",\"stack\":\"SyntaxError: Unexpected token ] in JSON at position 13\\n    at JSON.parse (<anonymous>)\\n    at file://<root>/src/https.js?id=a33c1ff278f74e656cdab3e0567b8896:12:28\\n    at Array.<anonymous> (file://<root>/node_modules/lambda-serverless-api/lib/logic/api-gateway.js:78:14)\\n    at async file://<root>/node_modules/lambda-serverless-api/lib/logic/api-gateway.js:96:25\"}}"
+    ]
   },
   "event": {
     "queryStringParameters": {

@@ -1,10 +1,12 @@
-const api = require('lambda-serverless-api').Api({});
+import { Api } from 'lambda-serverless-api';
+
+const api = Api({});
 
 const limit = process.env.RATE_LIMIT === undefined
   ? undefined
   : parseInt(process.env.RATE_LIMIT, 10);
 
-module.exports.sum = api.wrap('GET sum', [
+export const sum = api.wrap('GET sum', [
   api.Str('input', 'query')
 ], { limit }, ({ input }) => {
   const inputParsed = JSON.parse(input);
@@ -14,4 +16,4 @@ module.exports.sum = api.wrap('GET sum', [
   return api.JsonResponse({ result: inputParsed.reduce((a, b) => a + b, 0) });
 });
 
-module.exports.internalApi = api;
+export const internalApi = api;
