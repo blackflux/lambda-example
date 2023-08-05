@@ -7,7 +7,6 @@ import { internalApi as api } from '../src/https.js';
 const lambdaTester = LambdaTdd({
   cwd: path.join(fs.dirname(import.meta.url), '..'),
   verbose: process.argv.slice(2).indexOf('--debug') !== -1,
-  testHeal: process.argv.slice(2).indexOf('--test-heal') !== -1,
   handlerFile: path.join(fs.dirname(import.meta.url), '..', 'src', 'https.js'),
   cassetteFolder: path.join(fs.dirname(import.meta.url), 'https', '__cassettes'),
   envVarYml: path.join(fs.dirname(import.meta.url), 'env_https.yml'),
