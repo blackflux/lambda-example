@@ -3,10 +3,10 @@
   "success": true,
   "timeout": 30000,
   "response": {
-    "to.deep.equal": "3"
+    "to.deep.equal()": "3"
   },
   "logs": {
-    "to.deep.equal": []
+    "to.deep.equal()": []
   },
   "event": {
     "a": 21,

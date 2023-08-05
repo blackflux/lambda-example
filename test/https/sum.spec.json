@@ -1,13 +1,20 @@
 {
   "handler": "sum",
   "success": true,
-  "response": {
-    "to.deep.equal": "{\"statusCode\":200,\"body\":\"{\\\"result\\\":15}\"}"
+  "expect": {
+    "to.deep.equal()": {
+      "statusCode": 200,
+      "body": "{\"result\":15}"
+    }
   },
-  "logs": {
-    "to.deep.equal": [
-      "INFO: 200 GET sum\n{\"event\":{\"queryStringParameters\":{\"input\":\"[1, 2, 3, 4, 5]\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"path\":\"/sum\",\"headers\":{}},\"response\":{\"statusCode\":200,\"body\":{\"result\":15}}}"
-    ]
+  "logs([length])": {
+    "to.deep.equal()": 2
+  },
+  "logs([0])": {
+    "to.deep.equal()": "INFO: 200 GET sum\n{\"event\":{\"queryStringParameters\":{\"input\":\"[1, 2, 3, 4, 5]\"},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"path\":\"/sum\",\"headers\":{}},\"response\":{\"statusCode\":200,\"body\":{\"result\":15}}}"
+  },
+  "logs([1])": {
+    "to.startsWith()": "JSON: {\"signature\":\"200 GET sum\",\"success\":true,\"level\":\"info\",\"timings\":{\"duration\":"
   },
   "event": {
     "queryStringParameters": {
