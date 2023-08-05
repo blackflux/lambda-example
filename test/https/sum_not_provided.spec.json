@@ -2,12 +2,16 @@
   "handler": "sum",
   "success": true,
   "response": {
-    "to.deep.equal": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Required query-Parameter \\\\\\\"input\\\\\\\" missing.\\\",\\\"messageId\\\":99002}\"}"
+    "to.deep.equal()": "{\"statusCode\":400,\"body\":\"{\\\"message\\\":\\\"Required query-Parameter \\\\\\\"input\\\\\\\" missing.\\\",\\\"messageId\\\":99002}\"}"
   },
-  "logs": {
-    "to.deep.equal": [
-      "WARNING: 400 99002 GET sum\n{\"event\":{\"queryStringParameters\":{},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"path\":\"/sum\",\"headers\":{}},\"response\":{\"statusCode\":400,\"body\":{\"message\":\"Required query-Parameter \\\"input\\\" missing.\",\"messageId\":99002}}}"
-    ]
+  "logs([length])": {
+    "to.deep.equal()": 2
+  },
+  "logs([0])": {
+    "to.deep.equal()": "WARNING: 400 99002 GET sum\n{\"event\":{\"queryStringParameters\":{},\"httpMethod\":\"GET\",\"requestContext\":{\"identity\":{\"sourceIp\":\"123.456.789.123\"}},\"path\":\"/sum\",\"headers\":{}},\"response\":{\"statusCode\":400,\"body\":{\"message\":\"Required query-Parameter \\\"input\\\" missing.\",\"messageId\":99002}}}"
+  },
+  "logs([1])": {
+    "to.startsWith()": "JSON: {\"signature\":\"400 99002 GET sum\",\"success\":false,\"level\":\"warn\",\"timings\":{\"duration\":"
   },
   "event": {
     "queryStringParameters": {},

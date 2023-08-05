@@ -2,10 +2,10 @@
   "handler": "stage",
   "success": true,
   "response": {
-    "to.deep.equal": "local-dev"
+    "to.deep.equal()": "local-dev"
   },
   "logs": {
-    "to.deep.equal": []
+    "to.deep.equal()": []
   },
   "event": {}
 }

@@ -7,5 +7,8 @@
       "ERROR: Some Log Message"
     ]
   },
+  "expect": {
+    "to.be.undefined": null
+  },
   "event": {}
 }

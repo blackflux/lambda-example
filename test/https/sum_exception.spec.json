@@ -1,11 +1,17 @@
 {
   "handler": "sum",
-  "success": false,
-  "error": {
-    "to.deep.equal": "Unexpected token ] in JSON at position 13"
+  "success": true,
+  "expect": {
+    "to.deep.equal()": {
+      "statusCode": 500,
+      "body": "{\"message\":\"Internal Server Error\"}"
+    }
   },
-  "logs": {
-    "to.deep.equal": []
+  "logs([length])": {
+    "to.deep.equal()": 1
+  },
+  "logs([0])": {
+    "to.startsWith()": "WARNING: Unexpected token "
   },
   "event": {
     "queryStringParameters": {
