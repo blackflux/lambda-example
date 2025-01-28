@@ -8,7 +8,7 @@
 [![Downloads](https://img.shields.io/npm/dt/lambda-example.svg)](https://www.npmjs.com/package/lambda-example)
 [![Semantic-Release](https://github.com/blackflux/js-gardener/blob/master/assets/icons/semver.svg)](https://github.com/semantic-release/semantic-release)
 [![Gardener](https://github.com/blackflux/js-gardener/blob/master/assets/badge.svg)](https://github.com/blackflux/js-gardener)
- 
+
 ## Pure Lambda: Lambda + Tests + Serverless
 
 This is an example for AWS Lambda Development showcasing how to use:
@@ -18,7 +18,7 @@ This is an example for AWS Lambda Development showcasing how to use:
 
 A list of all the example handlers with description can be found [here](lib/lambda.js). Each handler has [tests files](test/lambda) associated.
 
-*Note*: Independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing). 
+*Note*: Independent of the [Lambda trigger type](https://aws.amazon.com/lambda/#Data_processing).
 
 ## HTTPS Endpoint: Lambda + Tests + Serverless + Api Gateway
 
@@ -33,20 +33,20 @@ A list of all the example handlers with description can be found [here](lib/http
 
 ## Getting Started
 
-Install serverless with 
-```shell
+Install serverless with
+```
 $ npm install -g serverless
 ```
 
-Then verify tests with 
-```shell
+Then verify tests with
+```
 $ npm test
 ```
 
 ## Deploy Project to AWS
 
 To deploy run
-```shell
+```
 $ sls deploy
 ```
 
@@ -57,7 +57,7 @@ $ sls deploy
 Test a geoip function
 
     $ sls invoke -f geoip
-    
+
 Test div function
 
     $ sls invoke -f div -d '{ "a": 32, "b": 5 }'
@@ -92,7 +92,7 @@ and check that information is logged to rollbar as you hit warning / error condi
 ## Remove Project from AWS
 
 Run
-```shell
+```
 $ sls remove
 ```
 

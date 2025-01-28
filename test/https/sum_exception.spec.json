@@ -8,10 +8,13 @@
     }
   },
   "logs([length])": {
-    "to.deep.equal()": 1
+    "to.deep.equal()": 2
   },
   "logs([0])": {
-    "to.startsWith()": "WARNING: Unexpected token "
+    "to.startsWith()": "WARNING: GET sum"
+  },
+  "logs([1])": {
+    "to.startsWith()": "JSON: {\"signature\":\"GET sum\""
   },
   "event": {
     "queryStringParameters": {
