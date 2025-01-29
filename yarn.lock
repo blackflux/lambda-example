@@ -3161,12 +3161,12 @@ lambda-monitor-logger@5.0.1:
   dependencies:
     joi-strict "3.0.0"
 
-lambda-monitor-logger@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-5.1.1.tgz#0bb281dbe5c0c1b7145e51548d2d3bbcc41e415f"
-  integrity sha512-jJkpjDPo1Cx/2ozw4jQjzTOQ1Aa/Jz01Yvf4ZSj13aved5dDemOlmeWuMxGSEbp5qNLJq2wzvZTzc50tr5ZvsA==
+lambda-monitor-logger@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/lambda-monitor-logger/-/lambda-monitor-logger-6.0.0.tgz#e0a95fa1a7b47f08bcab13f52e9fb31d4934a7e6"
+  integrity sha512-QyajiRkbUwc8ga8bvEC6Soig+HOUPbCp3u9E6XDjriQWvGcc1oMXBAMzSmeAZcKu3oO6uQ7xkGYua0jLz4j2WA==
   dependencies:
-    joi-strict "3.0.0"
+    joi-strict "4.0.0"
 
 lambda-serverless-api@11.3.0:
   version "11.3.0"
